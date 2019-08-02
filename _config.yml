@@ -19,7 +19,7 @@ permalink:          /:title/
 url:                "https://docs.jekyll.plus"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               
+logo:               c5f30a951a8dab87b6df7675c991645f.svg      
 
 navbar:
     sticky:         true
