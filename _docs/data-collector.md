@@ -10,18 +10,9 @@ browser, or while in a mobile application (iOS or Android, see link below for mo
 
 {% include image.html img="data collector.png" alt="Alt for image" caption="Data Collector" %}
 
-Stable
-{: .label .label-green }
-
-> A nice blockquote
+> ℹ️The Inquiry Services (for Kount Complete or Kount Access) are designed to be used in conjunction
+with the Data Collection process. The Data Collection process is passive and provides no information
+back to a Merchant (Client). There is optional "callback" code that can provide a Merchant (Client)
+information regarding when the Data Collection has finished.
 {: title="Blockquote title"}
 
-<div class="bs-callout bs-callout-info">
-  <h4>Info Callout</h4>
-  This is an info callout.
-</div>
-
-<div class="bs-callout bs-callout-danger">
-  <h4>WARNING</h4>
-  <p><b>Early-adopters</b>: the following steps will <b>NOT</b> work with the currently released Rhinoceros (5.x.x).  You will need to use WIP version of Rhinoceros.</p>
-</div>
