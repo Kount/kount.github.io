@@ -20,3 +20,47 @@ element).</li>
 </ul>
 
 ## Create the kaxsdc Class (Responsible for Triggering Data Collection)
+
+The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
+collector the most available time to complete its work. The collection is bound to the page load event by
+adding the kaxsdc class and data-event=‘load’ to an HTML element, such as the HTML body or a div.
+(Code example below).
+
+## Namespace & ka.ClientSDK Object
+
+The Kount collector JavaScript is namespaced under the ka JavaScript object. It is required to have the
+above /collect/sdk script tag into your page, which will import the Client Collector SDK. To start using
+the Client Collector SDK, create a new ClientSDK object: var client = new ka.ClientSDK(); (Code example
+below).
+
+<table class="uk-table uk-table-striped">
+    <thead>
+        <tr>
+            <th>Method</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>##autoLoadEvents()</td>
+            <td>##setupCallback(config)</td>
+        </tr>
+        <tr>
+            <td>Attaches the collection process to be automatically triggered by the page
+elements load event with the className “kaxsdc.”</td>
+            <td>(OPTIONAL) A client programmable callback system that allows the client to
+execute custom code at certain points in the data collection process. This
+method allows a merchant to add a callback function to be called at a
+specified life-cycle hook. A merchant can pass a JavaScript object containing
+one or more life cycle hooks with a function pointer or an anonymous
+function to be executed.
+List of hooks (in order of firing):
+• collect-begin - Triggers when the collection starts.
+• collect-end - Triggers when the collection ends.
+When executed, the callback function is passed a JavaScript object containing
+the following properties:
+• MercSessId – The merchant provided session.
+• MerchantId – The merchant Id.</td>
+        </tr>
+    </tbody>
+</table>
