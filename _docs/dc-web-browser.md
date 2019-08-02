@@ -50,7 +50,7 @@ below).
     <tbody>
         <tr>
             <td>Test
-                - Test/td>
+                - Test</td>
             <td>Table Data</td>
             <td>Table Data</td>
         </tr>
