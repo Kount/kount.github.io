@@ -1,12 +1,12 @@
 ---
 layout: page
 width: xsmall
-title: Got Any Questions
+title: Get in touch.
 permalink: /contact/
 ---
 
-##### Morbi varius in accumsan blandit, elit ligula velit, luctus mattis ante nulla nulla.
+##### Kount Customer success and solutions team are available for support. 
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Please fill out the form below to reach our support team.
 
 {% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" %}
