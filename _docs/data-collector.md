@@ -10,7 +10,7 @@ browser, or while in a mobile application (iOS or Android, see link below for mo
 
 {% include image.html img="data collector.png" alt="Alt for image" caption="Data Collector" %}
 
-> ℹ️The Inquiry Services (for Kount Complete or Kount Access) are designed to be used in conjunction
+>The Inquiry Services (for Kount Complete or Kount Access) are designed to be used in conjunction
 with the Data Collection process. The Data Collection process is passive and provides no information
 back to a Merchant (Client). There is optional "callback" code that can provide a Merchant (Client)
 information regarding when the Data Collection has finished.
