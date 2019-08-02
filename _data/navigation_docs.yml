@@ -7,7 +7,7 @@
   docs:
   - data-collector
   - session-id
-  - footer
+  - variable-values
   - posts
   - docs
   - comments
