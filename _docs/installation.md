@@ -1,7 +1,7 @@
 ---
 title: Introduction
 subtitle: This document provides an intro to Kount.
-author: sara
+author: Jarrett
 tags: [setup]
 ---
 
