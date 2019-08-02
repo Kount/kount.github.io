@@ -33,10 +33,10 @@ author:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-    john:
-      name:         John Brown
-      title:        Support     
-      avatar:       avatar-john.png
+    Jarrett:
+      name:         Jarrett Mitchell
+      title:        Solutions Engineer     
+      avatar:       avatar-jarrett.jpeg
     evan:
       name:         Evan Wells
       title:        Support    
