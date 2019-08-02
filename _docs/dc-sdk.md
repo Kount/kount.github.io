@@ -12,4 +12,5 @@ Choose the links below for more information.
 
 {% include cta.html title="iOS SDK" button_text="SDK" button_url="http://kount.github.io/mobile-client/android.html" subtitle="Download Now" %}
 
+<a href="#" class="btn btn--primary">Link Text</a>
 [iOS SDK](#http://kount.github.io/mobile-client/android.html){: .btn .btn--primary .btn--x-large}
