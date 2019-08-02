@@ -6,7 +6,7 @@ author: Jarrett
 ---
 
 The Data Collector runs on a client’s browser and collects a variety of information that helps uniquely
-identify the device. Add the <script> tag to the web page where you want to trigger the Data Collection.
+identify the device. Add the "<script>" tag to the web page where you want to trigger the Data Collection.
 The variables are found in the above table. Below is sample code.
 
 {% include alert.html style="primary" text="High Level Integration Steps" %}
@@ -18,3 +18,5 @@ element).</li>
     <li>3. Add the Script tag with the correct Data Collection URL, Merchant ID and Session value.</li>
     <li>4. Set the ka.ClientSDK to autorun when kaxsdc class loads.</li>
 </ul>
+
+## Create the kaxsdc Class (Responsible for Triggering Data Collection)
