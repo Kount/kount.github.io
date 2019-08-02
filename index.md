@@ -8,8 +8,7 @@ hero:
     search: true
 ---
 
-<img src="uploads/knowledge.svg" uk-svg="stroke-animation: true">
-
+<img class="uk-animation-kenburns" src="uploads/kountdocsheroimage.svg" alt="">
 
 {% include boxes.html columns="3" title="Browse Topics" subtitle="Chose an option that you need help with or search above" %}
 
