@@ -5,7 +5,7 @@ tags: [feature, data collector]
 author: Jarrett
 ---
 
-| VAR                | Description                                                                                                                                                                                                               | Sample                             |
+| **VAR**                | **Description**                                                                                                                                                                                                               | Sample                             |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | **m**                  | Six digit Merchant ID number issued by Kount                                                                                                                                                                              | m=123456                           |
 | **s**                  | 32 character session id; see Session ID Discussion above for more information                                                                                                                                             | s=abcdefg12345abababab123456789012 |
