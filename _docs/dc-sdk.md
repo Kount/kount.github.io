@@ -20,5 +20,5 @@ Choose the links below for more information.
 <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/android.html"></a>
 
 <p uk-margin>
-    <a class="uk-button uk-button-default" href="#">http://kount.github.io/mobile-client/android.html</a>
+    <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
   </p>
