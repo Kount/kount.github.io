@@ -30,3 +30,4 @@ Sidebar navigation on docs post can edited in `_data/navigation_docs.yml`:
 <img src="uploads/API.svg" uk-svg="stroke-animation: true">
 
 
+<img data-src="uploads/API.svg" width="200" height="200" alt="" uk-img>
