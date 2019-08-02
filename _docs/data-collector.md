@@ -15,3 +15,8 @@ Stable
 
 > A nice blockquote
 {: title="Blockquote title"}
+
+<div class="bs-callout bs-callout-info">
+  <h4>Info Callout</h4>
+  This is an info callout.
+</div>
