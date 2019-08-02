@@ -8,7 +8,7 @@
   - data-collector
   - session-id
   - variable-values
-  - posts
+  - dc-sdk
   - docs
   - comments
   - analytics
