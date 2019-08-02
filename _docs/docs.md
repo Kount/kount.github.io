@@ -26,3 +26,7 @@ Sidebar navigation on docs post can edited in `_data/navigation_docs.yml`:
   - installation
   - windows
 ```
+
+<img src="uploads/API.svg" uk-svg="stroke-animation: true">
+
+
