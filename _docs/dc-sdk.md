@@ -12,4 +12,6 @@ Choose the links below for more information.
 
 <p uk-margin>
     <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
+    <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
+
   </p>
