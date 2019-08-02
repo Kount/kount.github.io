@@ -18,3 +18,7 @@ Choose the links below for more information.
 <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Button</button>
 
 <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/android.html"></a>
+
+<p uk-margin>
+    <a class="uk-button uk-button-default" href="#">http://kount.github.io/mobile-client/android.html</a>
+  </p>
