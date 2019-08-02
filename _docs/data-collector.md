@@ -12,3 +12,6 @@ browser, or while in a mobile application (iOS or Android, see link below for mo
 
 Stable
 {: .label .label-green }
+
+> A nice blockquote
+{: title="Blockquote title"}
