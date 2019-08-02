@@ -1,7 +1,6 @@
 ---
 title: Session ID Discussion
-subtitle: The Session ID is the unique identifier for the collection event and is specific to the user’s request. You
-will use the Session ID for subsequent calls to the Inquiry Service.
+subtitle:
 tags: [features]
 author: Jarrett
 ---
