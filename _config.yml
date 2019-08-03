@@ -19,7 +19,7 @@ permalink:          /:title/
 url:                "https://jkount.github.io"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               "Kount Tech Spec logo@4x.png" 
+logo:               "Asset 4@2x.png" 
 
 navbar:
     sticky:         true
