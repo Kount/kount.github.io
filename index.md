@@ -16,6 +16,4 @@ hero:
 
 {% include faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quicke answers to frequent pre-sale questions asked by customers" %}
 
-{% include team.html authors="tom" title="We are here to help" subtitle="Our team is just an email away ready to answer your questions" %}
-
 {% include cta.html title="Didn't find an answer?" button_text="Contact Us" button_url="/contact/" subtitle="Get in touch with us for details on setup and additional custom services pricing" %}
