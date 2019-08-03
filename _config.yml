@@ -2,7 +2,7 @@
 #
 # This config file is meant for settings that affect your whole blog.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process. 
 
 # Site title and description
 title:              Kount Docs
