@@ -14,7 +14,7 @@ hero:
 
 {% include videos.html columns="2" title="Video Tutorials" subtitle="Watch screencasts to get you started fast with Jekyll" %}
 
-{% include faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quick answers to frequent pre-sale questions asked by customers" %}
+{% include faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quick answers to frequent pre-sale questions asked by customers." %}
 
 {% include cta.html title="Didn't find an answer?" button_text="Contact Us" button_url="/contact/" subtitle="Get in touch with us for details on setup. %}
 
