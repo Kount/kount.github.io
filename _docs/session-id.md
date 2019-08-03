@@ -5,7 +5,7 @@ tags: [features]
 author: Jarrett
 ---
 
-Session ID Details
+## Session ID Details
 * Data Collector should be run once for each user’s session within the web browser.
 * Session IDs must be unique per request. They must be unique for a minimum of 30 days.
 * Session ID values must be alpha-numeric values (0-9, a-z or A-Z). Dashes (-) and underscores (_)
