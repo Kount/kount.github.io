@@ -1,5 +1,5 @@
 ---
-title:When to Invoke the Risk Inquiry Service
+title: When to Invoke the Risk Inquiry Service
 tags:
 ---
 
