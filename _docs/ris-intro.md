@@ -12,6 +12,14 @@ The following sequence describes the RIS process:
 4.	Kount returns evaluation response to merchant
 5.	Notification is displayed to customer
 
+<ul class="uk-list uk-list-divider">
+    <li>1.	Customer initiates purchase</li>
+    <li>2.	Merchant initiates RIS request to Kount via HTTPS URL encoded post</li>
+    <li>3.	Kount evaluates transaction</li>
+    <li>4.	Kount returns evaluation response to merchant</li>
+    <li>5.	Notification is displayed to customer</li>
+</ul>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
