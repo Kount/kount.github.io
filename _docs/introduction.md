@@ -2,7 +2,6 @@
 title: Introduction 
 subtitle: An overview of the Kount Platform.
 tags: [features]
-author: Jarrett
 ---
 
 Kount aggregates and evaluates data from two primary sources, the Data Collector (DC) and the Risk Inquiry Service (RIS). After collecting and evaluating customer data, Kount returns a string of key-value pairs to the merchant. Order-related data is also displayed in the Agent Web Console accessible via a secured merchant login over the Internet.
