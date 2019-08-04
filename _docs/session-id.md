@@ -17,8 +17,8 @@ exceeds 32 characters.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 .tg .tg-9qtj{background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
@@ -28,7 +28,7 @@ exceeds 32 characters.
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-i5ij">﻿VAR</th>
+    <th class="tg-9qtj">﻿VAR</th>
     <th class="tg-i5ij">Description</th>
     <th class="tg-9qtj">Sample</th>
   </tr>
