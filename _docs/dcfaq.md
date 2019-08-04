@@ -1,6 +1,6 @@
 ---
-title: Data Collector FAQ 
+title: 
 tags:
 ---
 
-{% include faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quicke answers to frequent pre-sale questions asked by customers" %}
+{% include faqs.html multiple="true" title="Data Collector FAQ" category="presale" subtitle="" %}
