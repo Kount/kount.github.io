@@ -54,7 +54,7 @@ method allows a merchant to add a callback function to be called at a
 specified life-cycle hook. A merchant can pass a JavaScript object containing
 one or more life cycle hooks with a function pointer or an anonymous
 function to be executed.</p>
-<p>List of hooks. (In order of firing) </p>
+<p>List of hooks. (In order of firing)</p>
             <p>• collect-begin - Triggers when the collection starts.</p>
             <p>• collect-end - Triggers when the collection ends.</p>
 <p>When executed, the callback function is passed a JavaScript object containing
@@ -64,3 +64,13 @@ the following properties:</p>
         </div>
     </li>
 </ul>
+
+## Code Example
+
+This code collects device information on page load and includes an optional code
+example that will fire an alert when the process reaches the collect-begin and collect-end hooks.
+
+{% include alert.html style="primary" text="It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
+
+
+
