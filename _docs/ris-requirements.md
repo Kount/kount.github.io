@@ -13,10 +13,10 @@ Recommendations regarding each development environment and their supported versi
 4.	The session identifier created during the data collector process must be passed as the session identifier for the RIS transaction. This identifier must be unique for at least 30 days. If a single session ID were to be used on multiple transactions, those transactions would link together and erroneously affect the persona information in the risk score.
 5.	RIS posts are limited to a total of 40,960 characters or bytes.
 6.	To utilize the various SDKs, several required static settings must be configured. Please refer to the README files included in each of the SDKs.
-    •	PHP settings.ini
-    •	.NET App.config
-    •	Python
-    •	Java All settings are included in inquiry
+     * PHP settings.ini
+     * .NET App.config
+     * Python
+     * Java All settings are included in inquiry
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
