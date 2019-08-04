@@ -18,3 +18,7 @@ Query Kount before attempting an authorization from the payment gateway, below a
 
 # Post-Authorization
 Query Kount after the payment gateway has been contacted, below are the considerations regarding post-authorization
+  
+  * All payment gateway information can be passed to Kount (Authorization, AVS, CVV) allowing rules to be created regarding AVS and CVV data.
+  * Some payment gateways do not pass credit card data once they have received it
+  * Single RIS query, no update is necessary
