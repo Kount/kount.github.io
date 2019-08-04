@@ -18,7 +18,7 @@ The following sequence describes the RIS process:
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 .tg .tg-wgsn{font-family:Arial, Helvetica, sans-serif !important;;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-v1a8{font-weight:bold;font-family:"Arial Black", Gadget, sans-serif !important;;background-color:#193d68;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-wesv{font-family:"Arial Black", Gadget, sans-serif !important;;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-8wuw{background-color:#f9f9f9;font-family:Arial, Helvetica, sans-serif !important;;border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -28,21 +28,21 @@ The following sequence describes the RIS process:
     <th class="tg-v1a8">Example</th>
   </tr>
   <tr>
-    <td class="tg-wgsn">Merchant_ID</td>
-    <td class="tg-wgsn">6</td>
-    <td class="tg-wgsn">Six-digit identifier issued<br>by Kount.</td>
-    <td class="tg-wgsn">999999</td>
+    <td class="tg-8wuw">Merchant_ID</td>
+    <td class="tg-8wuw">6</td>
+    <td class="tg-8wuw">Six-digit identifier issued by Kount.</td>
+    <td class="tg-8wuw">999999</td>
   </tr>
   <tr>
-    <td class="tg-wesv"></td>
-    <td class="tg-wesv"></td>
-    <td class="tg-wesv"></td>
-    <td class="tg-wesv"></td>
+    <td class="tg-wgsn">COMPANY_SERVER_URL</td>
+    <td class="tg-wgsn">N/A</td>
+    <td class="tg-wgsn">HTTPS URL path to the company's servers provided in boarding documentation from Kount.</td>
+    <td class="tg-wgsn"></td>
   </tr>
   <tr>
-    <td class="tg-wesv"></td>
-    <td class="tg-wesv"></td>
-    <td class="tg-wesv"></td>
-    <td class="tg-wesv"></td>
+    <td class="tg-8wuw"></td>
+    <td class="tg-8wuw"></td>
+    <td class="tg-8wuw"></td>
+    <td class="tg-8wuw"></td>
   </tr>
 </table>
