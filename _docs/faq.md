@@ -1,15 +1,8 @@
 ---
-hero:
-    title: How can we help you?
-    subtitle: Search or browse in depth articles and videos for Kount API and Platform Integrations
-    image: kountdocsheroimagebranded.svg
-
 title: Frequently asked questions section
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
-hero:
- image: kountdocsheroimagebranded.svg
 tags: [features, featured]
-author: alex
+author: 
 ---
 
 Create FAQ post in `_faqs` folder (categories are optional):
