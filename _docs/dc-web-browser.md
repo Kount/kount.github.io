@@ -11,7 +11,7 @@ The variables are found in the above table. Below is sample code.
 
 {% include alert.html style="primary" text="High Level Integration Steps" %}
 
-<ul class="uk-list uk-list-striped">
+<ul class="uk-list uk-list-divider">
     <li>1. Update the Content Security Policy to the header of the page.</li>
     <li>2. Add the load event to the class kaxsdc in the BODY (this may be attached to a different html
 element).</li>
@@ -19,22 +19,8 @@ element).</li>
     <li>4. Set the ka.ClientSDK to autorun when kaxsdc class loads.</li>
 </ul>
 
-<dl class="uk-description-list">
-    <dt>Step 1</dt>
-    <dd>Update the Content securoty Policy to the header of the page.</dd>
-    <dt>Step 2</dt>
-    <dd>Add the load event to the class kaxsdc in the header of the BODY `(this may be attached to a different html element).`</dd>
-    <dt>Description term</dt>
-    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
-</dl>
-
 ## Create the kaxsdc Class
-
-<div uk-alert>
-    <a class="uk-alert-close" uk-close></a>
-    <h3>Notice</h3>
-    <p>Responsible for Triggering Data Collection</p>
-</div>
+#### Responsible for triggering data collection.
 
 The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
 collector the most available time to complete its work. The collection is bound to the page load event by
