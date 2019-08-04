@@ -20,8 +20,14 @@ element).</li>
 </ul>
 
 ## Create the kaxsdc Class
+
 <div class="uk-alert-primary" uk-alert>
     <a class="uk-alert-close" uk-close></a>
+    <p>Responsible for Triggering Data Collection</p>
+
+<div uk-alert>
+    <a class="uk-alert-close" uk-close></a>
+    <h3>Notice</h3>
     <p>Responsible for Triggering Data Collection</p>
 </div>
 
