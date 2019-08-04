@@ -5,12 +5,7 @@ tags:
 
 The Risk Inquiry Service (RIS) joins device data provided from the data collector process with the customer order data sent from the merchant. Once the device data and the order data are combined, RIS evaluates and scores each transaction. After the evaluation, RIS returns a response string back to the merchant to be used by the merchant to approve, decline or hold the order for review. Each transaction will continue to be evaluated and dynamically scored for up to fourteen days. The following section describes how to implement the Risk Inquiry Service.
 
-The following sequence describes the RIS process:
-1.	Customer initiates purchase
-2.	Merchant initiates RIS request to Kount via HTTPS URL encoded post
-3.	Kount evaluates transaction
-4.	Kount returns evaluation response to merchant
-5.	Notification is displayed to customer
+###The following sequence describes the RIS process:
 
 <ul class="uk-list uk-list-divider">
     <li>1.	Customer initiates purchase</li>
