@@ -1,6 +1,6 @@
 ---
 title: Frequently asked questions section
-subtitle:Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
+subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 image: kountdocsheroimagebranded.svg
 tags: [features, featured]
 author: alex
