@@ -66,3 +66,17 @@ environment.</p>
         </div>
     </div>
 </div>
+
+|                                                               |        |                                                                                                                         |                              | 
+|---------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------|------------------------------| 
+| Data                                                          | Size   | Description                                                                                                             | Example                      | 
+| Merchant_ID                                                   | 6      | Six-digit identifier issued by Kount.                                                                                   | 999999                       | 
+| COMPANY_SERVER_URL                                            | N/A    | HTTPS URL path to the                                                                                                   | https://risk.test.kount.net  | 
+|                                                               |        | company’s servers provided in boarding documentation from Kount.                                                        |                              | 
+| LOGGER                                                        | N/A    | Specifies which logger to use: SIMPLE or NOP.                                                                           | SIMPLE                       | 
+| SIMPLE_LOG_LEVEL                                              | N/A    | If SIMPLE logging is enabled, this lists logging levels in order of decreasing severity: FATAL, ERROR, WARN, INFO,DEBUG | WARN                         | 
+| SIMPLE_LOG_FILE                                               | N/A    | Name of the log file for SIMPLE logging                                                                                 | company-sdk-ris.log          | 
+| SIMPLE_LOG_PATH                                               | N/A    | Path to where log file will be written. (Must be a valid path)                                                          | /some/path/to/log            | 
+| APIKEY                                                        | Varies | API Key value copied from clipboard                                                                                     | Alpha/Numeric hashed value   | 
+|                                                               |        | - originating from API Key page within Agent Web Console                                                                | provided by Kount            | 
+| Client Certificate (deprecated field for legacy certificates) | N/A    | Depending on the SDK environment certain client certificate information will be required.                               | company-ris- certificate.p12 | 
