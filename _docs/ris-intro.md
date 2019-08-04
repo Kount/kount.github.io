@@ -67,6 +67,37 @@ environment.</p>
     </div>
 </div>
 
+<table class="uk-table uk-table-striped">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Size</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+        </tr>
+        <tr>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+        </tr>
+        <tr>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+        </tr>
+    </tbody>
+</table>
+
 |                                                               |        |                                                                                                                         |                              | 
 |---------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------|------------------------------| 
 | Data                                                          | Size   | Description                                                                                                             | Example                      | 
