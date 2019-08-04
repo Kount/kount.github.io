@@ -7,7 +7,6 @@
   docs:
   - data-collector
   - session-id
-  - variable-values
   - dc-sdk
   - dc-web-browser
   - phonetoweb
