@@ -1,5 +1,5 @@
 ---
-title: Web Clients or Browser
+title: Web Client and Browser Setup
 subtitle:
 tags:
 author:
@@ -9,7 +9,7 @@ The Data Collector runs on a client’s browser and collects a variety of inform
 identify the device. Add the `<script>` tag to the web page where you want to trigger the Data Collection.
 The variables are found in the above table. Below is sample code.
 
-### High Level Integration Steps.
+### High Level Integration Steps:
 
 <ul class="uk-list uk-list-divider">
     <li>1. Update the Content Security Policy to the header of the page.</li>
@@ -37,28 +37,31 @@ below).
 
 ### Available methods in the ka.ClientSDK object
 
-<table class="uk-table uk-table-striped">
-    <thead>
-        <tr>
-            <th>Method</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>autoLoadEvets()<td>
-            <td>Attaches the collection process to be automatically triggered by the page
-elements load event with the className `“kaxsdc.”`</td>
-        </tr>
-        <tr>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-        </tr>
-        <tr>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-        </tr>
-    </tbody>
-</table>
+<ul uk-accordion="multiple: true">
+    <li class="uk-open">
+        <a class="uk-accordion-title" href="#">autoLoadEvents()</a>
+        <div class="uk-accordion-content">
+            <p>Attaches the collection process to be automatically triggered by the page
+elements load event with the className “kaxsdc.”</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">setupCallback(config) </a>
+        <div class="uk-accordion-content">
+            <p> (OPTIONAL) A client programmable callback system that allows the client to
+execute custom code at certain points in the data collection process. This
+method allows a merchant to add a callback function to be called at a
+specified life-cycle hook. A merchant can pass a JavaScript object containing
+one or more life cycle hooks with a function pointer or an anonymous
+function to be executed.
+            - TEst
+            - Test</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">Item 3</a>
+        <div class="uk-accordion-content">
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+        </div>
+    </li>
+</ul>
