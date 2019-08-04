@@ -16,31 +16,32 @@ The following sequence describes the RIS process:
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0y7w{font-weight:bold;font-family:"Courier New", Courier, monospace !important;;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-9gth{font-family:"Courier New", Courier, monospace !important;;border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-0pky">Data</th>
-    <th class="tg-0pky">Size</th>
-    <th class="tg-0pky">Description</th>
-    <th class="tg-0pky">Example</th>
+    <th class="tg-0y7w">Data</th>
+    <th class="tg-0y7w">Size</th>
+    <th class="tg-0y7w">Description</th>
+    <th class="tg-0y7w">Example</th>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-9gth">Merchant_ID</td>
+    <td class="tg-9gth">6</td>
+    <td class="tg-9gth">Six-digit identifier issued<br>by Kount.</td>
+    <td class="tg-9gth">999999</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-9gth"></td>
+    <td class="tg-9gth"></td>
+    <td class="tg-9gth"></td>
+    <td class="tg-9gth"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-9gth"></td>
+    <td class="tg-9gth"></td>
+    <td class="tg-9gth"></td>
+    <td class="tg-9gth"></td>
   </tr>
 </table>
