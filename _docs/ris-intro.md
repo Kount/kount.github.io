@@ -27,7 +27,7 @@ the initial post to Kount was PTYP=NONE.</p>
             <ul>
                 <li>Initial queries originating from a call center environment.</li>
             </ul>
-• IP Address must be hard coded as "10.0.0.1".
+<p>• IP Address must be hard coded as "10.0.0.1".
 • If customer does not provide an e-mail address, use the value EMAL=noemail@Kount.com.
 • PayPal is not a valid payment type for MODE=P.</p>
         </div>
