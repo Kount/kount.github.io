@@ -19,7 +19,11 @@ element).</li>
     <li>4. Set the ka.ClientSDK to autorun when kaxsdc class loads.</li>
 </ul>
 
-## Create the kaxsdc Class **(Responsible for Triggering Data Collection)**
+## Create the kaxsdc Class
+<div class="uk-alert-primary" uk-alert>
+    <a class="uk-alert-close" uk-close></a>
+    <p>Responsible for Triggering Data Collection</p>
+</div>
 
 The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
 collector the most available time to complete its work. The collection is bound to the page load event by
