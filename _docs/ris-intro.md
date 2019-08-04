@@ -23,8 +23,7 @@ the initial post to Kount was PTYP=NONE.</p>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
             <h3 class="uk-card-title">Mode P</h3>
-            <p>Test</p>
-            <p>-1</p>
+            <p>Initial queries originating from a call center environment.</p>
         </div>
     </div>
     <div>
