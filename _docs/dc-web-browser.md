@@ -11,7 +11,7 @@ The variables are found in the above table. Below is sample code.
 
 {% include alert.html style="primary" text="High Level Integration Steps" %}
 
-<ul class="uk-list uk-list-divider">
+<ul class="uk-list uk-list-striped">
     <li>1. Update the Content Security Policy to the header of the page.</li>
     <li>2. Add the load event to the class kaxsdc in the BODY (this may be attached to a different html
 element).</li>
