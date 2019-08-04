@@ -19,17 +19,6 @@ environment.</p>
     </div>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title">Mode X</h3>
-            <p>Update query made after an initial MODE=Q or P request and/or any MODE=U updates have been
-               made. Updates to certain fields can be made and the transaction will be re-evaluated and return an
-               updated RIS response to the merchant. These updates will be displayed in the Agent Web Console. This
-               query will count towards the number of RIS transactions purchased. The same fields listed in the
-               MODE=U section can be changed for MODE=X transactions except for PTYP which is not accepted by
-               MODE=X.</p>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
             <h3 class="uk-card-title">Mode U</h3>
             <p>Update call to Kount, does not cause a reevaluation of the transaction but will update what is displayed
                in the Agent Web Console. This update call does not count towards the number of RIS transactions
@@ -37,32 +26,15 @@ environment.</p>
                the initial post to Kount was PTYP=NONE.</p>
         </div>
     </div>
-</div>
-
-
-<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">
-            <h3 class="uk-card-title">Hover</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-hover uk-card-body">
-            <h3 class="uk-card-title">Default</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-    </div>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title">Primary</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title">Secondary</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h3 class="uk-card-title">Mode X</h3>
+            <p>Update query made after an initial MODE=Q or P request and/or any MODE=U updates have been
+               made. Updates to certain fields can be made and the transaction will be re-evaluated and return an
+               updated RIS response to the merchant. These updates will be displayed in the Agent Web Console. This
+               query will count towards the number of RIS transactions purchased. The same fields listed in the
+               MODE=U section can be changed for MODE=X transactions except for PTYP which is not accepted by
+               MODE=X.</p>
         </div>
     </div>
 </div>
@@ -78,36 +50,28 @@ environment.</p>
     </thead>
     <tbody>
         <tr>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-        </tr>
-        <tr>
-            <td>Table Data</td>
+            <td>Merchant ID</td>
             <td>Table Data</td>
             <td>Table Data</td>
             <td>Table Data</td>
         </tr>
         <tr>
+            <td>6</td>
             <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+        </tr>
+        <tr>
+            <td>Six-digit identifier issued by Kount.</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+            <td>Table Data</td>
+        </tr>
+        <tr>
+            <td>999999</td>
             <td>Table Data</td>
             <td>Table Data</td>
             <td>Table Data</td>
         </tr>
     </tbody>
 </table>
-
-|                                                               |        |                                                                                                                         |                              | 
-|---------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------|------------------------------| 
-| Data                                                          | Size   | Description                                                                                                             | Example                      | 
-| Merchant_ID                                                   | 6      | Six-digit identifier issued by Kount.                                                                                   | 999999                       | 
-| COMPANY_SERVER_URL                                            | N/A    | HTTPS URL path to the                                                                                                   | https://risk.test.kount.net  | 
-|                                                               |        | company’s servers provided in boarding documentation from Kount.                                                        |                              | 
-| LOGGER                                                        | N/A    | Specifies which logger to use: SIMPLE or NOP.                                                                           | SIMPLE                       | 
-| SIMPLE_LOG_LEVEL                                              | N/A    | If SIMPLE logging is enabled, this lists logging levels in order of decreasing severity: FATAL, ERROR, WARN, INFO,DEBUG | WARN                         | 
-| SIMPLE_LOG_FILE                                               | N/A    | Name of the log file for SIMPLE logging                                                                                 | company-sdk-ris.log          | 
-| SIMPLE_LOG_PATH                                               | N/A    | Path to where log file will be written. (Must be a valid path)                                                          | /some/path/to/log            | 
-| APIKEY                                                        | Varies | API Key value copied from clipboard                                                                                     | Alpha/Numeric hashed value   | 
-|                                                               |        | - originating from API Key page within Agent Web Console                                                                | provided by Kount            | 
-| Client Certificate (deprecated field for legacy certificates) | N/A    | Depending on the SDK environment certain client certificate information will be required.                               | company-ris- certificate.p12 | 
