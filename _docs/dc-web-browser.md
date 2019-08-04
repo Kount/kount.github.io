@@ -47,7 +47,7 @@ below).
         <tr>
             <td>autoLoadEvets()<td>
             <td>Attaches the collection process to be automatically triggered by the page
-elements load event with the className “kaxsdc.”</td>
+elements load event with the className `“kaxsdc.”`</td>
         </tr>
         <tr>
             <td>Table Data</td>
