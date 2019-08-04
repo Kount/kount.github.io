@@ -2,7 +2,7 @@
 title: Web Clients or Browser
 subtitle:
 tags:
-author: Jarrett
+author:
 ---
 
 The Data Collector runs on a client’s browser and collects a variety of information that helps uniquely
