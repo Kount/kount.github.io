@@ -48,14 +48,14 @@ elements load event with the className “kaxsdc.”</p>
     <li>
         <a class="uk-accordion-title" href="#">setupCallback(config) </a>
         <div class="uk-accordion-content">
-            <p> (OPTIONAL) A client programmable callback system that allows the client to
+            <p>(OPTIONAL) A client programmable callback system that allows the client to
 execute custom code at certain points in the data collection process. This
 method allows a merchant to add a callback function to be called at a
 specified life-cycle hook. A merchant can pass a JavaScript object containing
 one or more life cycle hooks with a function pointer or an anonymous
-function to be executed.
-            - TEst
-            - Test</p>
+function to be executed.</p>
+            </p>- TEst</p>
+            </p>- Test</p>
         </div>
     </li>
     <li>
