@@ -9,7 +9,7 @@ The Data Collector runs on a client’s browser and collects a variety of inform
 identify the device. Add the `<script>` tag to the web page where you want to trigger the Data Collection.
 The variables are found in the above table. Below is sample code.
 
-{% include alert.html style="primary" text="High Level Integration Steps" %}
+### High Level Integration Steps.
 
 <ul class="uk-list uk-list-divider">
     <li>1. Update the Content Security Policy to the header of the page.</li>
