@@ -20,7 +20,7 @@ element).</li>
 </ul>
 
 ## Create the kaxsdc Class
-#### Responsible for triggering data collection.
+Responsible for triggering data collection.
 
 The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
 collector the most available time to complete its work. The collection is bound to the page load event by
