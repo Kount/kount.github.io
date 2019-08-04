@@ -54,14 +54,13 @@ method allows a merchant to add a callback function to be called at a
 specified life-cycle hook. A merchant can pass a JavaScript object containing
 one or more life cycle hooks with a function pointer or an anonymous
 function to be executed.</p>
-<p>- TEst</p>
-<p>- Test</p>
-        </div>
-    </li>
-    <li>
-        <a class="uk-accordion-title" href="#">Item 3</a>
-        <div class="uk-accordion-content">
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+<p>List of hooks. (In order of firing) </p>
+            <p>• collect-begin - Triggers when the collection starts.</p>
+            <p>• collect-end - Triggers when the collection ends.</p>
+<p>When executed, the callback function is passed a JavaScript object containing
+the following properties:</p>
+            <p>• MercSessId – The merchant provided session.</p>
+            <p>• MerchantId – The merchant Id.</p>
         </div>
     </li>
 </ul>
