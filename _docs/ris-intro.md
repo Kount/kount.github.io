@@ -51,18 +51,18 @@ environment.</p>
     <tbody>
         <tr>
             <td>Merchant ID</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-        </tr>
-        <tr>
             <td>6</td>
+            <td>Six-digit identifier issued by Kount.</td>
+            <td>999999</td>
+        </tr>
+        <tr>
+            <td>Table Data</td>
             <td>Table Data</td>
             <td>Table Data</td>
             <td>Table Data</td>
         </tr>
         <tr>
-            <td>Six-digit identifier issued by Kount.</td>
+            <td>Table Data</td>
             <td>Table Data</td>
             <td>Table Data</td>
             <td>Table Data</td>
