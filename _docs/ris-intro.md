@@ -39,7 +39,7 @@ environment.</p>
     </div>
 </div>
 
-<table class="uk-table uk-table-striped uk-table-hover">
+<table class="uk-table uk-table-striped uk-table-hover uk-text-bold">
     <thead>
         <tr>
             <th>Data</th>
