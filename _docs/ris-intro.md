@@ -23,7 +23,13 @@ the initial post to Kount was PTYP=NONE.</p>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
             <h3 class="uk-card-title">Primary</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Mode P</p> 
+            <ul>
+                <li>Initial queries originating from a call center environment.</li>
+            </ul>
+• IP Address must be hard coded as "10.0.0.1".
+• If customer does not provide an e-mail address, use the value EMAL=noemail@Kount.com.
+• PayPal is not a valid payment type for MODE=P.</p>
         </div>
     </div>
     <div>
