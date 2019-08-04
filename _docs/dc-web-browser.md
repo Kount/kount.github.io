@@ -54,8 +54,8 @@ method allows a merchant to add a callback function to be called at a
 specified life-cycle hook. A merchant can pass a JavaScript object containing
 one or more life cycle hooks with a function pointer or an anonymous
 function to be executed.</p>
-            </p>- TEst</p>
-            </p>- Test</p>
+<p>- TEst</p>
+<p>- Test</p>
         </div>
     </li>
     <li>
