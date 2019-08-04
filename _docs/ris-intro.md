@@ -1,7 +1,16 @@
 ---
 title: Risk Inquiry Service (RIS)
+subtitle:The Risk Inquiry Service (RIS) joins device data provided from the data collector process with the customer order data sent from the merchant. Once the device data and the order data are combined, RIS evaluates and scores each transaction. After the evaluation, RIS returns a response string back to the merchant to be used by the merchant to approve, decline or hold the order for review. Each transaction will continue to be evaluated and dynamically scored for up to fourteen days. The following section describes how to implement the Risk Inquiry Service.
 tags:
 ---
+
+The following sequence describes the RIS process:
+1.	Customer initiates purchase
+2.	Merchant initiates RIS request to Kount via HTTPS URL encoded post
+3.	Kount evaluates transaction
+4.	Kount returns evaluation response to merchant
+5.	Notification is displayed to customer
+
 
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
     <div>
@@ -17,27 +26,6 @@ environment.</p>
             <p>Initial queries originating from a call center environment.</p>
         </div>
     </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title">Mode U</h3>
-            <p>Update call to Kount, does not cause a reevaluation of the transaction but will update what is displayed
-               in the Agent Web Console. This update call does not count towards the number of RIS transactions
-               purchased. Only certain fields can be updated with MODE=U calls. The PTYP field can only be updated if
-               the initial post to Kount was PTYP=NONE.</p>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-light">
-            <h3 class="uk-card-title">Mode X</h3>
-            <p>Update query made after an initial MODE=Q or P request and/or any MODE=U updates have been
-               made. Updates to certain fields can be made and the transaction will be re-evaluated and return an
-               updated RIS response to the merchant. These updates will be displayed in the Agent Web Console. This
-               query will count towards the number of RIS transactions purchased. The same fields listed in the
-               MODE=U section can be changed for MODE=X transactions except for PTYP which is not accepted by
-               MODE=X.</p>
-        </div>
-    </div>
-</div>
 
 <table class="uk-table uk-table-striped uk-table-hover uk-text-bold">
     <thead>
@@ -56,10 +44,11 @@ environment.</p>
             <td>999999</td>
         </tr>
         <tr>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
-            <td>Table Data</td>
+            <td>COMPANY_SERVER_URL</td>
+            <td>N/A</td>
+            <td>HTTPS URL path to the
+company’s servers provided in boarding documentation from Kount.</td>
+            <td>https://risk.test.kount.net</td>
         </tr>
         <tr>
             <td>Table Data</td>
