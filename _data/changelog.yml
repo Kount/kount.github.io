@@ -34,8 +34,8 @@
   date: Apr 04, 2018
   list:
   - Addtion to RIS Enquiry Service Requirements 
-    -Change Detail: RIS post are limited to a total of 40,000 characters.
+    - Change Detail - RIS post are limited to a total of 40,000 characters.
   - Edit to descritpion for RIS Optional Inquiry Key
-    - Change Detail: UNIQ accepts alpha-numeric format.
+    - Change Detail -  UNIQ accepts alpha-numeric format.
   - Addition to UDF Data Types
    - Different Data types (numeric, alpha-numeric, etc.) are subject to different uses in the calculation of persona velocity. 
