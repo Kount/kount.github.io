@@ -42,11 +42,11 @@ $border-radius-large:                           16px;
 
 // Pre & Code
 $base-code-font-family:                         Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
-$base-code-color:                               #696969;
+$base-code-color:                               $default;
 $base-pre-font-size:                            $global-small-font-size;
 $base-pre-line-height:                          1.65;
 $base-pre-font-family:                          $base-code-font-family;
-$base-pre-color:                                $global-base-color;
+$base-pre-color:                                $default;
 
 // Container
 $container-xxsmall:                             560px;
