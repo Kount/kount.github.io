@@ -26,6 +26,7 @@
   - ris-udf
   - ris-response
   - ris-predictive-response
+  - ris-ens-api
 
 - title: Customization
   docs:
