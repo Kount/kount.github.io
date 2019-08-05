@@ -23,15 +23,21 @@ tags: [data collector, SDK, android, iOS, mobile]
     </div>
 </div>
 
-<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+<div class="uk-card uk-card-default uk-grid-collapse uk-link-toggle uk-child-width-1-2@s uk-margin" uk-grid>
     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-        <img src="images/light.jpg" alt="" uk-cover>
+        <img src="uploads/ios-logo.png" alt="" uk-cover>
         <canvas width="600" height="400"></canvas>
     </div>
     <div>
         <div class="uk-card-body">
-            <h3 class="uk-card-title">Media Right</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <h3 class="uk-card-title">iOS Release Notest<span class="uk-link-heading">https://github.com/Kount/kount-ios-sdk/releases</span></h3>            
+            <h3 class="uk-card-title">iOS Release Notest</h3>
+            <p>Click here for the latest iOS release notes.</p>
         </div>
     </div>
 </div>
+
+<a href class="uk-display-block uk-card uk-card-body uk-card-default uk-link-toggle uk-width-medium">
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</a>
