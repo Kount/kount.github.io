@@ -8,7 +8,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="/uploads/ios-logo.png" alt="">
+                <img src="/uploads/ios-01.png" alt="">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">iOS SDK</h3>
@@ -20,7 +20,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default">
              <div class="uk-card-media-top">
-                <img src="/uploads/android-logo.png" alt="">
+                <img src="/uploads/android-01.png" alt="">
                 </div>
                 <div class="uk-card-body">
                 <h3 class="uk-card-title">Android OS SDK</h3>
