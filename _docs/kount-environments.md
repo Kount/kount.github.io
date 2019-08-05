@@ -12,7 +12,6 @@ required test environment information will be sent to the merchant.
 connectivity and proper data submission. Many features such as order linking, scoring, device location,
 and persona related information are limited in the test environment. The following features are not
 available or will not display accurately in the test environment:
-
 > * Persona orders will not link to merchants across the Kount network.
 > * Persona Risk Score
 > * Boost Safety Rating
