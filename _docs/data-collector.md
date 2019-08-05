@@ -9,7 +9,7 @@ browser, or while in a mobile application (iOS or Android, see link below for mo
 
 {% include image.html img="data collector.png" alt="Data Collector"%}
 
-{% include alert.html style="primary" text="The inquiry service, for both Kount Complete and Kount Access, is designed to be be used in conjuction with our device data collector." %}
+{% include alert.html style="success" text="The inquiry service, for both Kount Complete and Kount Access, is designed to be be used in conjuction with our device data collector." %}
 
 
 
