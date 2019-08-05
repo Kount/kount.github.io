@@ -21,7 +21,7 @@ element).</li>
 
 ## Create the kaxsdc Class
 
-{% include alert.html style="primary" text="Responsible for triggering data collection."%}
+{% include alert.html style="success" text="Responsible for triggering data collection."%}
 
 The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
 collector the most available time to complete its work. The collection is bound to the page load event by
@@ -72,7 +72,7 @@ example that will fire an alert when the process reaches the collect-begin and c
 
 {% include alert.html style="primary" text="It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
 
-```bash
+```html
 1<html>
 2<head>
 3<!--Following is for Content Security Policy - For more information, please see that
