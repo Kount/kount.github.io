@@ -13,7 +13,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="uploads/ios-logo.png" alt="">
+                <img src="/uploads/ios-logo.png" alt="">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Top</h3>
