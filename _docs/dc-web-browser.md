@@ -38,7 +38,7 @@ below).
 ### Available methods in the ka.ClientSDK object
 
 <ul uk-accordion="multiple: true">
-    <li class="uk-open">
+    <li class="uk-closed">
         <a class="uk-accordion-title" href="#">autoLoadEvents()</a>
         <div class="uk-accordion-content">
             <p>Attaches the collection process to be automatically triggered by the page
@@ -70,7 +70,7 @@ the following properties:</p>
 This code collects device information on page load and includes an optional code
 example that will fire an alert when the process reaches the collect-begin and collect-end hooks.
 
-{% include alert.html style="primary" text="It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
+{% include alert.html style="success" text="It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
 
 ```html
 1<html>
