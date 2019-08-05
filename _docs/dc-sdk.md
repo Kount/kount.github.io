@@ -23,7 +23,7 @@ tags: [data collector, SDK, android, iOS, mobile]
                 <img src="/uploads/androidlogocard-01.svg" alt="">
                 </div>
                 <div class="uk-card-body">
-                <h3 class="uk-card-title">Android OS SDK</h3>
+                <h3 class="uk-card-title">Android SDK</h3>
                 <p>Installing & Configuring the SDK, and Samples.</p>
                 <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
             </div>
