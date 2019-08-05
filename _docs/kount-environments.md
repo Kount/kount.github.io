@@ -8,7 +8,7 @@ Kount has separate environments for test and production. Initial integration for
 and Risk Inquiry Service will take place in the test environment. A boarding document containing
 required test environment information will be sent to the merchant.
 
-The test environment is not engineered to support load testing; it is designed primarily to verify
+> The test environment is not engineered to support load testing; it is designed primarily to verify
 connectivity and proper data submission. Many features such as order linking, scoring, device location,
 and persona related information are limited in the test environment. The following features are not
 available or will not display accurately in the test environment:
