@@ -46,7 +46,7 @@ tags:
  
 ## RIS Inquiry Data Table
 
-{% include alert.html style="success" text="Note that ALL FIELD NAMES for a RIS call must be UPPERCASE. They cannot be other case combinations such as sess, Merc, mOdE. However, the values for fields can be mixed case, such as SESS=UpperMixedCaseSessID95628."%}
+{% include alert.html style="success" text="NOTE: All fields names for a RIS call must be UPPERCASE. They cannot be other case combinations such as sess, Merc, mOdE. However, the values for fields can be mixed case, such as SESS=UpperMixedCaseSessID95628."%}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
