@@ -2,7 +2,6 @@
 title: SDKs for Native Mobile Apps
 subtitle:
 tags: [data collector, SDK]
-author: Jarrett
 ---
 
 The implementation of the Data Collector is different for native Mobile Apps. Kount has native Mobile
