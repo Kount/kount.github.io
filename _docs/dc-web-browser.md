@@ -1,11 +1,11 @@
 ---
 title: Web Client and Browser Setup
-subtitle: The Data Collector runs on a client’s browser and collects a variety of information that helps uniquely identify the device. 
+subtitle: The Data Collector runs on a client’s browser and collects a variety of information that helps uniquely identify the device. Add the ```<script>``` tag to the web page where you want to trigger the Data Collection. The variables are found in Variable Values table on the Session ID Discussion page. Below is sample code.
 tags: [integration, kaxsdc, data collector, setup, code, client sdk]
 author:
 ---
 
-> Add the `<script>` tag to the web page where you want to trigger the Data Collection. The variables are found in Variable Values table on the Session ID Discussion page. Below is sample code.
+
 
 #### Sections in this article
 {:.no_toc}
