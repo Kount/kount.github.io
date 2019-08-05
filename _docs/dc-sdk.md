@@ -11,7 +11,7 @@ tags: [data collector, SDK, android, iOS, mobile]
 
 <div class="uk-child-width-1-2@m" uk-grid>
     <div>
-        <div class="uk-card uk-card-default">
+        <div class="uk-card uk-card-default uk-card-hover">
             <div class="uk-card-media-top">
                 <img src="/uploads/ios-logo.png" alt="">
             </div>
