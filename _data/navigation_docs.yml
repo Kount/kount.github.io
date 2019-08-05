@@ -25,7 +25,7 @@
   - ris-shopping-cart
   - ris-udf
   - ris-response
-  - alerts
+  - ris-predictive-response
 
 - title: Customization
   docs:
