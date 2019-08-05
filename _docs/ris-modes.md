@@ -35,16 +35,9 @@ tags:
         </div>
     </div>
 </div>
-
-<div class="uk-section uk-section-muted uk-align-center">
-    <div class="uk-container">
-        <h3>Mode E</h3>
-        <div class="uk-grid-match uk-child-width-1-3@m uk-align-center" uk-grid>
-            <div>
-                <p>Mode E This mode designates an error has occurred and is returned to the merchant in the RIS response.</p>
-            </div>
-        </div>
-    </div>
+<div class="uk-card uk-card-default uk-card-body uk-card-hover uk-width-1-1">
+    <h3 class="uk-card-title">Mode E</h3>
+    <p>This mode designates an error has occurred and is returned to the merchant in the RIS response.</p>
 </div>
 
 {% include alert.html style="success" text="Note that ALL FIELD NAMES for a RIS call must be UPPERCASE. They cannot be other case combinations such as sess, Merc, mOdE. However, the values for fields can be mixed case, such as SESS=UpperMixedCaseSessID95628."%}
