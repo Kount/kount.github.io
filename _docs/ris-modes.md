@@ -6,7 +6,7 @@ tags:
 
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
     <div>
-        <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">
             <h3 class="uk-card-title">Mode Q</h3>
             <p>Initial queries directed from the merchant to Kount that do not originate from a call center environment.</p>
         </div>
