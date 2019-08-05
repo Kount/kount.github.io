@@ -63,27 +63,27 @@ The basic syntax is: UDF[~K!_label]=“foo”~K!_ is the prefix, label is the de
 You want to send in a request that will result in a Kount Score of 18, an Auto Decision of E, and a 601 System Error code.
 
 ###### Request: 
-UDF[~K!_SCOR]=18 
-UDF[~K!_AUTO]=E 
-UDF[~K!_ERRO]=601
+* UDF[~K!_SCOR]=18 
+* UDF[~K!_AUTO]=E 
+* UDF[~K!_ERRO]=601
 
 ###### Response: 
-SCOR=18 
-AUTO=E 
-ERRO=601
+* SCOR=18 
+* AUTO=E 
+* ERRO=601
 
 ##### Example 2:
 You want to pass in a request that will result in a Kount Score of 42, an Auto Decision of Decline and a GEOX of Nigeria.
 
 ###### Request: 
-UDF[~K!_SCOR]=42 
-UDF[~K!_AUTO]=D 
-UDF[~K!_GEOX]=NG
+* UDF[~K!_SCOR]=42 
+* UDF[~K!_AUTO]=D 
+* UDF[~K!_GEOX]=NG
 
 ###### Response: 
-SCOR=42 
-AUTO=D 
-GEOX=NG
+* SCOR=42 
+* AUTO=D 
+* GEOX=NG
 
 You can use UDF overrides to pass in an unlimited number of mock requests but all of the fields you pass in that are not overrides must be valid. In the response, all of the other elements, besides the UDF overrides will be the default values, including MODE and MERC.
 
