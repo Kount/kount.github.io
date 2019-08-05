@@ -15,12 +15,11 @@ tags:
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
             <h3 class="uk-card-title">Mode P</h3>
             <p>Initial queries originating from a call center environment.</p>
-            <p>IP Address must be hard coded as "10.0.0.1".</p>
             <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul> 
+                <li>IP Address must be hard coded as "10.0.0.1".</li>
+                <li>If customer does not provide an e-mail address, use the value EMAL=noemail@Kount.com.</li>
+                <li>PayPal is not a valid payment type for MODE=P.</li>
+            </ul> 
         </div>
     </div>
     <div>
