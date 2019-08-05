@@ -10,8 +10,8 @@ Kount provides a way for merchants to include additional information related to 
 #### UDF Data Types
 
 <ul class="uk-list uk-list-divider">
-    <li>1. 1.	Number: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
-    <li>2. 2.	Alpha-Numeric: This UDF type is eligible for VIP List Management, as well as for tracking Persona Velocities within the Kount Rules Engine. Separate VIP Lists for the values being passed in these UDFs may be created. Additionally, Persona Velocity for a specific value contained within the UDF may be tracked.</li>
-    <li>3. 3.	Date: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
-    <li>4. 4.	Amount: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
+    <li>1. Number: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
+    <li>2. Alpha-Numeric: This UDF type is eligible for VIP List Management, as well as for tracking Persona Velocities within the Kount Rules Engine. Separate VIP Lists for the values being passed in these UDFs may be created. Additionally, Persona Velocity for a specific value contained within the UDF may be tracked.</li>
+    <li>3. Date: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
+    <li>4. Amount: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
 </ul>
