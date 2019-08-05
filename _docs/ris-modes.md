@@ -36,8 +36,18 @@ tags:
     </div>
 </div>
 
-{% include alert.html style="success" text="Note that ALL FIELD NAMES for a RIS call must be UPPERCASE. They cannot be other case combinations such as sess, Merc, mOdE. However, the values for fields can be mixed case, such as
-SESS=UpperMixedCaseSessID95628." %}
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+        <h3>Mode E</h3>
+        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+            <div>
+                <p>Mode E This mode designates an error has occurred and is returned to the merchant in the RIS response.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include alert.html style="success" text="Note that ALL FIELD NAMES for a RIS call must be UPPERCASE. They cannot be other case combinations such as sess, Merc, mOdE. However, the values for fields can be mixed case, such as SESS=UpperMixedCaseSessID95628."%}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
