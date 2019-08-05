@@ -71,7 +71,9 @@ Once you have created the API Key in the Agent Web Console, send the custom head
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 .tg .tg-9qtj{background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
+.tg .tg-dzk6{background-color:#f9f9f9;text-align:center;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
@@ -80,15 +82,15 @@ Once you have created the API Key in the Agent Web Console, send the custom head
     <th class="tg-9qtj">Example</th>
   </tr>
   <tr>
-    <td class="tg-buh4">   &nbsp;&nbsp;PHP settings.initial</td>
+    <td class="tg-dzk6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP settings.initial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td class="tg-buh4">$ch = curl_init(); curl_setopt($ch, CURLOPT_HTTPHEADER, array("X-Kount-Api-Key: {$this-&gt;apiKey}"));</td>
   </tr>
   <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.NET App.config</td>
+    <td class="tg-baqh">.NET App.config</td>
     <td class="tg-0lax">HttpWebRequest webReq = (HttpWebRequest)WebRequest.Create(this.url); webReq.Headers["X-Kount-Api-Key"] = this.apiKey;</td>
   </tr>
   <tr>
-    <td class="tg-buh4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java</td>
+    <td class="tg-dzk6">Java</td>
     <td class="tg-buh4">URL url = new URL(this.risServerUrl); HttpsURLConnection urlConn = (HttpsURLConnection) url.openConnection(); urlConn.setRequestProperty("X-Kount-Api-Key", getApiKeyData());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
 </table>
