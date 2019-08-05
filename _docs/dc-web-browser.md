@@ -143,7 +143,7 @@ autoload. Note - this may be added to different data elements like a div -->
 47</html>
 ```
 
-<code> 1<html>
+<code>1<html>
 2<head>
 3<!--Following is for Content Security Policy - For more information, please see that
 section within this wiki -->
@@ -207,4 +207,4 @@ autoload. Note - this may be added to different data elements like a div -->
 44<body class='kaxsdc' data-event='load'>
 45
 46</body>
-47</html>
+47</html></code>
