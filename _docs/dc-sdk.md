@@ -24,9 +24,10 @@ tags: [data collector, SDK, android, iOS, mobile]
                 </div>
                 <div class="uk-card-body">
                 <h3 class="uk-card-title">Android SDK</h3>
-                <p>The Kount SDK for Android helps integrate Kount's fraud fighting solution into your Android app.</p>
-                    <p>Installing & Configuring the SDK, and Samples.</p>
+                 <p>Installing & Configuring the SDK, and Samples.</p>
                 <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
+                    <p>Release Notes</p>
+                    <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/android.html">Android SDK Release Notes</a>
             </div>
             </div>
         </div>
