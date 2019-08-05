@@ -15,12 +15,12 @@ available or will not display accurately in the test environment:
 
 > * Persona orders will not link to merchants across the Kount network.
 > * Persona Risk Score
-* Boost Safety Rating
-* Address and phone validation through Melissa Data
-* VELO and VMAX
-* Network and device information
-* Distance calculators
-* External services
+> * Boost Safety Rating
+> * Address and phone validation through Melissa Data
+> * VELO and VMAX
+> * Network and device information
+> * Distance calculators
+> * External services
 
 Test credit cards can be passed into the test environment but will fail in the production environment.
 Port 443/HTTPS is required for submission and receipt of Data Collector and Risk Inquiry Service data in
