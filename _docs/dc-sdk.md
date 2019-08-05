@@ -13,7 +13,9 @@ tags: [data collector, SDK, android, iOS, mobile]
             <div class="uk-card-body">
                 <h3 class="uk-card-title">iOS SDK</h3>
                 <p>Installing & Configuring the SDK, and Samples.</p>
-                <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
+                <a class="uk-button uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a>
+                <p>Release Notes:</p>
+                    <a class="uk-button uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ios-sdk/releases">iOS SDK Release Notes</a>
             </div>
         </div>
     </div>
@@ -25,9 +27,9 @@ tags: [data collector, SDK, android, iOS, mobile]
                 <div class="uk-card-body">
                 <h3 class="uk-card-title">Android SDK</h3>
                  <p>Installing & Configuring the SDK, and Samples.</p>
-                <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
-                    <p>Release Notes</p>
-                    <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/android.html">Android SDK Release Notes</a>
+                <a class="uk-button uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-android-sdk">Android SDK</a>
+                    <p>Release Notes:</p>
+                    <a class="uk-button uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-android-sdk/releases">Android SDK Release Notes</a>
             </div>
             </div>
         </div>
