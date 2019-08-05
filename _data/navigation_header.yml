@@ -1,16 +1,16 @@
 # Navbar left menu navigation links
 
 left:
-  - title: Home
+  - title: Main
     url: /
 
-  - title: Docs
+  - title: Technical Specification
     url: /docs/installation/
 
-  - title: Blog
+  - title: 
     url: /blog/
 
-  - title: Changelogs
+  - title: 
     dropdown:
 
       - title: Timeline Style
@@ -24,7 +24,7 @@ left:
 
 right:
 
-  - title: Changelog
+  - title: FAQ
     url: /changelog-timeline/
     button: primary-outline
 
