@@ -31,8 +31,11 @@
 
 - title: Version 0.5.0
   label:
-  date: Oct 21, 2017
+  date: Apr 04, 2018
   list:
-  - Media options now support any valid media query syntax
-  - Added style support for radio and checkbox in Firefox
-  - Fix whitespace trimming in dist
+  - Addtion to RIS Enquiry Service Requirements 
+    -Change Detail: RIS post are limited to a total of 40,000 characters.
+  - Edit to descritpion for RIS Optional Inquiry Key
+    - Change Detail: UNIQ accepts alpha-numeric format.
+  - Addition to UDF Data Types
+   - Different Data types (numeric, alpha-numeric, etc.) are subject to different uses in the calculation of persona velocity. 
