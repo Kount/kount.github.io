@@ -1,7 +1,7 @@
 ---
 title: Web Client and Browser Setup
 subtitle:
-tags:
+tags: [integration, kaxsdc, data collector, setup, code]
 author:
 ---
 
