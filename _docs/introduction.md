@@ -3,6 +3,10 @@ title: Introduction
 subtitle: An overview of the Kount Platform.
 tags: [features]
 ---
+<div class="uk-child-width-1-2@m uk-text-center" uk-grid>
+    <div class="uk-animation-toggle" tabindex="0">
+        <img class="uk-animation-stroke" width="400" height="400" src="images/strokes.svg" alt="" uk-svg="stroke-animation: true">
+    </div>
 
 {% include image.html img="kountworkflow.png" lightbox="true" alt="Alt for image" caption="Kount Workflow" %}
 
