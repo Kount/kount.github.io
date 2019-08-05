@@ -30,7 +30,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     </div>
     <div>
         <div class="uk-card-body">
-            <h3 class="uk-card-title">iOS Release Notest<span class="uk-link-heading">https://github.com/Kount/kount-ios-sdk/releases</span></h3>            
+            <h3 class="uk-card-title"><span class="uk-link-heading">https://github.com/Kount/kount-ios-sdk/releases</span></h3>     
             <p>Click here for the latest iOS release notes.</p>
         </div>
     </div>
