@@ -37,7 +37,7 @@ tags:
 </div>
 
 <div class="uk-section uk-section-muted uk-align-center">
-    <div class="uk-container">
+    <div class="uk-container uk-align-center">
         <h3>Mode E</h3>
         <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
             <div>
