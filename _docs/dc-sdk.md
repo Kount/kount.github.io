@@ -6,7 +6,7 @@ tags: [data collector, SDK, android, iOS, mobile]
 
 <div class="uk-child-width-1-2@m" uk-grid>
     <div>
-        <div class="uk-card uk-card-default uk-card-small">
+        <div class="uk-card uk-card-default uk-card-small uk-card-hover">
             <div class="uk-card-media-top">
                 <img src="/uploads/ios-01.png" alt="">
             </div>
@@ -18,7 +18,7 @@ tags: [data collector, SDK, android, iOS, mobile]
         </div>
     </div>
     <div>
-        <div class="uk-card uk-card-default uk-card-small">
+        <div class="uk-card uk-card-default uk-card-small uk-card-hover">
              <div class="uk-card-media-top">
                 <img src="/uploads/android-01.png" alt="">
                 </div>
