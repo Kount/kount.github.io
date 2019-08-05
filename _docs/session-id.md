@@ -15,17 +15,6 @@ will be accepted, but it is strongly recommended to use a 32 character value. No
 characters is the maximum number of characters, an error will be thrown if the Session ID
 exceeds 32 characters.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-9qtj{background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
-.tg .tg-i5ij{background-color:#193d68;color:#ffffff;text-align:left;vertical-align:top}
-.tg .tg-dzk6{background-color:#f9f9f9;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-9qtj">﻿VAR</th>
