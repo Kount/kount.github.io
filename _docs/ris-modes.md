@@ -177,3 +177,5 @@ SESS=UpperMixedCaseSessID95628." %}
     <td class="tg-dzk6">Yes</td>
   </tr>
 </table>
+
+{% include alert.html style="warning" text="NOTE: There are caveats to the PENC, PTOK and PTYP fields. Please contact your Client Success Manager for further details." %}
