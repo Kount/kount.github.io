@@ -4,11 +4,6 @@ subtitle: The implementation of the Data Collector is different for native Mobil
 tags: [data collector, SDK, android, iOS, mobile]
 ---
 
-<p uk-margin>
-    <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
-    <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
-  </p>
-
 <div class="uk-child-width-1-2@m" uk-grid>
     <div>
         <div class="uk-card uk-card-default">
@@ -18,7 +13,7 @@ tags: [data collector, SDK, android, iOS, mobile]
             <div class="uk-card-body">
                 <h3 class="uk-card-title">iOS SDK</h3>
                 <p>Click the button below for the latest iOS SDK.</p>
-                <a class="uk-button uk-button-secondary uk-width-1-1" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
+                <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
             </div>
         </div>
     </div>
@@ -29,7 +24,8 @@ tags: [data collector, SDK, android, iOS, mobile]
                      </div>
                 <div class="uk-card-body">
                 <h3 class="uk-card-title">Android OS SDK</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <p>Click the button below for the latest Android SDK</p>
+                     <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/android.html">Android SDK</a>
             </div>
             </div>
         </div>
