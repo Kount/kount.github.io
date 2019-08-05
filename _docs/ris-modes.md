@@ -35,8 +35,7 @@ tags:
         </div>
     </div>
     
-   <div>
-      <div class="uk-card uk-card-default uk-card-body uk-card-hover uk-width-1-1">
+<div class="uk-card uk-card-default uk-card-body uk-card-hover uk-width-1-1">
       <h3 class="uk-card-title">Mode E</h3>
       <p>This mode designates an error has occurred and is returned to the merchant in the RIS response.</p>
 </div>
