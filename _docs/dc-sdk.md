@@ -28,7 +28,7 @@ tags: [data collector, SDK, android, iOS, mobile]
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
             <div class="uk-card-media-bottom">
-                <img src="ios-logo.png" <a href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a>
+                <img src="/uploads/ios-logo.png" <a href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a>
             </div>
         </div>
     </div>
