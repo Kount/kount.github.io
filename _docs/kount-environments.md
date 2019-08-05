@@ -13,8 +13,8 @@ connectivity and proper data submission. Many features such as order linking, sc
 and persona related information are limited in the test environment. The following features are not
 available or will not display accurately in the test environment:
 
-* Persona orders will not link to merchants across the Kount network.
-* Persona Risk Score
+> * Persona orders will not link to merchants across the Kount network.
+> * Persona Risk Score
 * Boost Safety Rating
 * Address and phone validation through Melissa Data
 * VELO and VMAX
