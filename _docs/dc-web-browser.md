@@ -38,7 +38,7 @@ above /collect/sdk script tag into your page, which will import the Client Colle
 the Client Collector SDK, create a new ClientSDK object: var client = new ka.ClientSDK(); (Code example
 below).
 
-### Available methods in the ka.ClientSDK object
+## Available methods in the ka.ClientSDK object
 
 <ul uk-accordion="multiple: true">
     <li class="uk-closed">
