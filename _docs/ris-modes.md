@@ -16,6 +16,11 @@ tags:
             <h3 class="uk-card-title">Mode P</h3>
             <p>Initial queries originating from a call center environment.</p>
             <p>IP Address must be hard coded as "10.0.0.1".</p>
+            <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
         </div>
     </div>
     <div>
