@@ -24,7 +24,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default">
             <div class="uk-card-body">
-                <h3 class="uk-card-title"><a href="#">dolor</a></h3>
+                <h3 class="uk-card-title"><a href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
             <div class="uk-card-media-bottom">
