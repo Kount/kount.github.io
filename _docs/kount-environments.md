@@ -2,7 +2,6 @@
 title: Kount Environments
 subtitle: Overview of Kount test and production enviroments.
 tags: [setup]
-author: Jarrett
 ---
 
 Kount has separate environments for test and production. Initial integration for both the Data Collector
