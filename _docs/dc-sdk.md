@@ -28,7 +28,7 @@ tags: [data collector, SDK, android, iOS, mobile]
                 <h3 class="uk-card-title">Android OS SDK</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
-            <div class="uk-card-media-bottom">
+            <div class="uk-card-media-top">
                 <img src="/uploads/android-logo.png" alt="">
             </div>
         </div>
