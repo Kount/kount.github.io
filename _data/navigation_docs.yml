@@ -27,7 +27,7 @@
   - ris-response
   - ris-predictive-response
   - ris-ens-api
-  - ris-api-key
+  - ris-api-keys
 
 - title: Customization
   docs:
