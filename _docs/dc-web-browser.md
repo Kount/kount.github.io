@@ -5,9 +5,14 @@ tags: [integration, kaxsdc, data collector, setup, code, client sdk]
 author:
 ---
 
-Add the `<script>` tag to the web page where you want to trigger the Data Collection. The variables are found in Variable Values table on the Session ID Discussion page. Below is sample code.
+> Add the `<script>` tag to the web page where you want to trigger the Data Collection. The variables are found in Variable Values table on the Session ID Discussion page. Below is sample code.
 
-### High Level Integration Steps:
+#### Sections in this article
+{:.no_toc}
+* TOC
+{:toc}
+
+## High Level Integration Steps:
 
 <ul class="uk-list uk-list-divider">
     <li>1. Update the Content Security Policy to the header of the page.</li>
