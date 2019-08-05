@@ -1,16 +1,16 @@
 # Boxes include navigation
 
 - title: Getting Started
-  desc: Get started fast with installation and theme setup instructions
+  desc: Get started with the Kount platform integration.
   icon: cog
-  doc: installation
+  doc: introduction
 
-- title: Theme Features
-  desc: Lean about all the theme options, features and how to use them
-  icon: settings
-  doc: hero
+- title: Data Collector
+  desc: Find details about the Kount Data Collector.
+  icon: database
+  doc: data-collector
 
-- title: Customization
+- title: Risk Inquiry Service (RIS)
   desc: Get help or tailor the theme to your specific requirements
   icon: code
-  doc: customize
+  doc: ris-intro
