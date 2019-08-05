@@ -18,7 +18,7 @@ tags: [data collector, SDK, android, iOS, mobile]
             <div class="uk-card-body">
                 <h3 class="uk-card-title">iOS SDK</h3>
                 <p>Click the button below for the latest iOS SDK.</p>
-                <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
+                <a class="uk-button uk-button-primary uk-width-1-1" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
             </div>
         </div>
     </div>
