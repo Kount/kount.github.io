@@ -55,7 +55,7 @@ SESS=UpperMixedCaseSessID95628." %}
     <th class="tg-9qtj">Description</th>
     <th class="tg-9qtj">Character Limit</th>
     <th class="tg-9qtj">Valid Values</th>
-    <th class="tg-9qtj">Required</th>
+    <th class="tg-9qtj">Required&nbsp;&nbsp;&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <td class="tg-dzk6">AUTH</td>
