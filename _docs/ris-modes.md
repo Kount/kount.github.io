@@ -15,6 +15,7 @@ tags:
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
             <h3 class="uk-card-title">Mode P</h3>
             <p>Initial queries originating from a call center environment.</p>
+            <p>IP Address must be hard coded as "10.0.0.1".</p>
         </div>
     </div>
     <div>
