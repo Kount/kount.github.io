@@ -35,13 +35,6 @@
   list:
   - Addtion to RIS Enquiry Service Requirements 
     * Change Detail - RIS post are limited to a total of 40,000 characters.
-    
-<ul class="uk-list uk-list-divider">
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-</ul>
-
   - Edit to descritpion for RIS Optional Inquiry Key
     * Change Detail -  UNIQ accepts alpha-numeric format.
   - Addition to UDF Data Types
