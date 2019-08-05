@@ -11,24 +11,25 @@ tags: [data collector, SDK, android, iOS, mobile]
 
 <div class="uk-child-width-1-2@m" uk-grid>
     <div>
-        <div class="uk-card uk-card-default uk-card-hover">
+        <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="/uploads/ios-logo.png" alt="">
+                <img src="/uploads/ios-logo.png.jpg" alt="">
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">iOS SDK</h3>
-                <p>Click here to get the latest iOS SDK from Github.</p>
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
         </div>
     </div>
     <div>
         <div class="uk-card uk-card-default">
             <div class="uk-card-body">
-                <h3 class="uk-card-title"><a href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a></h3>
+                <h3 class="uk-card-title">Media Bottom</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
             </div>
             <div class="uk-card-media-bottom">
-                <img src="/uploads/ios-logo.png" <a href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a>
+                <img src="images/light.jpg" alt="">
             </div>
         </div>
     </div>
