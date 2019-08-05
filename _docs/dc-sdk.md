@@ -13,11 +13,12 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
-                <img src="/uploads/ios-logo.png.jpg" alt="">
+                <img src="/uploads/ios-logo.png." alt="">
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <h3 class="uk-card-title">iOS SDK</h3>
+                <p>Click the button below for the latest iOS SDK.</p>
+                <a class="uk-button uk-button-default uk-width-1-1" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
             </div>
         </div>
     </div>
@@ -26,7 +27,6 @@ tags: [data collector, SDK, android, iOS, mobile]
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Media Bottom</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a class="uk-button uk-button-default" href="http://kount.github.io/mobile-client/ios.html">iOS SDK</a>
             </div>
             <div class="uk-card-media-bottom">
                 <img src="images/light.jpg" alt="">
