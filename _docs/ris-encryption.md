@@ -13,7 +13,7 @@ method if MASK encryption is chosen.
 
 If not using the SDK the following encryption options are available.
 
-<div class="uk-card uk-card-default uk-card-body uk-width-1-1">
+<div class="uk-card uk-card-default uk-card-hover uk-card-body uk-width-1-1">
     <h3 class="uk-card-title">KHASH</h3>
     <p>Kount proprietary hash used to hash the credit card number before passing it to Kount. The
 hashing algorithm source code can be found in each one of the SDKs or can be requested from Kount.</p>
@@ -24,7 +24,7 @@ hashing algorithm source code can be found in each one of the SDKs or can be req
        Example - 123456A12C34E56G7DFG</P>
 </div>
 
-<div class="uk-card uk-card-default uk-card-body uk-width-1-1">
+<div class="uk-card uk-card-default uk-card-hover uk-card-body uk-width-1-1">
     <h3 class="uk-card-title">MASK</h3>
     <p>Ability to pass the first six and last four of a credit card filled in with XXXs. PENC=MASK is only valid with PTYP=CARD</p>
     <ul>
