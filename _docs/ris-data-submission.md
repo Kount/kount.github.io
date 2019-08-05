@@ -138,7 +138,7 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   <tr>
     <td class="tg-aa13">APAY</td>
     <td class="tg-i817">Apple Pay</td>
-    <td class="tg-aa13" colspan="3" rowspan="10"></td>
+    <td class="tg-aa13" colspan="3" rowspan="20"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">CARD</td>
@@ -179,7 +179,6 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   <tr>
     <td class="tg-aa13">NETELLER</td>
     <td class="tg-i817">Neteller</td>
-    <td class="tg-aa13" colspan="3" rowspan="10"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">GIROPAY</td>
