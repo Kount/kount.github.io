@@ -3,6 +3,7 @@ title: Risk Inquiry Service Modes
 subtitle: Modes are used to specify what type of data is being submitted to Kount.
 tags:
 ---
+<hr>
 
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
     <div>
