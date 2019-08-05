@@ -1,7 +1,6 @@
 ---
 title: Kount Central Modes
-subtitle: If you are a Payment Processor using Kount Central, you have access to two additional modes
-available.
+subtitle: If you are a Payment Processor using Kount Central, you have access to two additional modes available.
 tags:
 ---
 
