@@ -2,7 +2,6 @@
 title: Data Collector
 subtitle: This document provides details about the Data Collector.
 tags: [setup]
-author: Jarrett
 ---
 
 The Kount Data Collector is designed to run in the background while a webpage loads in a client
