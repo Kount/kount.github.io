@@ -35,3 +35,8 @@ hashing algorithm source code can be found in each one of the SDKs or can be req
     <p>Output BIN + 10 capital “X” characters + Last 4 of credit card. 
        Example - 123456XXXXXXXXXX7890</p>
 </div>
+
+{% include alert.html style="success" text="NOTE: The “X” characters must all be capital “X”." %}
+
+{% include alert.html style="danger" text="IMPORTANT: The above example value is just for purposes of illustration. The PTOK should be the samelength as the original card number. You can use the card number with the first 6 and last 4 numerals present and the rest of the numbers in the card masked by “Xs” but the number of characters must be the same as those of the actual card number."%}
+
