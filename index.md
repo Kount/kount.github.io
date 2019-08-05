@@ -2,7 +2,7 @@
 layout: page
 width: expand
 hero:
-    title: How can we help you??
+    title: How can we help you?
     subtitle: Search or browse in depth articles and videos about the Kount API and Platform Integrations.
     image: kountdocsheroimagebranded.svg
     search: true
