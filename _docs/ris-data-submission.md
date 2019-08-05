@@ -138,142 +138,84 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   <tr>
     <td class="tg-aa13">APAY</td>
     <td class="tg-i817">Apple Pay</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
+    <td class="tg-aa13" colspan="3" rowspan="10"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">CARD</td>
     <td class="tg-73oq">Credit Card</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">PYPL</td>
     <td class="tg-i817">PayPal</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">CHEK</td>
     <td class="tg-73oq">Check</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">NONE</td>
     <td class="tg-i817">None</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">GDMP</td>
     <td class="tg-73oq">Green Dot Money Pack</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">GOOG</td>
     <td class="tg-i817">Google Checkout</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">BLML</td>
     <td class="tg-73oq">Bill Me Later</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">GIFT</td>
     <td class="tg-i817">Gift Card</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">BPAY</td>
     <td class="tg-73oq">Bpay</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">NETELLER</td>
     <td class="tg-i817">Neteller</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
+    <td class="tg-aa13" colspan="3" rowspan="10"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">GIROPAY</td>
     <td class="tg-73oq">GiroPay</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">ELV</td>
     <td class="tg-i817">ELV</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">MERCADE_PAGO</td>
     <td class="tg-73oq">Mercade Pago</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">SEPA </td>
     <td class="tg-i817">Single Euro Payments Area</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">INTERAC</td>
     <td class="tg-73oq">Interac</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">POLI</td>
     <td class="tg-i817">POLI</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">SKRILL</td>
     <td class="tg-73oq">Srkill/Moneybookers</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-aa13">SOFORT</td>
     <td class="tg-i817">Sofort</td>
-    <td class="tg-aa13"></td>
-    <td class="tg-aa13"></td>
-    <td class="tg-i817"></td>
   </tr>
   <tr>
     <td class="tg-wp8o">TOKEN</td>
     <td class="tg-73oq">Token</td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-wp8o"></td>
-    <td class="tg-73oq"></td>
   </tr>
   <tr>
     <td class="tg-ksh9">RIS Required Inquiry Key</td>
