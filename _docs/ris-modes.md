@@ -37,9 +37,9 @@ tags:
 </div>
 
 <div class="uk-section uk-section-muted uk-align-center">
-    <div class="uk-container uk-align-center">
+    <div class="uk-container">
         <h3>Mode E</h3>
-        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+        <div class="uk-grid-match uk-child-width-1-3@m uk-align-center" uk-grid>
             <div>
                 <p>Mode E This mode designates an error has occurred and is returned to the merchant in the RIS response.</p>
             </div>
