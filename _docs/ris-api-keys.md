@@ -11,7 +11,7 @@ API Keys are used to track and control permissions to Kount APIs and RIS. Rather
 
 To open the API Key’s page, click Admin tab, choose API Keys. By default, no API Keys exist when the API Keys page is opened for the first time. To create a key, click the Create API Key button at the lower right of the table.
 
-The Create API Key dialog box appears.
+###### The Create API Key dialog box appears.
 
 <ul class="uk-list uk-list-divider">
     <li>1.	Key Name: Give the new key a name.</li>
