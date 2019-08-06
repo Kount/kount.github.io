@@ -3,7 +3,7 @@ title: Test New
 tags:
 ---
 
-<ul class="uk-tab uk-flex-center" uk-switcher>
+<ul class="uk-tab uk-subnav-pill uk-flex-center" uk-switcher>
     <li><a href="#">Mode Q</a></li>
     <li><a href="#">Mode P</a></li>
     <li><a href="#">Mode P</a></li>
