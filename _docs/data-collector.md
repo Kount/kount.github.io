@@ -4,7 +4,7 @@ subtitle: The Kount Data Collector is designed to run in the background while a 
 tags: [setup, data collector, device, ris, web, featured]
 ---
 
-{% include image.html img="flowchart.svg" alt="Data Collector"%}
+{% include image.html img="flowchart.svg" alt="Data Collector" lightbox="true"%}
 
 {% include alert.html style="success" text="The inquiry service, for both Kount Complete and Kount Access, is designed to be be used in conjuction with our device data collector." %}
 
