@@ -88,6 +88,6 @@ tags:
 
 
 <div>
-        <img src="/uploads/kountbrandedheroimage.svg" width="50" height="50">
+        <img src="/uploads/kountdocsheroimagebranded.svg" width="50" height="50">
         <span class="uk-text-top">Lorem ipsum.</span>
     </div>
