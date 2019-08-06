@@ -14,10 +14,10 @@ left:
     dropdown:
 
       - title: Mobile SDKs
-        url: /docs/dc-sdk.md
+        url: /docs/dc-sdk.md/
 
       - title: RIS Data Dictionary
-        url: /changelog-posts/
+        url: /docs/ris-data-submission/
 
 
 # Navbar right menu navigation links
