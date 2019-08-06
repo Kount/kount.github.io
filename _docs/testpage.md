@@ -85,3 +85,9 @@ tags:
 </tbody>
 </table></li>
 </ul>
+
+
+<div>
+        <img src="kountbrandedheroimage.svg" width="50" height="50">
+        <span class="uk-text-top">Lorem ipsum.</span>
+    </div>
