@@ -15,7 +15,7 @@ tags: [data collector, SDK, android, iOS, mobile]
                 <p>Installing & Configuring the SDK, and Samples.</p>
                 <a class="uk-button uk-button-text uk-width-1-1" href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a>
                 <p>Release Notes:</p>
-                    <a class="uk-button uk-button-text uk-width-1-1" href="https://github.com/Kount/kount-ios-sdk/releases">iOS SDK Release Notes</a>
+                    <a class="uk-button uk-button-link uk-width-1-1" href="https://github.com/Kount/kount-ios-sdk/releases">iOS SDK Release Notes</a>
             </div>
         </div>
     </div>
