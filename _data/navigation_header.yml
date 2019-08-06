@@ -13,8 +13,8 @@ left:
   - title:  Developer Resources
     dropdown:
 
-      - title: Timeline Style
-        url: /changelog-timeline/
+      - title: Mobile SDKs
+        url: /dc-sdk/
 
       - title: Post Style
         url: /changelog-posts/
