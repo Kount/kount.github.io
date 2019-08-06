@@ -14,7 +14,7 @@ left:
     dropdown:
 
       - title: Mobile SDKs
-        url: /dc-sdk/
+        url: /docs/dc-sdk.md
 
       - title: Post Style
         url: /changelog-posts/
