@@ -6,6 +6,9 @@ left:
 
   - title: Technical Specification
     url: /docs/introduction/
+    
+   - title: Mobile SDK
+    url: /dc-sdk/
 
   - title: Change Log
     url: /blog/
