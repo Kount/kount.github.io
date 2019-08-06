@@ -86,4 +86,9 @@ tags:
 </table></li>
 </ul>
 
-
+<ul class="uk-tab" data-uk-tab>
+    <li class="uk-active"><a href="">...</a></li>
+    <li><a href="">...</a></li>
+    <li><a href="">...</a></li>
+    <li class="uk-disabled"><a href="">...</a></li>
+</ul>
