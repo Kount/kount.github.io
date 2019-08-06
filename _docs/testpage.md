@@ -3,7 +3,7 @@ title: Test New
 tags:
 ---
 
-<ul class="uk-subnav uk-subnav-pill" uk-switcher>
+<ul class="uk-subnav uk-subnav-divider" uk-switcher>
     <li><a href="#">Item</a></li>
     <li><a href="#">Item</a></li>
     <li><a href="#">Item</a></li>
