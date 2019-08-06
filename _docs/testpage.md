@@ -3,7 +3,7 @@ title: Test New
 tags:
 ---
 
-<ul class="uk-subnav uk-tab uk-subnav-divider" uk-switcher>
+<ul class="uk-subnav uk-tab" uk-switcher>
     <li><a href="#">Item</a></li>
     <li><a href="#">Item</a></li>
     <li><a href="#">Item</a></li>
