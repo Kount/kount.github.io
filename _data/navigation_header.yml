@@ -14,7 +14,7 @@ left:
     dropdown:
 
       - title: Mobile SDKs
-        url: /docs/dc-sdk.md/
+        url: /docs/dc-sdk/
 
       - title: RIS Data Dictionary
         url: /docs/ris-data-submission/
