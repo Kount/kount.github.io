@@ -9,3 +9,10 @@ tags:
     <li><a href="#">Item</a></li>
     <li class="uk-disabled"><a>Disabled</a></li>
 </ul>
+
+<ul uk-tab>
+    <li class="uk-active"><a href="#">Left</a></li>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
+    <li class="uk-disabled"><a>Disabled</a></li>
+</ul>
