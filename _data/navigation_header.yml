@@ -6,14 +6,11 @@ left:
 
   - title: Technical Specification
     url: /docs/introduction/
-    
-   - title: Mobile SDK
-    url: /dc-sdk/
 
   - title: Change Log
     url: /blog/
 
-  - title: 
+  - title:  Developer Resources
     dropdown:
 
       - title: Timeline Style
