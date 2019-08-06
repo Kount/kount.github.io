@@ -5,7 +5,7 @@ tags:
 ---
 <hr>
 
-<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+<div class="uk-child-width-1-2@s uk-grid-match uk-card-small" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
             <h3 class="uk-card-title">Mode Q</h3>
@@ -39,7 +39,7 @@ tags:
 
 <hr>
 
-<div class="uk-card uk-card-default uk-card-body uk-card-hover uk-width-1-1">
+<div class="uk-card uk-card-default uk-card-body uk-card-small uk-card-hover uk-width-1-1">
     <h3 class="uk-card-title">Mode E</h3>
    <p>This mode designates an error has occurred and is returned to the merchant in the RIS response.</p>
 </div>
