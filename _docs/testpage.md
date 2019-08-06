@@ -6,7 +6,7 @@ tags:
 <ul class="uk-tab uk-flex-center" uk-switcher>
     <li><a href="#">Mode Q</a></li>
     <li><a href="#">Mode P</a></li>
-    <li><a href="#">Mode P</a></li>
+    <li><a href="#">Mode U</a></li>
     <li><a href="#">Mode X</a></li>
     <li><a href="#">Mode E</a></li>
 </ul>
