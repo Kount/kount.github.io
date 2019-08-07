@@ -14,11 +14,13 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 <div class="uk-h3">Slide</div>
 <div class="uk-child-width-1-1@m" uk-grid uk-lightbox="animation: slide">
-    <div class="uk-container uk-container-large"></div>
     <div>
-        <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
+        <a class="uk-inline" href="/uploads/msv1.svg" data-caption="Caption 1">
             <img src="/uploads/msv1.svg" uk-svg alt="">
         </a>
+        <div class="uk-inline">
+    <div class="uk-position-center"></div>
+</div>
     </div>
 </div>
 
