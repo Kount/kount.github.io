@@ -21,6 +21,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <li><a href="#">Milestone 2</a></li>
     <li><a href="#">Milestone 3</a></li>
     <li><a href="#">Milestone 4</a></li>
+    <li><a href="#">Milestone 5</a></li>
 </ul>
 
 <ul class="uk-switcher uk-margin">
@@ -28,4 +29,5 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <li>{% include image.html img="Milestone-body-2.jpg" lightbox="true" alt="Alt for image" %}</li>
     <li>{% include image.html img="Milestone-body-3.jpg" lightbox="true" alt="Alt for image" %}</li>
     <li>{% include image.html img="Milestone-body-4.jpg" lightbox="true" alt="Alt for image" %}</li>
+    <li>{% include image.html img="Milestone-body-5.jpg" lightbox="true" alt="Alt for image" %}</li>
 </ul>
