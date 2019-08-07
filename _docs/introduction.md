@@ -21,7 +21,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 </ul>
 
 <ul class="uk-switcher uk-margin">
-    <li>{% include image.html img="Milestone-body-kickoff.jpg" lightbox="true" alt="Alt for image" %}</li>
+    <li>{% include image.html img="Milestone-body-1.jpg" lightbox="true" alt="Alt for image" %}</li>
     <li>{% include image.html img="Milestone-body-2.jpg" lightbox="true" alt="Alt for image" %}</li>
     <li>{% include image.html img="Milestone-body-3.jpg" lightbox="true" alt="Alt for image" %}</li>
 </ul>
