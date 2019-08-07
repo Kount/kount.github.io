@@ -14,7 +14,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 {% include image.html img="Milestone-header.png" lightbox="true" alt="Alt for image" %}
 
-<ul class="uk-subnav" uk-switcher>
+<ul class="uk-tab">
     <li class="uk-active"><a href="#">Step 1</a></li>
     <li><a href="#">Step 2</a></li>
     <li><a href="#">Step 3</a></li>
@@ -28,9 +28,14 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <li>Bazinga!</li>
 </ul>
 
+<ul class="uk-subnav uk-subnav-pill" uk-switcher>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
+</ul>
 
-<ul class="uk-subnav" uk-switcher>
-    <li class="uk-active"><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><span></span></li>
+<ul class="uk-switcher uk-margin">
+    <li>Hello!</li>
+    <li>Hello again!</li>
+    <li>Bazinga!</li>
 </ul>
