@@ -29,3 +29,25 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <li>Bazinga!</li>
     <li>Bazinga!</li>
 </ul>
+
+<ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: .switcher-container">
+    <li><a href="#">Active</a></li>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
+</ul>
+
+<h4>Container 1</h4>
+
+<ul class="uk-switcher switcher-container uk-margin">
+    <li>Hello!</li>
+    <li>Hello again!</li>
+    <li>Bazinga!</li>
+</ul>
+
+<h4>Container 2</h4>
+
+<ul class="uk-switcher switcher-container uk-margin">
+    <li>Hello! The first item.</li>
+    <li>Hello again! The second item.</li>
+    <li>Bazinga! The third item.</li>
+</ul>
