@@ -3,8 +3,6 @@ title: Integration Milestones
 tags:
 ---
 
-# Integration Milestones
-
 {% include image.html img="Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 <ul class="uk-subnav uk-tab uk-subnav-pill uk-flex-center" uk-switcher>
