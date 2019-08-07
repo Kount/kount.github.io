@@ -14,7 +14,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 # Integration Milestones
 
-{% include image.html img="Milestone-header.png" lightbox="true" alt="Alt for image" %}
+{% include image.html img="Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 <ul class="uk-subnav uk-tab uk-subnav-pill uk-flex-center" uk-switcher>
     <li><a href="#">Milestone 1</a></li>
