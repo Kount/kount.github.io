@@ -14,40 +14,14 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 {% include image.html img="Milestone-header.png" lightbox="true" alt="Alt for image" %}
 
-<ul class="uk-subnav uk-subnav-divider" uk switcher>
-    <li><a href="#">Step 1</a></li>
-    <li><a href="#">Step 2</a></li>
-    <li><a href="#">Step 3</a></li>
-    <li><a href="#">Step 4</a></li>
-    <li><a href="#">Step 5</a></li>
+<ul class="uk-subnav uk-subnav-pill" uk-switcher>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
+    <li><a href="#">Item</a></li>
 </ul>
 
 <ul class="uk-switcher uk-margin">
-    <li>{% include image.html img="Milestone-header.png" lightbox="true" alt="Alt for image" %}</li>
-    <li>Hello again!</li>
-    <li>Bazinga!</li>
-    <li>Bazinga!</li>
-    <li>Bazinga!</li>
-</ul>
-
-<ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: .switcher-container">
-    <li><a href="#">Active</a></li>
-    <li><a href="#">Item</a></li>
-    <li><a href="#">Item</a></li>
-</ul>
-
-<h4>Container 1</h4>
-
-<ul class="uk-switcher switcher-container uk-margin">
     <li>Hello!</li>
     <li>Hello again!</li>
     <li>Bazinga!</li>
-</ul>
-
-<h4>Container 2</h4>
-
-<ul class="uk-switcher switcher-container uk-margin">
-    <li>Hello! The first item.</li>
-    <li>Hello again! The second item.</li>
-    <li>Bazinga! The third item.</li>
 </ul>
