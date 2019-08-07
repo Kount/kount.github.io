@@ -12,6 +12,5 @@ The Data Collector gathers information from a customer’s device by redirecting
 
 The Risk Inquiry Service evaluates the data provided by the Data Collector and the order-form data submitted from the merchant to create a fraud score. Merchant specified rules are also assessed for each transaction during this evaluation process. Once an order has been evaluated, a response string of key value pairs is returned to the merchant including a score, device fingerprint, and an automated response code. Upon receipt of this response data the merchant can disposition orders based upon specified rules.
 
-<img src="/uploads/msv1.svg" width="600" height="500" alt="" uk-svg>
+{% include image.html img="png2.png" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
 
-<img src="/uploads/msv1.svg" uk-svg>
