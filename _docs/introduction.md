@@ -16,7 +16,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 <ul class="uk-subnav uk-subnav-pill" uk-switcher>
     <li class="uk-active"><a href="#">Step 1</a></li>
-    <li class="uk-active"><a href="#">Step 2</a></li>
+    <li><a href="#">Step 2</a></li>
     <li><a href="#">Step 3</a></li>
     <li><a href="#">Step 4</a></li>
     <li><a href="#">Step 5</a></li>
