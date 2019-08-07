@@ -16,12 +16,12 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 <ul class="uk-subnav uk-tab uk-subnav-pill uk-flex-center" uk-switcher>
     <li><a href="#">Item</a></li>
-    <li><a href="#">Item</a></li>
+    <li><a href="#">Milestone 1</a></li>
     <li><a href="#">Item</a></li>
 </ul>
 
 <ul class="uk-switcher uk-margin">
     <li>Hello!</li>
-    <li>Hello again!</li>
+    <li>{% include image.html img="Milestone-body-kickoff.jpg" lightbox="true" alt="Alt for image" %}</li>
     <li>Bazinga!</li>
 </ul>
