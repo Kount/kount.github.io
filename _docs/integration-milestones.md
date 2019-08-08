@@ -3,6 +3,8 @@ title: Integration Milestones
 tags:
 ---
 
+{% include slideshow.html gallery="slideshow-1" %}
+
 {% include image.html img="Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 <ul class="uk-subnav uk-tab uk-subnav-pill uk-flex-center" uk-switcher>
