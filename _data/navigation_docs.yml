@@ -30,12 +30,16 @@
   - ris-ens-api
   - ris-api-keys
 
+- title: API Endpoints
+  docs: 
+
+- title: Event Notification Service
+  docs: 
+
 - title: References
   docs:
   - 
-  - 
-  - 
-  - 
+ 
 
 - title: Help
   docs:
