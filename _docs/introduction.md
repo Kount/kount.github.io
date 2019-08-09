@@ -14,9 +14,6 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 # Integration Milestones
 
-{% include slideshow.html gallery="slideshow-1" %}
-
-
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items">
         <li>
