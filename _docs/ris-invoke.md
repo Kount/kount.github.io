@@ -14,6 +14,10 @@ Query Kount before attempting an authorization from the payment gateway, below a
         *	AUTH=A
       * Once the transaction has been processed, update required and additional fields with MODE=U post (see RIS Service Modes section)
 
+#### Pre-Authorization Workflow
+
+{% include image.html img="https://source.unsplash.com/TT-ROxWj9nA.jpg" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+
 
 
 # Post-Authorization
