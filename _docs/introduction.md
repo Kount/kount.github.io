@@ -14,7 +14,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 # Integration Overview
 
-{% include image.html img="/slidshow-1/1-Milestones-header.jpg" lightbox="true" alt="Alt for image" caption="Kount Workflow" %}
+{% include image.html img="1-Milestones-header.jpg" lightbox="true" alt="Alt for image" caption="Kount Workflow" %}
 
 <div class="uk-h3">Integration Steps</div>
 <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
