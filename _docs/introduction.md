@@ -30,9 +30,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 </div>
 
-<div class="uk-cover-container uk-height-medium">
-    <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" autoplay loop muted playsinline uk-cover></video>
-</div>
+
 
 <div class="uk-h3">Slide</div>
 <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
