@@ -14,7 +14,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 # Integration Milestones
 
-<div class="uk-position-relative uk-visible-toggle uk-light uk-lightbox" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items">
         <li>
             <img src="/uploads/slideshow-1/1-Milestone-header.jpg" alt="" uk-cover>
@@ -29,4 +29,8 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
+</div>
+
+<div class="uk-cover-container uk-height-medium">
+    <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" autoplay loop muted playsinline uk-cover></video>
 </div>
