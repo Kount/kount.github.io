@@ -3,7 +3,7 @@ title: Magento Integration
 tags:
 ---
 
-<img data-src="/uploads/Magento-card-1-01.jpg" width="" height="" alt="" uk-img>
+<img data-src="/uploads/Magento-card-1-01.jpg" width="200" height="" alt="" uk-img>
 
 
 # Overview
