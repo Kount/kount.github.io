@@ -29,4 +29,4 @@ Query Kount after the payment gateway has been contacted, below are the consider
 
 #### Post Authorization Workflow
 
-{% include image.html img="post-auth-flow.png" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+{% include image.html img="post-atuh-flow.png" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
