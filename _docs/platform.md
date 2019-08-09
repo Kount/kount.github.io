@@ -1,7 +1,7 @@
 ---
 title: Platform Integrations
 subtitle: Easily integrate Kount with popluar e-commerce platforms. 
-tags: 
+tags: [magento, miva, shopify, salesforce, platform]
 ---
 
 <div class="uk-card uk-card-small uk-card-hover uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
