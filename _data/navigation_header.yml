@@ -7,8 +7,8 @@ left:
   - title: Technical Specification
     url: /docs/introduction/
 
-  - title:
-    url: /blog/
+  - title: platform
+    url: /docs/platform
 
   - title:  Developer Resources
     dropdown:
