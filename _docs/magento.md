@@ -3,6 +3,9 @@ title: Magento Integration
 tags:
 ---
 
+<img data-src="/uploads/Magento-card-1-01.jpg" width="" height="" alt="" uk-img>
+
+
 # Overview
 The Kount Magento plugin makes integrating with Kount quick, so you can immediately start catching would-be fraudsters targeting your Magento store.
 
