@@ -16,7 +16,7 @@ Query Kount before attempting an authorization from the payment gateway, below a
 
 #### Pre-Authorization Workflow
 
-{% include image.html img="https://source.unsplash.com/TT-ROxWj9nA.jpg" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+{% include image.html img="pre-auth-flow.png" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
 
 
 
@@ -26,3 +26,7 @@ Query Kount after the payment gateway has been contacted, below are the consider
   * All payment gateway information can be passed to Kount (Authorization, AVS, CVV) allowing rules to be created regarding AVS and CVV data.
   * Some payment gateways do not pass credit card data once they have received it
   * Single RIS query, no update is necessary
+
+#### Post Authorization Workflow
+
+{% include image.html img="post-auth-flow.png" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
