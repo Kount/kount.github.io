@@ -14,21 +14,7 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 
 # Integration Milestones
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
-    <ul class="uk-slideshow-items">
-        <li>
-            <img src="/uploads/slideshow-1/1-Milestone-header.jpg" alt="" uk-cover>
-        </li>
-        <li>
-            <img src="/uploads/slideshow-1/Milestone-body-1.jpg" alt="" uk-cover>
-        </li>
-        <li>
-            <img src="/uploads/slideshow-1/Milestone-body-2.jpg" alt="" uk-cover>
-        </li>
-    </ul>
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-</div>
+{% include image.html img="1-Milestones-header.jpg" lightbox="true" alt="Alt for image" caption="Kount Workflow" %}
 
 <div class="uk-h3">Integration Steps</div>
 <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
