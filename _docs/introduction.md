@@ -30,13 +30,13 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 </div>
 
-
+/uploads/Milestone-body-1-button.jpg
 
 <div class="uk-h3">Slide</div>
 <div class="uk-child-width-1-5@m" uk-grid uk-lightbox="animation: slide">
     <div>
-        <a class="uk-inline" href="/uploads/Milestone-body-1-button.jpg" data-caption="Caption 1">
-            <img src="/uploads/slideshow-1/Milestone-body-2.jpg" alt="">
+        <a class="uk-inline" href="/uploads/slideshow-1/Milestone-body-2.jpg" data-caption="Caption 1">
+            <img src="/uploads/Milestone-body-1-button.jpg" alt="">
         </a>
     </div>
     <div>
