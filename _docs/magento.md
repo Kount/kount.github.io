@@ -3,7 +3,10 @@ title: Magento Integration
 tags:
 ---
 
-<img class="uk-align-center" src="/uploads/Magento-card-1-01.jpg" alt="">
+<div class="uk-cover-container">
+    <canvas width="400" height="200"></canvas>
+    <img src="/uploads/Magento-card-1-01.jpg" alt="" uk-cover>
+</div>
 
 # Overview
 The Kount Magento plugin makes integrating with Kount quick, so you can immediately start catching would-be fraudsters targeting your Magento store.
