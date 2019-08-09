@@ -1,5 +1,5 @@
 ---
-title: Platform Integration
+title: Platform Integrations
 tags:
 ---
 
