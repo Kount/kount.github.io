@@ -17,3 +17,19 @@ The Risk Inquiry Service evaluates the data provided by the Data Collector and t
 {% include slideshow.html gallery="slideshow-1" %}
 
 
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="/uploads/slideshow-1/1-Milestone-header.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="/uploads/slideshow-1/Milestone-body-1.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="/uploads/slideshow-1/Milestone-body-2.jpg" alt="" uk-cover>
+        </li>
+    </ul>
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
