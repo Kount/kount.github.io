@@ -4,10 +4,10 @@ left:
   - title: Main
     url: /
 
-  - title: Technical Specification
+  - title: API Integration
     url: /docs/introduction/
 
-  - title: platform
+  - title: Platform Integrations
     url: /docs/platform
 
   - title:  Developer Resources
