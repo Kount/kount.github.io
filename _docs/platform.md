@@ -11,21 +11,22 @@ tags:
     <div>
         <div class="uk-card-body">
             <h3 class="uk-card-title">Magento Integration</h3>
-            <p>Integrate Kount with your Magento Ecommerce site.</p>
-            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Read more</a>
+            <p>Integrate Kount with the Magento platform.</p>
+            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
         </div>
     </div>
 </div>
 
 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-        <img src="images/light.jpg" alt="" uk-cover>
+        <img src="/uploads/shopify-card.jpg" alt="" uk-cover>
         <canvas width="600" height="400"></canvas>
     </div>
     <div>
         <div class="uk-card-body">
-            <h3 class="uk-card-title">Media Right</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <h3 class="uk-card-title">Shopify Integration</h3>
+            <p>Integrate Kount with the Shopify platform.</p>
+            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
         </div>
     </div>
 </div>
