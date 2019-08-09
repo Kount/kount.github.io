@@ -10,9 +10,9 @@ tags:
     </div>
     <div>
         <div class="uk-card-body">
-            <h3 class="uk-card-title">test Left</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-text">Read more</a>
+            <h3 class="uk-card-title">Magento Integration</h3>
+            <p>Integrate Kount with your Magento Ecommerce site.</p>
+            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Read more</a>
         </div>
     </div>
 </div>
