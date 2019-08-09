@@ -13,7 +13,7 @@ tags: [magento, miva, shopify, salesforce, platform]
         <div class="uk-card-body">
             <h3 class="uk-card-title">Magento Integration</h3>
             <p>Integrate Kount with the Magento platform.</p>
-            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
+            <a href="/docs/magento.md" class="uk-button uk-button-default">Get Started</a>
         </div>
     </div>
 </div>
