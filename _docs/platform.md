@@ -10,7 +10,7 @@ tags:
     </div>
     <div>
         <div class="uk-card-body">
-            <h3 class="uk-card-title">Media Left</h3>
+            <h3 class="uk-card-title">test Left</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-text">Read more</a>
         </div>
