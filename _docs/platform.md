@@ -5,7 +5,7 @@ tags:
 
 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
     <div class="uk-card-media-left uk-cover-container">
-        <img src="/uploads/Magento.svg" alt="" uk-cover>
+        <img src="/uploads/Magento-card.svg" alt="" uk-cover>
          <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-text">Read more</a>
         <canvas width="600" height="400"></canvas>
     </div>
