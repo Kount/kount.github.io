@@ -44,3 +44,17 @@ tags:
         </div>
     </div>
 </div>
+
+<div class="uk-card uk-card-small uk-card-hover uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+        <img src="/uploads/Miva-card-01.jpg" alt="" uk-cover>
+        <canvas width="600" height="400"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title">Miva Merchants Integration</h3>
+            <p>Integrate Kount with the Miva platform.</p>
+            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
+        </div>
+    </div>
+</div>
