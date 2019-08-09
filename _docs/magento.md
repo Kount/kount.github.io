@@ -4,7 +4,7 @@ tags:
 ---
 
 <div class="uk-cover-container">
-    <canvas width="300" height="150"></canvas>
+    <canvas width="325" height="175"></canvas>
     <img src="/uploads/Magento-card-1-01.jpg" alt="" uk-cover>
 </div>
 
