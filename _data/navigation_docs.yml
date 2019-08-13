@@ -27,11 +27,11 @@
   - ris-udf
   - ris-response
   - ris-predictive-response
-  - ris-ens-api
   - ris-api-keys
 
 - title: Event Notification Service
   docs: 
+  - ris-ens-api
 
 - title: API Endpoints
   docs: 
