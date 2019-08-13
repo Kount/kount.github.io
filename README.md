@@ -1,4 +1,4 @@
-# Docs is a premium documentation Jekyll theme
+# Docs Jekyll 
 
 Desk was developed by [Ivan Chromjak](https://ivanchromjak.com) for [jekyll.plus](https://jekyll.plus/), theme [live demo](https://docs.jekyll.plus/) available.
 
