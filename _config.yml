@@ -62,12 +62,12 @@ authors:
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/
+    facebook:       
     flickr:
     dribbble:
     github:
     googleplus:
-    instagram:      https://www.instagram.com/
+    instagram:      
     linkedin:
     pinterest:
     twitter:       
@@ -83,7 +83,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+    copyright:      Kount 2019
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
