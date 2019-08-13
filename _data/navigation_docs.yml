@@ -2,7 +2,7 @@
   docs:
   - introduction
   - kount-environments
-  - integration-overview
+  - api-integration-overview
   - platform
   
 - title: Data Collector
