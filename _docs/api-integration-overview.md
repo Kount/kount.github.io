@@ -1,5 +1,5 @@
 ---
-title: Integration Overview
+title: API Integration Overview
 subtitle: This page provides high level details around each step of the integration process. 
 tags: [integration]
 ---
