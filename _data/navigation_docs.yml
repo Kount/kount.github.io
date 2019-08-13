@@ -17,7 +17,6 @@
 - title: Risk Inquiry Service (RIS)
   docs:
   - ris-intro
-  - ris-requirements
   - ris-invoke
   - ris-data-submission
   - ris-modes
@@ -31,11 +30,12 @@
   - ris-ens-api
   - ris-api-keys
 
-- title: API Endpoints
-  docs: 
-
 - title: Event Notification Service
   docs: 
+
+- title: API Endpoints
+  docs: 
+  - 
 
 - title: References
   docs:
