@@ -4,7 +4,7 @@ title: Magento Integration
 tags:
 ---
 
-<div class="uk-cover-container">
+<div class="uk-cover-container uk-width-1-4 uk-center">
     <canvas width="325" height="175"></canvas>
     <img src="/uploads/Magento-card-1-01.jpg" alt="" uk-cover>
 </div>
