@@ -22,6 +22,6 @@ To get started, review the documents below and download the zip file(s) containi
 
 Magento v1 
 
- <a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://na82.salesforce.com/sfc/p/#36000000b56U/a/36000000HZiu/oSkTSfwZhL8zEXLv3LKYIR.W8_W_2bQYN18iYTOjmWw">User Guide</a>
+ <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://na82.salesforce.com/sfc/p/#36000000b56U/a/36000000HZiu/oSkTSfwZhL8zEXLv3LKYIR.W8_W_2bQYN18iYTOjmWw">User Guide</a>
 
 Magento v2
