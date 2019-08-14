@@ -1,4 +1,6 @@
 ---
+layout: page 
+width: expand
 title: Magento Integration
 tags:
 ---
