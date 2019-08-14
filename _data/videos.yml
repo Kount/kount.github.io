@@ -1,9 +1,9 @@
 # Video include content
 
-- title: Jekyll Introduction
-  desc: Overview of the most popular static generator
+- title: Agent Web Console
+  desc: Overview of the Kount Web interface.
   url: https://youtu.be/T1itpPvFWHI
 
-- title: Creating a post
-  desc: Lean how to publish your first post in Jekyll
+- title: Omniscore 
+  desc: Details about the Kount Omniscore
   url: https://youtu.be/gsYqPL9EFwQ
