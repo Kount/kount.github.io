@@ -1,6 +1,7 @@
 ---
 layout: page 
 title: Magento Integration
+subtitle: The Kount Magento plugin makes integrating with Kount quick, so you can immediately start catching would-be fraudsters targeting your Magento store.
 tags:
 ---
 
