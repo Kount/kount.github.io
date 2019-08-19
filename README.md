@@ -1,7 +1,5 @@
 # Docs Jekyll 
 
-Desk was developed by [Ivan Chromjak](https://ivanchromjak.com) for [jekyll.plus](https://jekyll.plus/), theme [live demo](https://docs.jekyll.plus/) available.
-
 ## Installation
 
 Install the dependencies with [Bundler](http://bundler.io/):
