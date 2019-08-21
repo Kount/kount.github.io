@@ -24,18 +24,19 @@ element).</li>
 
 ## Create the kaxsdc Class
 
-{% include alert.html style="success" text="Responsible for triggering data collection."%}
-
 The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
 collector the most available time to complete its work. The collection is bound to the page load event by
 adding the kaxsdc class and data-event=‘load’ to an HTML element, such as the HTML body or a div.
 (Code example below).
 
+{% include alert.html style="success" text="NOTE: Responsible for triggering data collection."%}
+
+
 ## Namespace & ka.ClientSDK Object
 
 The Kount collector JavaScript is namespaced under the ka JavaScript object. It is required to have the
 above /collect/sdk script tag into your page, which will import the Client Collector SDK. To start using
-the Client Collector SDK, create a new ClientSDK object: var client = new ka.ClientSDK(); (Code example
+the Client Collector SDK, create a new ClientSDK object: `var client = new ka.ClientSDK()`; (Code example
 below).
 
 ## Available methods in the ka.ClientSDK object
@@ -73,7 +74,7 @@ the following properties:</p>
 This code collects device information on page load and includes an optional code
 example that will fire an alert when the process reaches the collect-begin and collect-end hooks.
 
-{% include alert.html style="success" text="It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
+{% include alert.html style="success" text="NOTE: It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
 
 ```html
 1<html>
