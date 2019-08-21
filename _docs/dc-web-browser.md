@@ -108,8 +108,7 @@ evaluation is being made with or without a complete set of information) -->
 15 // Optional Callback code
 16 client.setupCallback(
 17 {
-18 'collect-end': //Fires when collection has finished; The example
-below would not enable the Login button until collection has completed
+18 'collect-end': //Fires when collection has finished; The example below would not enable the Login button until collection has completed
 19 function(params) {
 20 //Enable login button
 21 loginButton =
