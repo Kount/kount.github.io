@@ -6,7 +6,7 @@ tags: [setup, data collector, device, ris, web, featured]
 
 {% include image.html img="fowchartbegin.svg" alt="Data Collector" lightbox="true" background="none"%}
 
-{% include alert.html style="success" text="The inquiry service, for both Kount Complete and Kount Access, is designed to be be used in conjuction with our device data collector." %}
+{% include alert.html style="success" text="NOTE: The inquiry service, for both Kount Complete and Kount Access, is designed to be be used in conjuction with our device data collector." %}
 
 
 
