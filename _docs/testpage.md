@@ -3,6 +3,25 @@ title: Test New
 tags:
 ---
 
+<div class="calculator" data-calc-id="gwKfC3Ped4zDxshsM"></div>
+<script type="text/javascript" id="convertcalculator-embedder-Dq3t2Q8XB5iNjmmR9" class="convertcalculator-async-script-loader">
+  (function() {
+    function async_load(){
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      var url = 'https://app.convertcalculator.co/embed.js';
+      s.src = url + ( url.indexOf("?") >= 0 ? "&" : "?") + "ref=" + encodeURIComponent(window.location.href);
+      var embedder = document.getElementById('convertcalculator-embedder-Dq3t2Q8XB5iNjmmR9');
+      embedder.parentNode.insertBefore(s, embedder);
+    }
+    if (window.attachEvent)
+      window.attachEvent("onload", async_load);
+    else
+      window.addEventListener("load", async_load, false);
+  })();
+</script>
+
 <!DOCTYPE html>
 <head>
 
