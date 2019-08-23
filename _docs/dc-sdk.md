@@ -4,13 +4,13 @@ subtitle: The implementation of the Data Collector is different for native Mobil
 tags: [data collector, SDK, android, iOS, mobile]
 ---
 
-<div class="uk-height-small uk-child-width-1-2@m" uk-grid>
+<div class="uk-child-width-1-2@m" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
             <div class="uk-card-media-top">
                 <img src="/uploads/ioslogocard-01.svg" alt="">
             </div>
-            <div class="uk-card-body">
+            <div class="uk-card-body uk-height-small">
                 <h3 class="uk-card-title">iOS SDK</h3>
                 <p>Installing & Configuring the SDK, and Samples.</p>
                 <a class="uk-button uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ios-sdk">iOS SDK</a>
