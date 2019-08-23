@@ -10,7 +10,7 @@ hero:
 
 {% include boxes.html columns="3" title="Browse Topics" subtitle="Chose an option that you need help with or search above" %}
 
-{% include featured.html tag="featured" title="Popular Articles" subtitle="Selected featured articles to get you started fast in Jekyll" %}
+{% include featured.html tag="featured" title="Popular Articles" subtitle="Selected featured articles to get you started fast with Kount." %}
 
 {% include videos.html columns="2" title="Video Tutorials" subtitle="Watch screencasts to get you started fast with Kount" %}
 
