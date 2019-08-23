@@ -35,9 +35,24 @@ tags: [data collector, SDK, android, iOS, mobile]
         </div>
     </div>
 
-<div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image:url('Milestone-header.jpg');">
-    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-        <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">Headline</h1>
-        <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-</div>
+<progress id="js-progressbar" class="uk-progress" value="10" max="100"></progress>
+
+<script>
+
+    UIkit.util.ready(function () {
+
+        var bar = document.getElementById('js-progressbar');
+
+        var animate = setInterval(function () {
+
+            bar.value += 10;
+
+            if (bar.value >= bar.max) {
+                clearInterval(animate);
+            }
+
+        }, 1000);
+
+    });
+
+</script>
