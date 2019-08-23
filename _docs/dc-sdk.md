@@ -4,7 +4,7 @@ subtitle: The implementation of the Data Collector is different for native Mobil
 tags: [data collector, SDK, android, iOS, mobile]
 ---
 
-<div class="uk-child-width-1-2@m" uk-grid>
+<div class="uk-child-width-1-4@m" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
             <div class="uk-card-media-top">
