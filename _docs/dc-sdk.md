@@ -35,23 +35,49 @@ tags: [data collector, SDK, android, iOS, mobile]
         </div>
     </div>
     
-   <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">
-            <h3 class="uk-card-title">Bottom</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-top">
-            <h3 class="uk-card-title">Top</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">
-            <h3 class="uk-card-title">Bottom</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </div>
+<div uk-filter="target: .js-filter">
+    <ul class="uk-subnav uk-subnav-pill">
+        <li uk-filter-control=".tag-white"><a href="#">White</a></li>
+        <li uk-filter-control=".tag-blue"><a href="#">Blue</a></li>
+        <li uk-filter-control=".tag-black"><a href="#">Black</a></li>
+    </ul>
+    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
+        <li class="tag-white">
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </li>
+        <li class="tag-blue">
+            <div class="uk-card uk-card-primary uk-card-body">Item</div>
+        </li>
+        <li class="tag-white">
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </li>
+        <li class="tag-white">
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </li>
+        <li class="tag-black">
+            <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+        </li>
+        <li class="tag-black">
+            <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+        </li>
+        <li class="tag-blue">
+            <div class="uk-card uk-card-primary uk-card-body">Item</div>
+        </li>
+        <li class="tag-black">
+            <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+        </li>
+        <li class="tag-blue">
+            <div class="uk-card uk-card-primary uk-card-body">Item</div>
+        </li>
+        <li class="tag-white">
+            <div class="uk-card uk-card-default uk-card-body">Item</div>
+        </li>
+        <li class="tag-blue">
+            <div class="uk-card uk-card-primary uk-card-body">Item</div>
+        </li>
+        <li class="tag-black">
+            <div class="uk-card uk-card-secondary uk-card-body">Item</div>
+        </li>
+    </ul>
+
 </div>
