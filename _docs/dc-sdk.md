@@ -34,25 +34,24 @@ tags: [data collector, SDK, android, iOS, mobile]
             </div>
         </div>
     </div>
-
-<progress id="js-progressbar" class="uk-progress" value="10" max="100"></progress>
-
-<script>
-
-    UIkit.util.ready(function () {
-
-        var bar = document.getElementById('js-progressbar');
-
-        var animate = setInterval(function () {
-
-            bar.value += 10;
-
-            if (bar.value >= bar.max) {
-                clearInterval(animate);
-            }
-
-        }, 1000);
-
-    });
-
-</script>
+    
+   <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <h3 class="uk-card-title">Bottom</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-slide-top">
+            <h3 class="uk-card-title">Top</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <h3 class="uk-card-title">Bottom</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</div>
