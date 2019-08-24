@@ -8,12 +8,6 @@ hero:
     search: true
 ---
 
-<div id="particles-js"></div>
-<div class="text">
-	<h1>Particles Background</h1>
-	<p>Using <a href="https://github.com/VincentGarreau/particles.js/">ParticlesJS</a> and well.. that's about it, actually ¯\_(ツ)_/¯</p>
-</div>
-
 {% include boxes.html columns="3" title="Browse Topics" subtitle="Chose an option that you need help with or search above" %}
 
 {% include featured.html tag="featured" title="Popular Articles" subtitle="Selected featured articles to get you started fast with Kount." %}
