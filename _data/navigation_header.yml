@@ -25,7 +25,7 @@ left:
 right:
 
   - title: FAQ
-    url: /changelog-timeline/
+    url: /FAQ/
     button: primary-outline
 
   - title: Contact
