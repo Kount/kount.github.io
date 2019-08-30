@@ -3,10 +3,12 @@ title: Risk Inquiry Service (RIS)
 tags:
 ---
 
-#### Sections in this article
+#### Sections in this page:
 {:.no_toc}
 * TOC
 {:toc}
+
+## Overview
 
 The Risk Inquiry Service (RIS) joins device data provided from the data collector process with the customer order data sent from the merchant. Once the device data and the order data are combined, RIS evaluates and scores each transaction. After the evaluation, RIS returns a response string back to the merchant to be used by the merchant to approve, decline or hold the order for review. Each transaction will continue to be evaluated and dynamically scored for up to fourteen days. The following section describes how to implement the Risk Inquiry Service.
 
@@ -45,7 +47,7 @@ Recommendations regarding each development environment and their supported versi
      * Python
      * Java All settings are included in inquiry
      
-###### The table below describes the required static settings found in the SDK: 
+#### Required static settings found in the SDK: 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
