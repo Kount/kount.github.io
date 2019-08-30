@@ -1,9 +1,11 @@
 ---
 title: Phone to Web Order Submissions
-subtitle: When a merchant submits phone orders via the same web page interface as a customer, the data regarding the merchant’s device is being sent to Kount, not the customer’s device data. This will cause order linking to occur and in time will elevate the score of all orders associated with the persona.
+subtitle: Overview of how to submit orders orginating from a call center environment. 
 tags: [integration, phone, call center, setup, data collector]
 author:
 ---
+
+When a merchant submits phone orders via the same web page interface as a customer, the data regarding the merchant’s device is being sent to Kount, not the customer’s device data. This will cause order linking to occur and in time will elevate the score of all orders associated with the persona.
 
 >IMPORTANT: 
 Linking will also occur if the browser session ID is used as the transaction session ID and
