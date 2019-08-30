@@ -6,6 +6,9 @@ tags: [setup, data collector, device, ris, web, featured]
 ## Browser Flow Diagram 
 {% include image.html img="Asset 2@4x-50.jpg" alt="Data Collector" lightbox="true" background="none"%}
 
+## Mobile Device Flow Diagram 
+{% include image.html img="Asset 2@4x-50.jpg" alt="Data Collector" lightbox="true" background="none"%}
+
 {% include alert.html style="success" text="NOTE: The inquiry service, for both Kount Complete and Kount Access, is designed to be be used in conjuction with our device data collector." %}
 
 
