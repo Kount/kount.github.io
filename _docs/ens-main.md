@@ -22,6 +22,9 @@ Kount must be provided with the URL of that site and once received, ENS events w
 
 The typical setup is for you to configure a single website/server to receive all event information from Kount. However, you have the option to create separate sites for each individual event. While the use of this option is relatively rare, it is an advantage if you operate a business with an extremely high volume of transactions.
 
+**Agent Web Console ENS Events**
+<a href="<a href="url">link text</a>">Click Here</a> to view a table of all available Agent Web Console events. 
+
 ## Retry Policy 
 
 If Kount posts a collection of events to the merchant’s endpoint and the post fails, that is, a timeout or any result other than an HTTP 200 response, Kount will attempt to retry posting to the merchant’s endpoint using an exponential backoff.
