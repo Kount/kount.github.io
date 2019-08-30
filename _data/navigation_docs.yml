@@ -11,7 +11,8 @@
   - dc-sdk
   - dc-web-browser
   - phonetoweb
-  - 
+  - dc-faq
+  - dc-troubleshooting
 
 - title: Step 2 - Risk Inquiry Service (RIS)
   docs:
