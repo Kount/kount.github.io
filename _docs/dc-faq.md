@@ -45,3 +45,6 @@ Ensure that the Session ID being created and stored during the DC process is the
 
 #### Q: How do I know the Data Collection process is Successful?
 Determine if the process was successful by using Developer Tools within Chrome or Firefox. A successful data collection will be represented by multiple GET/POST requests, including one in which the file, “fin,” indicates the data collection process is complete.
+
+#### Q: How to configure the Data Collector for Phone orders?
+Please see <a href="https://jarrettmitchell.github.io/docs/phonetoweb/">Phone to Web Orders Page</a>
