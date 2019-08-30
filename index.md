@@ -12,8 +12,4 @@ hero:
 
 {% include featured.html tag="featured" title="Popular Articles" subtitle="Selected featured articles to get you started fast with Kount." %}
 
-{% include videos.html columns="2" title="Video Tutorials" subtitle="Watch screencasts to learn more about the Kount platform." %}
-
-{% include faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quick answers to frequent questions asked by customers" %}
-
 {% include cta.html title="Didn't find an answer?" button_text="Contact Us" button_url="/contact/" subtitle="Get in touch with us for details on setup and additional custom services pricing." %}
