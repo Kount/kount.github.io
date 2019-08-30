@@ -47,7 +47,7 @@ Recommendations regarding each development environment and their supported versi
      * Python
      * Java All settings are included in inquiry
      
-#### Required static settings found in the SDK: 
+### Required static settings found in the SDK: 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
