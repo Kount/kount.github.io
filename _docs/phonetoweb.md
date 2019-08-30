@@ -9,7 +9,6 @@ author:
 Linking will also occur if the browser session ID is used as the transaction session ID and
 multiple orders are submitted from within the same browser session without closing the browser. This
 type of linking can be avoided in three ways:
-
 >* Increment the browser session ID, appending the UNIX timestamp.
 >* Choose a different methodology for creating the session ID.
 >* Ensure agents close the browser between orders.
