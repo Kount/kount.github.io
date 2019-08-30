@@ -5,7 +5,7 @@ tags: [integration, phone, call center, setup, data collector]
 author:
 ---
 
-#### IMPORTANT: 
+>IMPORTANT: 
 Linking will also occur if the browser session ID is used as the transaction session ID and
 multiple orders are submitted from within the same browser session without closing the browser. This
 type of linking can be avoided in three ways:
