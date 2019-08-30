@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Shopiy Integration
 subtitle: Overview of the Kount Complete App in the Shopify Marketplace. 
 tags: [shopify]
@@ -12,7 +13,7 @@ Your Client Success Manager will provide the following information, necessary to
 * Your Merchant ID
 * Login Credentials for the Agent Web Console
 
-{% include alert.html style="success" text="**Note:** Although installation without a Merchant ID is possible, Kount Complete will not work until the ID is entered." %}
+{% include alert.html style="success" text="NOTE: Although installation without a Merchant ID is possible, Kount Complete will not work until the ID is entered." %}
 
 ## Configuration
 
