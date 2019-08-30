@@ -18,6 +18,13 @@ The Risk Inquiry Service (RIS) joins device data provided from the data collecto
     <li>5.	Notification is displayed to customer</li>
 </ul>
 
+### Risk Inquiry Service Payment Types
+Kount supports multiple payment types and depending upon the payment type chosen by the customer certain payment tokens are required. If the PayPal Payer ID or Google Checkout Account ID is not sent in the inquiry mode, then it must be sent in the update mode related to the transaction otherwise the order details will not be displayed in the Agent Web Console.
+
+Kount can add arbitrary payment types rapidly to support an international market. To view the current list of supported payment types, use the API endpoint: (https://api.kount.net/rpc/support/payments.html)
+
+See the API Specification Guide for further details. The content of the endpoint is generated in HTML but changing the extension to .xml or .json will produce content in those formats.
+
 ### Risk Inquiry Service Requirments
 RIS data posted to Kount must be URL encoded and submitted as key-value pairs. Much of the work can be simplified by utilizing a Kount provided SDK, including URL encoding. Kount provides a Software Development Kit (SDK) for Java, .NET, PHP, Perl, and Mobile environments.
 
