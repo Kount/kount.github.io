@@ -23,7 +23,6 @@ Kount supports multiple payment types and depending upon the payment type chosen
 
 Kount can add arbitrary payment types rapidly to support an international market. To view the current list of supported payment types, use the API endpoint: (https://api.kount.net/rpc/support/payments.html)
 
-See the API Specification Guide for further details. The content of the endpoint is generated in HTML but changing the extension to .xml or .json will produce content in those formats.
 
 ### Risk Inquiry Service Requirments
 RIS data posted to Kount must be URL encoded and submitted as key-value pairs. Much of the work can be simplified by utilizing a Kount provided SDK, including URL encoding. Kount provides a Software Development Kit (SDK) for Java, .NET, PHP, Perl, and Mobile environments.
