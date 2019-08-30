@@ -15,7 +15,7 @@ The Risk Inquiry Service (RIS) joins device data provided from the data collecto
 {% include image.html img="RISflowchart.png" lightbox="true" alt="Alt for image" caption="RIS Implementation" %}
 
 
-### The following sequence describes the RIS process:
+### RIS process
 
 <ul class="uk-list uk-list-divider">
     <li>1.	Customer initiates purchase</li>
@@ -85,7 +85,7 @@ Recommendations regarding each development environment and their supported versi
      * Python
      * Java All settings are included in inquiry
      
-### Required static settings found in the SDK: 
+### Required static settings found in the SDK
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
