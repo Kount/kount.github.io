@@ -41,7 +41,7 @@ tags: [magento, miva, shopify, salesforce, platform]
         <div class="uk-card-body">
             <h3 class="uk-card-title">Salesforce Commerce Cloud Integration</h3>
             <p>Integrate Kount with the Salesforce platform.</p>
-            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
+            <a href="/docs/salesforce-cc" class="uk-button uk-button-default">Get Started</a>
         </div>
     </div>
 </div>
