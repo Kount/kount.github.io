@@ -11,6 +11,7 @@ This diagram shows the interactions between a user's browser, the merchant's sit
 This diagram shows the interactions between a merchant's mobile app (iOS or Android) and Kount's data collectors
 {% include image.html img="Mobile Device Collector @4x-50.jpg" alt="Data Collector" lightbox="true" background="none"%}
 
+{% include alert.html style="success" text="NOTE: The Inquiry Service is designed to be used in conjuction with the data collection process" %}
 
 
 
