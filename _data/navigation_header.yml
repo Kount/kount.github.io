@@ -24,10 +24,6 @@ left:
 
 right:
 
-  - title: FAQ
-    url: /FAQ/
-    button: primary-outline
-
   - title: Contact
     url: /contact/
     button: success
