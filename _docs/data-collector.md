@@ -11,7 +11,9 @@ This diagram shows the interactions between a user's browser, the merchant's sit
 This diagram shows the interactions between a merchant's mobile app (iOS or Android) and Kount's data collectors
 {% include image.html img="Mobile Device Collector @4x-50.jpg" alt="Data Collector" lightbox="true" background="none"%}
 
-{% include alert.html style="success" text="NOTE: The Inquiry Services are designed to be used in conjunction with the Data Collection process. The Data Collection process is passive and provides no information back to a Merchant (Client). There is optional "callback" code that can provide a Merchant (Client) information regarding when the Data Collection has finished." %}
+{% include alert.html style="success" text="The Inquiry Services are designed to be used in conjunction with the Data 
+Collection process. The Data Collection process is passive and provides no information back to a Merchant (Client). There is
+optional "callback" code that can provide a Merchant (Client) information regarding when the Data Collection has finished."%}
 
 
 
