@@ -46,7 +46,7 @@ tags: [magento, miva, shopify, salesforce, platform]
     </div>
 </div>
 
-<div class="uk-card uk-card-small uk-card-hover uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+<! <div class="uk-card uk-card-small uk-card-hover uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
         <img src="/uploads/miva-card-01.jpg" alt="" uk-cover>
         <canvas width="600" height="400"></canvas>
@@ -58,4 +58,4 @@ tags: [magento, miva, shopify, salesforce, platform]
             <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
         </div>
     </div>
-</div>
+</div> >
