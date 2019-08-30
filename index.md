@@ -2,7 +2,7 @@
 layout: page
 width: expand
 hero:
-    title: Integration Guide 
+    title: Implementation Guide 
     subtitle: Search or browse in depth articles and videos about the Kount API and Platform Integrations.
     image: kountdocsheroimagebranded.svg
     search: true
