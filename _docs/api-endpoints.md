@@ -94,7 +94,7 @@ In addition to the general three-digit error codes common with the Kount API end
 
 ##### UDF (User Defined Fields)
 * code: 1540 msg: Label must be 1-28 alpha-numeric characters and begin with a letter
-* code: 1541 msg: Type must be NUMBER|ALPHA-NUMERIC|DATE|AMOUNT
+* code: 1541 msg: Type must be NUMBER ALPHA-NUMERIC DATE AMOUNT
 * code: 1543 msg: UDF already exists, cannot create
 * code: 1544 msg: Description must be 1-64 alpha-numeric characters
 * code: 1548 msg: ID must be 1-64 numeric characters
