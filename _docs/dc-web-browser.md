@@ -10,6 +10,7 @@ author:
 * TOC
 {:toc}
 
+## Overview
 The Data Collector runs on a client’s browser and collects a variety of information that helps uniquely identify the device. Add the `<script>` tag to the web page where you want to trigger the Data Collection. The variables are found in Variable Values table on the Session ID Discussion page. Below is sample code.
 
 ## High Level Integration Steps
@@ -22,7 +23,8 @@ element).</li>
     <li>4. Set the ka.ClientSDK to autorun when kaxsdc class loads.</li>
 </ul>
 
-## Create the kaxsdc Class
+## Create the `kaxsdc` Class
+
 
 The Client Collector SDK data collection process is triggered by the 'load' data-event. This gives the
 collector the most available time to complete its work. The collection is bound to the page load event by
