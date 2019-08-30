@@ -1,7 +1,6 @@
 - title: Getting Started
   docs:
   - introduction
-  - kount-environments
   - api-integration-overview
   - platform
   
@@ -36,6 +35,10 @@
 - title: Step 4 - API Endpoints
   docs: 
   - 
+
+- title: Testing
+  docs: 
+  - kount-environments
 
 - title: References
   docs:
