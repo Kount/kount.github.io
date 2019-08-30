@@ -1,6 +1,6 @@
 ---
 title: Data Collector Troubleshooting
-subtitle: 
+subtitle: Solutions for common 
 tags:
 ---
 
