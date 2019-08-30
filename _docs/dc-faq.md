@@ -4,7 +4,7 @@ subtitle: Frequently asked about the Kount Data Collector.
 tags: [data collector, device, FAQ]
 ---
 
-#### Sections in this article
+#### FAQ's
 {:.no_toc}
 * TOC
 {:toc}
@@ -19,5 +19,17 @@ Kount will create the initial administrator user. Once the user has been created
 #### Q: Should I send production traffic to the test environment?
 Production traffic should not be sent to the test environment due to the possibility of skewed scoring from the test orders.
 
+#### Q: Where should I place the Javascript on my website?
+On any webpage prior to the completion of the order, typically somewhere in the order summary or checkout process. This could be different if various payment methods take the customer “off of the site” prior to completion of the order.
 
+#### Q: What does the session identifier do?
+The session identifier is used to join the device data with the order data sent to the RIS service. When the RIS process posts data to Kount it must use the session identifier that was created when the customer initiated the Data Collection.
 
+#### Q: Does the session identifier need to be unique?
+Yes, the session identifier must be unique over a thirty-day period. If there are duplicate session identifiers, device data originating from the Data Collection process may be erroneously connected to RIS order data. See Session ID Discussion for more information.
+
+#### Q: Are there limitations on the session identifier?
+Yes, it must be alpha-numeric, a minimum of 10, and a maximum of 32 characters long. Dashes and underscores are allowed.
+
+#### Q: What should I use for the session identifier?
+The merchant may determine what is used, as long as the limitation guidelines are followed. Potential identifiers include the unique web session, UNIX time stamp, and order number appended by time stamp.
