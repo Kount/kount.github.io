@@ -5,11 +5,6 @@ subtitle: The Kount Magento plugin makes integrating with Kount quick, so you ca
 tags: [featured]
 ---
 
-<div class="uk-cover-container uk-center">
-    <canvas width="325" height="175"></canvas>
-    <img src="/uploads/Magento-card-1-01.jpg" alt="" uk-cover>
-</div>
-
 ## Overview
 The Kount Magento plugin makes integrating with Kount quick, so you can immediately start catching would-be fraudsters targeting your Magento store.
 
