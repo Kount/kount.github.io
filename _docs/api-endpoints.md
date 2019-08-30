@@ -12,9 +12,6 @@ If you request these services, Kount allows you to communicate with our applicat
 
 ## RESTful API Documentation
 
-<a href="https://api.kount.net/rpc/list.html">click here.</a>
-
-
 To obtain documentation regarding Kount's Restful API, <a href="https://api.kount.net/rpc/list.html">click here.</a> All of the following items are located within each Endpoint categorically.
 
 * List of Endpoints
