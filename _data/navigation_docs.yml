@@ -5,7 +5,7 @@
   - api-integration-overview
   - platform
   
-- title: Data Collector
+- title: Step 1 - Data Collector
   docs:
   - data-collector
   - session-id
@@ -14,7 +14,7 @@
   - phonetoweb
   - dcfaq
 
-- title: Risk Inquiry Service (RIS)
+- title: Step 2 - Risk Inquiry Service (RIS)
   docs:
   - ris-intro
   - ris-invoke
@@ -29,11 +29,11 @@
   - ris-predictive-response
   - ris-api-keys
 
-- title: Event Notification Service
+- title: Step 3 - Event Notification Service
   docs: 
   - ris-ens-api
 
-- title: API Endpoints
+- title: Step 4 - API Endpoints
   docs: 
   - 
 
