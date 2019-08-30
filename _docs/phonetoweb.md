@@ -35,33 +35,35 @@ need to input noemail@Kount.com as the email address to prevent linking.
 
 PHP example of the Phone-to-Web logo.htm script
 ```php
-<?php /** * Example analyzer re-direct script. 
-*
-*
-* <p>Expects to be called with 2 GET mode query parameters: 
-* <dl> 
-* <dt>m</dt> 
-* <dd>Company Merchant ID</dd> 
-* <dt>s</dt> 
-* <dd>Unique customer session ID</dd> 
-* </dl> 
-* 
-*/ // -- BEGIN CONFIGURATION -- 
-/** 
-* Hostname of Company endpoint. 
-* MUST BE SET BY MERCHANT BEFORE USE 
-* 
-* @var string 
-*/ 
+<?php 
+/ 
+Example analyzer re-direct script. 
+
+
+<p>Expects to be called with 2 GET mode query parameters: 
+<dl> 
+<dt>m</dt> 
+<dd>Company Merchant ID</dd> 
+<dt>s</dt> 
+<dd>Unique customer session ID</dd> 
+</dl> 
+ 
+/ // -- BEGIN CONFIGURATION -- 
+/ 
+Hostname of Company endpoint. 
+MUST BE SET BY MERCHANT BEFORE USE 
+ 
+@var string 
+/ 
 $COMPANY_SERVER = null; 
-/** 
-* 
-* List of ip addresses in dotted quad format (eg "127.0.0.1") that should 
-* not be redirected to the Company. These IP addresses are the public facing IP 
-* addresses that have been assigned by the merchant service provider. 
-* 
-* @var array 
-*/ 
+/ 
+ 
+List of ip addresses in dotted quad format (eg "127.0.0.1") that should 
+not be redirected to the Company. These IP addresses are the public facing IP 
+addresses that have been assigned by the merchant service provider. 
+ 
+@var array 
+/ 
 $EXCLUDED_IPS = array();
 // -- END CONFIGURATION -- 
 function send_empty_page () { 
@@ -69,6 +71,4 @@ echo ’<html><head></head><body></body></html>’; }
 // validate configuration
 ```
 
-The scripts found in Appendix A demonstrate configuration examples of excluding merchant-owned IP
-addresses that should not be forwarded on to the company’s server.
-Required and Optional fields can be found in Appendix B.
+
