@@ -27,7 +27,7 @@ tags: [magento, miva, shopify, salesforce, platform]
         <div class="uk-card-body">
             <h3 class="uk-card-title">Shopify Integration</h3>
             <p>Integrate Kount with the Shopify platform.</p>
-            <a href="https://getuikit.com/docs/tab" class="uk-button uk-button-default">Get Started</a>
+            <a href="/docs/shopify" class="uk-button uk-button-default">Get Started</a>
         </div>
     </div>
 </div>
