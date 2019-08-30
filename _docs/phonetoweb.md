@@ -30,10 +30,14 @@ Collector): Phone-to-Web Order Submission script example is in Appendix A (to ex
 merchant owned IP addresses that should not be forwarded to Kount), post Call Center Orders
 as a Mode=Q; hard code the IP address specifically to 10.0.0.1.
 
+{% include alert.html style="success" text="NOTE: In any of the above circumstances, if the email address is not provided to the agents, the agents will need to input noemail@kount.com as the email address to prevent linking." %}
+
+
 In any of the above circumstances, if the email address is not provided to the agents, the agents will
 need to input noemail@Kount.com as the email address to prevent linking.
 
-PHP example of the Phone-to-Web logo.htm script
+#### PHP example of the Phone-to-Web logo.htm script
+
 ```php
 <?php 
 / 
