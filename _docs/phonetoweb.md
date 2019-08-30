@@ -18,14 +18,12 @@ type of linking can be avoided in three ways:
 ## Methods for receiving phone orders.
 
 #### Method 1
-
 1. If the customer service agents navigate to a separate order entry page that does not implement
 the Data Collector: Call Center/Phone Orders will be posted as a Mode=P; hard code the IP
 address specifically to 10.0.0.1 and provide the phone number within the ANID field (if no phone
 number is available, pass 0123456789 hard coded).
 
 #### Method 2
-
 2. If the customer service agents navigate to the same page as the customer (executes the Data
 Collector): Phone-to-Web Order Submission script example is in Appendix A (to exclude
 merchant owned IP addresses that should not be forwarded to Kount), post Call Center Orders
