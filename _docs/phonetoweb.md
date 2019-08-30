@@ -11,8 +11,8 @@ multiple orders are submitted from within the same browser session without closi
 type of linking can be avoided in three ways:
 
 >* Increment the browser session ID, appending the UNIX timestamp.
- * Choose a different methodology for creating the session ID.
- * Ensure agents close the browser between orders.
+>* Choose a different methodology for creating the session ID.
+>* Ensure agents close the browser between orders.
 
 #### There are two different methods for receiving phone orders.
 
