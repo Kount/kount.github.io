@@ -4,7 +4,8 @@ subtitle:
 tags: [RIS, SDK]
 ---
 
-## RIS Java SDK
+## RIS Java SDK <a href="" uk-icon="code"></a>
+
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a>
 
