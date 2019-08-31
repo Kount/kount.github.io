@@ -19,6 +19,8 @@ tags:
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
     <div class="uk-card-footer">
-        <a href="#" class="uk-button uk-button-text">Read more</a>
+        <a href="#" class="uk-button uk-button-success uk-button-text">Read more</a>
+        <a href="#" class="uk-button uk-button-success uk-button-text">Read more</a>
+        <a href="#" class="uk-button uk-button-success uk-button-text">Read more</a>
     </div>
 </div>
