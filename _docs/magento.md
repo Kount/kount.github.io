@@ -1,6 +1,6 @@
 ---
 layout: page
-width: expand
+width: center
 hero:
     title: Magento Integration
     subtitle: Get started with Magento and Kount.
