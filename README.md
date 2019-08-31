@@ -4,7 +4,9 @@
 Documentation is located in the `/docs/`folder.
 
 **Creat a new documentation page:**
-In the `/docs/` folder create a new file `newfilename.md`. 
+In the `/docs/` folder create a new `.md` file.
+
+Include this header on the page; update according to content.
 
 ```yaml
 ---
