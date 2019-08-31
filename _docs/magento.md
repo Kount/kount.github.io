@@ -1,8 +1,10 @@
 ---
-layout: page 
-title: Magento Integration
-subtitle: The Kount Magento plugin makes integrating with Kount quick, so you can immediately start catching would-be fraudsters targeting your Magento store.
-tags: [featured]
+layout: page
+width: expand
+hero:
+    title: Magento Integration
+    subtitle: Get started with Magento and Kount.
+    image: Magento-card-1-01.jpg
 ---
 
 ## Overview
