@@ -4,7 +4,6 @@ width: center
 hero:
     title: Magento Integration
     subtitle: Get started with Magento and Kount.
-    image: Magento-card-1-01.jpg
 ---
 
 ## Overview
