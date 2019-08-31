@@ -20,6 +20,7 @@ tags:
     </div>
     <div class="uk-card-footer">
         <a href="#" class="uk-button uk-button-success uk-button-text">Read more</a>
+        <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-php-sdk">PHP SDK</a>
         <a href="#" class="uk-button uk-button-success uk-button-text">Read more</a>
         <a href="#" class="uk-button uk-button-success uk-button-text">Read more</a>
     </div>
