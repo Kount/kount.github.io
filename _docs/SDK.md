@@ -16,7 +16,7 @@ tags:
         </div>
     </div>
     <div class="uk-card-body">
-        <a href="" uk-icon="heart"></a>
+        <a "uk-icon="code"></a>
         <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-php-sdk">PHP SDK</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
