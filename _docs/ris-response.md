@@ -10,7 +10,7 @@ An important use of the RIS response is the ability to verify if the Data Collec
 
 ## RIS Response JSON 
 
-```
+```JSON
 {
     "VERS": "0700",
     "MODE": "Q",
