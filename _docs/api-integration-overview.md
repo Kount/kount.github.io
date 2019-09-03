@@ -16,8 +16,12 @@ tags: [integration]
 **4. API Endpoints**
  * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount. 
 **5. Technical Testing**
+
 **6. Customer Training**
+
 **7. Request Certification for Production Environment**
+
 **8. Move to Production Environment**
+
 **9. Submit iOS and/or Android App Store**
  
