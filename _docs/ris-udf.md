@@ -7,14 +7,20 @@ Kount provides a way for merchants to include additional information related to 
 
 {% include alert.html style="success" text="NOTE: UDF labels can be up to 28 characters in length and cannot begin with a number."%}
 
-#### UDF Data Types
+## UDF Data Types
 
-<ul class="uk-list uk-list-divider">
-    <li>1. Number: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
-    <li>2. Alpha-Numeric: This UDF type is eligible for VIP List Management, as well as for tracking Persona Velocities within the Kount Rules Engine. Separate VIP Lists for the values being passed in these UDFs may be created. Additionally, Persona Velocity for a specific value contained within the UDF may be tracked.</li>
-    <li>3. Date: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
-    <li>4. Amount: This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.</li>
-</ul>
+##### Number 
+* This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.
+
+##### Alpa-Numeric
+* This UDF type is eligible for VIP List Management, as well as for tracking Persona Velocities within the Kount Rules Engine. Separate VIP Lists for the values being passed in these UDFs may be created. Additionally, Persona Velocity for a specific value contained within the UDF may be tracked.
+
+##### Date 
+* This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.
+
+##### Amount 
+* This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.
+
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
