@@ -1,6 +1,6 @@
 ---
 title: Developer Assets
-tags:[SDK,RIS, Data collector]
+tags: [SDK,RIS, Data collector]
 ---
 
 
