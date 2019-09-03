@@ -25,6 +25,9 @@ The typical setup is for you to configure a single website/server to receive all
 **Agent Web Console ENS Events**
 <a href="<a href="url">link text</a>">Click Here</a> to view a table of all available Agent Web Console events. 
 
+<a href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000Q0vQ/Fgjn_Hv2wM70AJa3X81L5ysEDvXtP4pt7PGXqDNsxQ0">Click here to view a table of all available Agent Web Console events.</a>
+
+
 ## Retry Policy 
 
 If Kount posts a collection of events to the merchant’s endpoint and the post fails, that is, a timeout or any result other than an HTTP 200 response, Kount will attempt to retry posting to the merchant’s endpoint using an exponential backoff.
