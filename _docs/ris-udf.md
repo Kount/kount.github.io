@@ -28,8 +28,7 @@ Once you have defined the UDF in the Agent Web Console you will be able to pass 
 
 {% include alert.html style="success" text="NOTE: UDF labels can be up to 28 characters in length and cannot begin with a number."%}
 
-***
-
+<style type="text/css"> .tg {border-collapse:collapse;border-spacing:0;border-color:#ccc;} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;} .tg .tg-9qtj{background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top} .tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top} .tg .tg-0lax{text-align:left;vertical-align:top} </style>
 <table class="tg">
   <tr>
     <th class="tg-9qtj">﻿Attribute</th>
