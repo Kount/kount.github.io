@@ -7,7 +7,8 @@ tags: [integration]
 {% include image.html img="1-Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 
-**1. Kick Off** Planning and Design
+**1. Kick Off** 
+Planning and Design
 * Kick off Meeting 
  * Evaluate Workflows 
  * Data Mapping 
@@ -33,6 +34,7 @@ Business Team
  * Application Configuration
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://awc.test.kount.net/">Test Enviroment</a>
+
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://support.kount.com/s/article/Training-Videos">Training Videos</a>
 
 **5. Certification**
