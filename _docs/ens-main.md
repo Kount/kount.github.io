@@ -23,9 +23,8 @@ Kount must be provided with the URL of that site and once received, ENS events w
 The typical setup is for you to configure a single website/server to receive all event information from Kount. However, you have the option to create separate sites for each individual event. While the use of this option is relatively rare, it is an advantage if you operate a business with an extremely high volume of transactions.
 
 **Agent Web Console ENS Events**
-<a href="<a href="url">link text</a>">Click Here</a> to view a table of all available Agent Web Console events. 
 
-<a href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000Q0vQ/Fgjn_Hv2wM70AJa3X81L5ysEDvXtP4pt7PGXqDNsxQ0">Click here to view a table of all available Agent Web Console events.</a>
+<a href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000Q0vQ/Fgjn_Hv2wM70AJa3X81L5ysEDvXtP4pt7PGXqDNsxQ0">Click here</a> to view a table of all available Agent Web Console events.
 
 
 ## Retry Policy 
