@@ -24,7 +24,7 @@ Planning and Design
 
 **3. RESTful API** Endpoint API and Event Notification Service
  * [Enable ENS](https://kount.github.io/docs/ens-main/) to recieve updates from Kount.
- * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount. **4. API Endpoints**
+ * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount.
 
 **4. Technical Test** Product Training and Integration Test
 Technical Team 
