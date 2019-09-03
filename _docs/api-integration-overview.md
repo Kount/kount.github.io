@@ -33,7 +33,7 @@ Business Team
  * Application Configuration
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://awc.test.kount.net/">Test Enviroment</a>
-<a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://support.kount.com/s/article/Training-Videos">Trianing Videos</a>
+<a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://support.kount.com/s/article/Training-Videos">Training Videos</a>
 
 **5. Certification**
 * Request Certification for Production Environment. 
