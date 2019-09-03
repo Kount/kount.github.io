@@ -1,5 +1,5 @@
 ---
-title: Risk Inquiry Service SKDs
+title: Risk Inquiry Service SDKs
 subtitle:
 tags: [RIS, SDK]
 ---
