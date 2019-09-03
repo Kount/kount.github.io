@@ -7,24 +7,33 @@ tags: [integration]
 {% include image.html img="1-Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 
-**1. Device Data Collector** 
+**1. Kick Off** Planning and Design
+* Kick off Meeting 
+ * Evaluate Workflows 
+ * Data Mapping 
+ * Solutions Design
+
+**2. Real Time API** Device Data Collector and Risk Inquiry Service
+ Device Data Collector 
  * Install Device Data collector on the Customer website. 
  * Install in Device Data Collector in Mobile Apps. [Mobile SDKs](https://kount.github.io/docs/dc-sdk/)
-
-**2. Risk Inquiry Service (RIS)**
+ Risk Inquiry Service
  * [Risk Inquiry Service SKDs](https://kount.github.io/docs/ris-sdk/)
 
-**3. Event Notification System (ENS)**
+**3. RESTful API** Endpoint API and Event Notification Service
  * [Enable ENS](https://kount.github.io/docs/ens-main/) to recieve updates from Kount.
+ * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount. **4. API Endpoints**
 
-**4. API Endpoints**
- * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount. 
-
-**5. Technical Testing**
-
-**6. Customer Training**
-
-**7. Request Certification for Production Environment**
+**4. Technical Test** Product Training and Integration Test
+Technical Team 
+ * Develop and execute test plans. 
+Business Team  
+ * Initiate customer success plan. 
+ * Customer Training
+ * Application Configuration
+ 
+**5. Certification**
+* Request Certification for Production Environment. 
 
 **8. Move to Production Environment**
 
