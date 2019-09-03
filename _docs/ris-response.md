@@ -1,6 +1,6 @@
 ---
 title: RIS Response
-tags:
+tags: [RIS, Response, Example]
 ---
 
 After a merchant has posted RIS information to Kount, a key-value pair string will be returned to the merchant (RIS Response). The RIS response format will be the same that was specified in the RIS post, with the default being named pairs. Each data field must be invoked by `getter` methods on the response object found in the SDK. The merchant can then use the RIS response to automate the order management process by keying off the AUTO field and can utilize any of the additional data returned for internal processing.
