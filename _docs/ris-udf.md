@@ -4,7 +4,7 @@ subtitle: Kount provides a way for merchants to include additional information r
 tags: [UDF]
 ---
 
-User Defined Fields (UDF) are created in the Agent Web Console by browsing to the Fraud Control tab and clicking on User Defined Fields. 
+**User Defined Fields (UDF)** are created in the Agent Web Console by browsing to the Fraud Control tab and clicking on User Defined Fields. 
 
 {% include image.html img="UDF-GIF.gif" alt="User Defined Field Demo" %}
 
