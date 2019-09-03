@@ -10,6 +10,8 @@ An important use of the RIS response is the ability to verify if the Data Collec
 
 ## RIS Response JSON 
 
+<span class="uk-badge">JOSN</span>
+
 ```json
 {
     "VERS": "0700",
