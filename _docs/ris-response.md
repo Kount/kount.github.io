@@ -5,7 +5,75 @@ tags:
 
 After a merchant has posted RIS information to Kount, a key-value pair string will be returned to the merchant. The RIS response format will be the same that was specified in the RIS post, with the default being named pairs. Each data field must be invoked by ’getter’ methods on the response object found in the SDK. The merchant can then use the RIS response to automate the order management process by keying off the AUTO field and can utilize any of the additional data returned for internal processing.
 
-An important use of the RIS response is the ability to verify if the Data Collector process was successful and view any warnings or errors that were made during the RIS post from the merchant. The KAPT field is used to determine if the Data Collector process was successful. KAPT=Y means successful, KAPT=N means the process was unsuccessful. All warnings will be displayed in the response and if errors do occur the RIS response will be returned with a MODE=E. Appendix C lists all warning and error codes.
+An important use of the RIS response is the ability to verify if the Data Collector process was successful and view any warnings or errors that were made during the RIS post from the merchant. The KAPT field is used to determine if the Data Collector process was successful. KAPT=Y means successful, KAPT=N means the process was unsuccessful. All warnings will be displayed in the response and if errors do occur the RIS response will be returned with a MODE=E.
+
+
+## RIS Response JSON 
+
+```json
+{
+    "VERS": "0700",
+    "MODE": "Q",
+    "TRAN": "76JG0WXRVGX3",
+    "MERC": "888889",
+    "SESS": "1567539923",
+    "ORDR": "ORDR-1567539923",
+    "AUTO": "A",
+    "SCOR": "34",
+    "GEOX": "US",
+    "BRND": "VISA",
+    "REGN": null,
+    "NETW": "N",
+    "KAPT": "N",
+    "CARDS": "1",
+    "DEVICES": "1",
+    "EMAILS": "1",
+    "VELO": "0",
+    "VMAX": "0",
+    "SITE": "DEFAULT",
+    "DEVICE_LAYERS": "....",
+    "FINGERPRINT": null,
+    "TIMEZONE": null,
+    "LOCALTIME": " ",
+    "REGION": null,
+    "COUNTRY": null,
+    "PROXY": null,
+    "JAVASCRIPT": null,
+    "FLASH": null,
+    "COOKIES": null,
+    "HTTP_COUNTRY": null,
+    "LANGUAGE": null,
+    "MOBILE_DEVICE": null,
+    "MOBILE_TYPE": null,
+    "MOBILE_FORWARDER": null,
+    "VOICE_DEVICE": null,
+    "PC_REMOTE": null,
+    "RULES_TRIGGERED": 0,
+    "COUNTERS_TRIGGERED": 0,
+    "REASON_CODE": null,
+    "DDFS": null,
+    "DSR": null,
+    "UAS": null,
+    "BROWSER": null,
+    "OS": null,
+    "PIP_IPAD": null,
+    "PIP_LAT": null,
+    "PIP_LON": null,
+    "PIP_COUNTRY": null,
+    "PIP_REGION": null,
+    "PIP_CITY": null,
+    "PIP_ORG": null,
+    "IP_IPAD": null,
+    "IP_LAT": null,
+    "IP_LON": null,
+    "IP_COUNTRY": null,
+    "IP_REGION": null,
+    "IP_CITY": null,
+    "IP_ORG": null,
+    "OMNISCORE": 60.9,
+    "WARNING_COUNT": 0
+} 
+```
 
 ### Kount recommends at the minimum the following methods/functions used in the RIS response: 
 
