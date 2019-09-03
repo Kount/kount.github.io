@@ -8,6 +8,7 @@ tags: [integration]
 
 
 **1. Kick Off** 
+
 Planning and Design
 * Kick off Meeting 
  * Evaluate Workflows 
