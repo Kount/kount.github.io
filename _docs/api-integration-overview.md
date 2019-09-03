@@ -9,8 +9,8 @@ tags: [integration]
 ## Integration Overview
 
 <ul class="uk-list uk-list-striped">
-    <li><a href="https://kount.github.io/docs/data-collector/">Data Collector</a>/li>
-    <li><a href="https://kount.github.io/docs/ris-intro/">Risk Inquiry Service (RIS)</a>/li>
-    <li><a href="https://kount.github.io/docs/api-endpoints/">API Endpoints</a>/li>
-    <li><a href="https://kount.github.io/docs/api-endpoints/">API Endpoints</a>/li>
+    <li><a href="https://kount.github.io/docs/data-collector/">Data Collector</a>
+    <li><a href="https://kount.github.io/docs/ris-intro/">Risk Inquiry Service (RIS)</a>
+    <li><a href="https://kount.github.io/docs/api-endpoints/">API Endpoints</a>
+    <li><a href="https://kount.github.io/docs/api-endpoints/">API Endpoints</a>
 </ul>
