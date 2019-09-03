@@ -14,6 +14,7 @@ tags: [integration]
  * Solutions Design
 
 **2. Real Time API** *Device Data Collector and Risk Inquiry Service*
+ 
  Device Data Collector 
  * Install Device Data collector on the Customer website. 
  * Install in Device Data Collector in Mobile Apps. [Mobile SDKs](https://kount.github.io/docs/dc-sdk/)
@@ -25,8 +26,10 @@ tags: [integration]
  * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount.
 
 **4. Technical Test** *Product Training and Integration Test*
+
 Technical Team 
  * Develop and execute test plans. 
+
 Business Team  
  * Initiate customer success plan. 
  * Customer Training
