@@ -6,7 +6,7 @@ tags: [UDF]
 
 **User Defined Fields (UDF)** are created in the Agent Web Console by browsing to the Fraud Control tab and clicking on User Defined Fields. 
 
-{% include image.html img="UDF-GIF.gif" alt="User Defined Field Demo" %}
+{% include image.html img="ezgif.com-optimize.gif" alt="User Defined Field Demo" %}
 
 Once you have defined the UDF in the Agent Web Console you will be able to pass this data into Kount via an array called UDF as key-value pairs where the label is the key and the data passed in is the value. The maximum number of UDFs that can be created is 500, and response time for evaluating transactions will degrade as more UDFs are added. There are four data types available for user defined fields.
 
