@@ -31,8 +31,8 @@ right:
     url: https://support.kount.com/
     button: primary-outline
 
-  - title: Contact
-    url: /contact/
+  - title: Support
+    url: https://support.kount.com/s/contactsupport
     button: success
     
    
