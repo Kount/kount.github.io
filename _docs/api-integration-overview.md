@@ -48,7 +48,7 @@ Product Training and Integration Test
 ## **5. Certification**
 * Request Certification for Production Environment. 
 
-## **8. Move to Production Environment**
+## **7. Move to Production Environment**
 
-## **9. Submit iOS and/or Android App Store**
+## **8. Submit iOS and/or Android App Store**
  
