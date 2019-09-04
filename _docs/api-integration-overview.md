@@ -7,7 +7,7 @@ tags: [integration, kick off, Real Time API, Test Environment]
 {% include image.html img="1-Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 
-## **1. Kick Off** <p style="text-align: center;">
+## **1. Kick Off** 
 Planning and Design
 
 * Kick off Meeting 
