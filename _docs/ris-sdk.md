@@ -30,7 +30,7 @@ tags: [RIS, SDK]
 
 ## RIS Python SDK
 
-We provide a couple of ways to obtain the Python SDK: either pip, ordownload the package from github.
+We provide a couple of ways to obtain the Python SDK: either pip, or download the package from github.
 
 
 ```bash
