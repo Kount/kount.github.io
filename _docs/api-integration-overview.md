@@ -23,7 +23,7 @@ Device Data Collector and Risk Inquiry Service
  * Install in Device Data Collector in Mobile Apps. [Mobile SDKs](https://kount.github.io/docs/dc-sdk/)
  
  **Risk Inquiry Service**
- * [Risk Inquiry Service SKDs](https://kount.github.io/docs/ris-sdk/)
+ * [Risk Inquiry Service SDKs](https://kount.github.io/docs/ris-sdk/)
 
 ## **3. RESTful API** 
 **Endpoint API and Event Notification Service**
