@@ -21,7 +21,7 @@ To open the API Key’s page, click Admin tab, choose API Keys. By default, no A
     <li>3.	Create API Key: Click this button to create the key.</li>
 </ul>
 
-{% include alert.html style="success" text="NOTE: If the merchant is a Kount Central customer, a third check box for Kount Central will be present under Key Permissions and available to be selected." %}
+{% include alert.html style="success" text="NOTE: For Kount Central customers, a third check box for Kount Central will be present under Key Permissions and available to be selected." %}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
