@@ -13,7 +13,7 @@ To open the API Key’s page, click Admin tab, choose API Keys. By default, no A
 
 ###### The Create API Key dialog box appears.
 
-![create API key dialog box](https://github.com/Kount/onboarding/blob/master/create%20api%20key%20dialog%20box.png)
+![create API key dialog box](uploads/API-KEY-BOX.png)
 
 <ul class="uk-list uk-list-divider">
     <li>1.	Key Name: Give the new key a name.</li>
