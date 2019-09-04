@@ -1,7 +1,7 @@
 ---
-title: Risk Inquiry Service Modes
+title: RIS Modes
 subtitle: Modes are used to specify what type of data is being submitted to Kount.
-tags:
+tags: [RIS modes, RIS, Mode, U, P, X, Q]
 ---
 <hr>
 
