@@ -1,13 +1,13 @@
 ---
 title: Integration Overview
 subtitle: This page provides high level details around each step of the integration process. 
-tags: [integration]
+tags: [integration, kick off, Real Time API, Test Environment]
 ---
 
 {% include image.html img="1-Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 
-## **1. Kick Off** 
+## **1. Kick Off** <p style="text-align: center;">
 Planning and Design
 
 * Kick off Meeting 
