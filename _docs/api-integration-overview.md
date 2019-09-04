@@ -16,7 +16,6 @@ Planning and Design
  * Solutions Design
 
 ## **2. Real Time API** 
-Device Data Collector and Risk Inquiry Service
  
  **Device Data Collector**
  * Install Device Data collector on the Customer website. 
