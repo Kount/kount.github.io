@@ -30,6 +30,9 @@ tags: [RIS, SDK]
 
 ## RIS Python SDK
 
+We provide a couple of ways to obtain the Python SDK: either pip, ordownload the package from github.
+
+
 ```bash
 pip install kount_ris_sdk
 ```
