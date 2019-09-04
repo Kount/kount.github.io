@@ -27,8 +27,8 @@ left:
 
 right:
 
-  - title: Knowledgebase
-    url: /https://support.kount.com/
+  - title: Knowledge Base
+    url: https://support.kount.com/
     button: primary-outline
 
   - title: Contact
