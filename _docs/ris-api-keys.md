@@ -13,7 +13,7 @@ To open the API Key’s page, click Admin tab, choose API Keys. By default, no A
 
 ###### The Create API Key dialog box appears.
 
-{% include image.html img="API-KEY-BOX.png" alt="API KEY" caption="" %}
+{% include image.html img="API-KEY-BOX.png" alt="API KEY" %}
 
 <ul class="uk-list uk-list-divider">
     <li>1.	Key Name: Give the new key a name.</li>
