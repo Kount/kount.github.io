@@ -27,10 +27,15 @@ left:
 
 right:
 
+  - title: Knowledgebase
+    url: /https://support.kount.com/
+    button: primary-outline
+
   - title: Contact
     url: /contact/
     button: success
-
+    
+   
   # - title: Changelog
   #   url: /contact/
   #   button: default
