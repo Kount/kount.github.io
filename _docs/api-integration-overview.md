@@ -8,7 +8,7 @@ tags: [integration, kick off, Real Time API, Test Environment]
 
 
 ## **1. Kick Off** 
-Planning and Design
+**Planning and Design**
 
 * Kick off Meeting 
  * Evaluate Workflows 
@@ -18,6 +18,7 @@ Planning and Design
 ## **2. Real Time API** 
  
  **Device Data Collector**
+ 
  * Install Device Data collector on the Customer website. 
  * Install in Device Data Collector in Mobile Apps. [Mobile SDKs](https://kount.github.io/docs/dc-sdk/)
  
@@ -30,6 +31,7 @@ Planning and Design
  * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount.
 
 ## **4. Technical Test** 
+
 Product Training and Integration Test
 
 **Technical Team**
