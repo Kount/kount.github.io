@@ -82,8 +82,7 @@ example that will fire an alert when the process reaches the collect-begin and c
 <html>
    .
 <head>
-<!-- Following is for Content Security Policy - For more information, please see that 
-     section within this wiki --> 
+<!-- Following is for Content Security Policy --> 
    .
 <meta http-equiv="Content-Security-Policy" content="img-src https://*.DOMAIN.com; 
 script-src 'unsafe-inline' https://*.DOMAIN.com; child-src https://*.DOMAIN.com">
