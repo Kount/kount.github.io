@@ -1,5 +1,5 @@
 ---
-title: Platform Integrations
+title: Platform Integration
 subtitle: Easily integrate Kount with popluar e-commerce platforms. 
 tags: [magento, miva, shopify, salesforce, platform]
 ---
