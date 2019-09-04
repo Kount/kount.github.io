@@ -12,4 +12,4 @@ hero:
 
 {% include featured.html tag="featured" title="Popular Articles" subtitle="Selected featured articles to get you started fast with Kount." %}
 
-{% include cta.html title="Didn't find an answer?" button_text="Contact Us" button_url="/contact/" subtitle="Get in touch with us for details on setup and additional custom services pricing." %}
+{% include cta.html title="Didn't find an answer?" button_text="Support" button_url="https://support.kount.com/s/contactsupport" subtitle="Get in touch with us for details on setup and additional custom services pricing." %}
