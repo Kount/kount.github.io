@@ -30,6 +30,10 @@ tags: [RIS, SDK]
 
 ## RIS Python SDK
 
+```bash
+pip install kount_ris_sdk
+```
+
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-python-sdk">Python SDK</a>
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-python-sdk/wiki">Python SDK Wiki</a>
