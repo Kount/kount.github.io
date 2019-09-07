@@ -69,7 +69,7 @@ hashing algorithm source code can be found in each one of the SDKs or can be req
 
 {% include alert.html style="danger" text="IMPORTANT: The above example value is just for purposes of illustration. The PTOK should be the samelength as the original card number. You can use the card number with the first 6 and last 4 numerals present and the rest of the numbers in the card masked by “Xs” but the number of characters must be the same as those of the actual card number."%}
 
-### Risk Inquiry Service Requirments
+### Risk Inquiry Service Requirements
 RIS data posted to Kount must be URL encoded and submitted as key-value pairs. Much of the work can be simplified by utilizing a Kount provided SDK, including URL encoding. Kount provides a Software Development Kit (SDK) for Java, .NET, PHP, Perl, and Mobile environments.
 
 Recommendations regarding each development environment and their supported versions, configuration, logging, and paths are found in the README file located in the “docs“ directory in each respective SDK, please read the documentation associated with each SDK.
