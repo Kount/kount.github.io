@@ -141,3 +141,5 @@ defaults:
       type:         docs
     values:
       layout:       doc
+
+theme: jekyll-theme-slate
