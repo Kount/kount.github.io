@@ -8,9 +8,9 @@
   docs:
   - data-collector
   - session-id
-  - dc-sdk
   - dc-web-browser
   - dc-faq
+  - dc-sdk
 
 - title: Step 2 - Risk Inquiry Service (RIS)
   docs:
