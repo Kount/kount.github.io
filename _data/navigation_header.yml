@@ -10,7 +10,7 @@ left:
   - title: Platform Integrations
     url: /docs/platform
 
-  - title:  Developer Resources
+  - title:  Developer
     dropdown:
 
       - title: Mobile SDKs
