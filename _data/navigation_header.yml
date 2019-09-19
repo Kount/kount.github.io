@@ -18,7 +18,10 @@ left:
 
       - title: RIS Data Dictionary
         url: /docs/ris-data-submission/
-      
+        
+      - title: RIS SDKs
+        url: /docs/ris-sdk/
+        
       - title: Technical Specification PDF
         url: /uploads/specguide696.pdf
 
