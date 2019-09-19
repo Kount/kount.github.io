@@ -15,13 +15,13 @@ left:
 
       - title: Mobile SDKs
         url: /docs/dc-sdk/
-
-      - title: RIS Data Dictionary
-        url: /docs/ris-data-submission/
-        
+      
       - title: RIS SDKs
         url: /docs/ris-sdk/
-        
+      
+      - title: RIS Data Dictionary
+        url: /docs/ris-data-submission/
+         
       - title: Technical Specification PDF
         url: /uploads/specguide696.pdf
 
