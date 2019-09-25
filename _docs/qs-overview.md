@@ -7,12 +7,11 @@ tags:
 ## Kount Complete Quickstart 
 
 #### Step 1 - Device Data Collector 
-
-<div class="uk-card uk-card-default uk-width-1-2@m uk-grid">
+<div class="uk-card uk-card-default uk-width-1-2@m">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
-                <img class="uk-border-circle" width="40" height="40" src="/uploads/Milestone-body-1-button.png">
+                <img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
             </div>
             <div class="uk-width-expand">
                 <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
@@ -24,9 +23,11 @@ tags:
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
     </div>
     <div class="uk-card-footer">
-        <a href="#" class="uk-button uk-button-success">Read more</a>
+        <a href="#" class="uk-button uk-button-text">Read more</a>
     </div>
-</div>
+ </div>
+ <div>
+ <div class="uk-card uk-card-default uk-width-1-2@m">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
@@ -45,6 +46,7 @@ tags:
         <a href="#" class="uk-button uk-button-text">Read more</a>
     </div>
 </div>
+    
 
 #### Step 1 
 
