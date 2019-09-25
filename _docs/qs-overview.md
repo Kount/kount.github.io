@@ -8,7 +8,7 @@ tags:
 
 #### Step 1 - Device Data Collector 
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-1-2@m uk-grid">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
@@ -27,8 +27,6 @@ tags:
         <a href="#" class="uk-button uk-button-text">Read more</a>
     </div>
 </div>
-
-<div class="uk-card uk-card-default uk-width-1-2@m">
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
