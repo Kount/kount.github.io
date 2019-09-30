@@ -25,7 +25,7 @@ To get started, review the documents below and download the zip file(s) containi
 
 #### Magento v2
 
- <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000HZfl/_T2g6rN9ARAJ2Q5cFVrw9VSbfjyWhAqYMEyvCMhSUKQ">User Guide April 2019</a>
+ <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/1R00000015Cq/wyEct6whtmicmSYc1gdoERgwWYK5FBns7C4rz50XTFA">User Guide April 2019</a>
  
  <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://github.com/swarming/magento2-kount">Magento 2.0 Extension</a>
 
