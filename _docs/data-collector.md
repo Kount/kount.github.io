@@ -1,5 +1,5 @@
 ---
-title: Data Collector
+title: Device Data Collector
 subtitle: The Kount Data Collector is designed to run in the background while a webpage loads in a client browser, or while in a mobile application (iOS or Android, see link below for mobile SDKs).
 tags: [setup, data collector, device, ris, web, featured]
 ---
