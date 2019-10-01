@@ -31,7 +31,7 @@ collector the most available time to complete its work. The collection is bound 
 adding the kaxsdc class and data-event=‘load’ to an HTML element, such as the HTML body or a div.
 (Code example below).
 
-{% include alert.html style="success" text="NOTE: Responsible for triggering data collection."%}
+{% include alert.html style="success" text="NOTE: This class is responsible for triggering data collection."%}
 
 
 ## Namespace & ka.ClientSDK Object
