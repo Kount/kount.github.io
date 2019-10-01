@@ -1,5 +1,5 @@
 ---
-title: API Endpoint Overview
+title: Restful API
 subtitle: Restful API access will allow a merchant to programmatically interact with Kount via API, bypassing the Agent Web Console (AWC) completely.
 tags: [API, Endpoints, Setup]
 ---
