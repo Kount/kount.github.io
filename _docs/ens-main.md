@@ -1,5 +1,5 @@
 --- 
-title: ENS Overview
+title: Event Notification Service 
 subtitle: Introduction and table of contents for the ENS, which provides merchants with the ability to have specific automated interactions without the need of the Agent Web Console.
 tage: [ENS, Event Notification Service, Event, Setup]
 ---
