@@ -4,7 +4,7 @@ subtitle:
 tags:
 ---
 
-Each RIS request must be submitted with a minimum of one shopping cart item. While other RIS data is entered in as key value pairs, shopping cart items must be submitted as an array. Each item is an index in the array, and each index must contain the following five attributes.
+Each RIS request must be submitted with a minimum of one purchased item. While other RIS data is entered in as key value pairs, purchased items must be submitted as an array. Each item is an index in the array, and each index must contain the following five attributes.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
