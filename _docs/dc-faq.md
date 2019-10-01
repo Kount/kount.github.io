@@ -1,5 +1,5 @@
 ---
-title: Data Collector FAQ 
+title: Device Data Collector FAQ 
 subtitle: Frequently asked about the Kount Data Collector. 
 tags: [data collector, device, FAQ]
 ---
