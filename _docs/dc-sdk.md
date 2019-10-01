@@ -1,5 +1,5 @@
 ---
-title: SDKs for Native Mobile Apps
+title: Native iOS and Android SDKs
 subtitle: The implementation of the Data Collector is different for native Mobile Apps. Kount has native Mobile SDKs for both iOS and Android. These SDKs can be used with all current Kount products. The native Mobile SDKs collect more data and increase the reliability of the Device ID across the life of a device. Choose the links below for more information.
 tags: [data collector, SDK, android, iOS, mobile]
 ---
