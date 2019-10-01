@@ -27,8 +27,8 @@ tags: [integration, kick off, Real Time API, Test Environment]
 
 ## **3. RESTful API** 
 **Endpoint API and Event Notification Service**
- * [Enable ENS](https://kount.github.io/docs/ens-main/) to recieve updates from Kount.
- * Configure [API enpoints](https://kount.github.io/docs/api-endpoints/) to update Kount.
+ * [Enable ENS](https://kount.github.io/docs/ens-main/) to receive updates from Kount.
+ * Configure [API Endpoints](https://kount.github.io/docs/api-endpoints/) to update Kount.
 
 ## **4. Technical Test** 
 
@@ -42,7 +42,7 @@ Product Training and Integration Test
  * Customer Training
  * Application Configuration
 
-<a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://awc.test.kount.net/">Test Enviroment</a>
+<a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://awc.test.kount.net/">Test Environment</a>
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://support.kount.com/s/article/Training-Videos">Training Videos</a>
 
