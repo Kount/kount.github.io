@@ -1,5 +1,5 @@
 ---
-title: Integration Overview
+title: Implementation Overview
 subtitle: This page provides high level details around each step of the integration process. 
 tags: [integration, kick off, Real Time API, Test Environment]
 ---
