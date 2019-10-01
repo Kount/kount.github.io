@@ -1,12 +1,12 @@
 ---
-title: Session ID Discussion
+title: Session ID 
 subtitle: The Session ID is the unique identifier for the collection event and is specific to the user’s request. You will use the Session ID for subsequent calls to the Inquiry Service.
 tags: [features]
 author: 
 ---
 
 ## Session ID Details
-* Data Collector should be run once for each user’s session within the web browser.
+* Device Data Collector should be run once for each user’s session within the web browser.
 * Session IDs must be unique per request. They must be unique for a minimum of 30 days.
 * Session ID values must be alpha-numeric values (0-9, a-z or A-Z). Dashes (-) and underscores (_)
 are acceptable.
