@@ -1,5 +1,5 @@
 ---
-title: Phone to Web Order Submissions
+title: Customer Serice Phone Orders 
 subtitle: This page provides an overview of how to submit orders orginating from a call center environment. 
 tags: [integration, phone, call center, setup, data collector]
 author:
