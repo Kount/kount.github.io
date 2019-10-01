@@ -1,5 +1,5 @@
 ---
-title: Data Collector FAQ
+title: Device Data Collector FAQ
 tags:
 ---
 
