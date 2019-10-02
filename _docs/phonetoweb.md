@@ -1,5 +1,5 @@
 ---
-title: Customer Serice Phone Orders 
+title: Customer Service Phone Orders 
 subtitle: This page provides an overview of how to submit orders originating from a call center environment. 
 tags: [integration, phone, call center, setup, data collector]
 author:
