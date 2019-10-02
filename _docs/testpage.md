@@ -271,7 +271,7 @@ tags:
 .tg .tg-fe9e{font-weight:bold;font-size:15px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="overflow-x:auto">
   <tr>
     <th class="tg-fe9e">﻿Event</th>
     <th class="tg-fe9e">Description</th>
