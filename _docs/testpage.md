@@ -11,7 +11,7 @@ tags:
 .tg .tg-3e2f{font-weight:bold;font-size:15px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#193d68;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 </style>
-<table class="tg" "style="overflow-x:auto">
+<table class="tg" style="overflow-x:auto">
 <colgroup>
 <col style="width: 216px">
 <col style="width: 303px">
@@ -142,7 +142,7 @@ tags:
 .tg .tg-3e2f{font-weight:bold;font-size:15px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#193d68;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 </style>
-<table class="tg" "style="overflow-x:auto">
+<table class="tg" style="overflow-x:auto">
 <colgroup>
 <col style="width: 385px">
 <col style="width: 278px">
