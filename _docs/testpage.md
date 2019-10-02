@@ -272,6 +272,13 @@ tags:
 .tg .tg-baqh{text-align:center;vertical-align:top}
 </style>
 <table class="tg" style="overflow-x:auto">
+<colgroup>
+<col style="width: 252px">
+<col style="width: 521px">
+<col style="width: 248px">
+<col style="width: 51px">
+<col style="width: 65px">
+</colgroup>
   <tr>
     <th class="tg-fe9e">﻿Event</th>
     <th class="tg-fe9e">Description</th>
