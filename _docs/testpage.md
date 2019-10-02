@@ -5,7 +5,7 @@ tags:
 
 ## Agent Web Console Events 
 
-<table class="tg" style="undefined;table-layout: fixed; width: 877px">
+<table class="tg" style="overflow-x:auto">
 <colgroup>
 <col style="width: 216px">
 <col style="width: 303px">
@@ -129,7 +129,7 @@ tags:
 
 ## Workflow Events 
 
-<table class="tg" style="undefined;table-layout: fixed; width: 1235px">
+<table class="tg" style="overflow-x:auto">
 <colgroup>
 <col style="width: 385px">
 <col style="width: 278px">
@@ -176,7 +176,7 @@ tags:
 
 ## Risk Events 
 
-<table class="tg" style="undefined;table-layout: fixed; width: 991px">
+<table class="tg" style="overflow-x:auto">
 <colgroup>
 <col style="width: 191px">
 <col style="width: 318px">
@@ -244,7 +244,7 @@ tags:
 
 ## Special Alert Events 
 
-<table class="tg" style="undefined;table-layout: fixed; width: 1201px">
+<table class="tg" style="overflow-x:auto">
 <colgroup>
 <col style="width: 351px">
 <col style="width: 485px">
