@@ -187,3 +187,78 @@ tags:
     <td class="tg-c3ow">Agent, API or SYSTEM</td>
   </tr>
 </table>
+
+## Risk Events 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-5197{font-weight:bold;font-size:15px;background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 991px">
+<colgroup>
+<col style="width: 191px">
+<col style="width: 318px">
+<col style="width: 278px">
+<col style="width: 98px">
+<col style="width: 106px">
+</colgroup>
+  <tr>
+    <th class="tg-5197">﻿Event</th>
+    <th class="tg-5197">Description</th>
+    <th class="tg-5197">Key</th>
+    <th class="tg-5197">Value</th>
+    <th class="tg-5197">Invoker</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_GEOX</td>
+    <td class="tg-baqh">Risk connected to region has changed.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">GEOX</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_NETW</td>
+    <td class="tg-baqh">Network type has changed.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">NETW</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_REAS</td>
+    <td class="tg-baqh">One or more risk reasons have changed.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">Reason</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_REPLY</td>
+    <td class="tg-baqh">Risk reply has changed.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">Status</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_SCOR</td>
+    <td class="tg-baqh">Risk score has changed.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">Score</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_VELO</td>
+    <td class="tg-baqh">2-week velocity has changed</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">VELO</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">RISK_CHANGE_VMAX</td>
+    <td class="tg-baqh">6-hour velocity has changed.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">VMAX</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+</table>
