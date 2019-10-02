@@ -262,3 +262,36 @@ tags:
     <td class="tg-baqh">System</td>
   </tr>
 </table>
+
+## Special Alert Events 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-5197{font-weight:bold;font-size:15px;background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1201px">
+<colgroup>
+<col style="width: 351px">
+<col style="width: 485px">
+<col style="width: 197px">
+<col style="width: 82px">
+<col style="width: 86px">
+</colgroup>
+  <tr>
+    <th class="tg-5197">﻿Event</th>
+    <th class="tg-5197">Description</th>
+    <th class="tg-5197">Key</th>
+    <th class="tg-5197">Value</th>
+    <th class="tg-5197">Invoker</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">SPECIAL_ALERT_TRANSACTION</td>
+    <td class="tg-baqh">A manually approved transaction has crossed the Queue Options Score threshold.</td>
+    <td class="tg-baqh">Transaction ID, Order Number, Site ID</td>
+    <td class="tg-baqh">Score</td>
+    <td class="tg-baqh">System</td>
+  </tr>
+</table>
