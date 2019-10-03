@@ -4,13 +4,13 @@ subtitle:
 tags: [RIS, SDK]
 ---
 
-## RIS Java SDK
+## RIS Java SDK 
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a>
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/wiki">Java SDK Wiki</a>
 
-<a href="" uk-icon="Info"> </a><a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/releases">Java SDK Release Notes</a>
+</a><a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/releases">Java SDK Release Notes</a>
 
 ## RIS PHP SDK 
 
