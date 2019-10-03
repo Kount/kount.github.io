@@ -28,6 +28,7 @@
 - title: Step 3 - Event Notification Service
   docs: 
   - ens-main
+  - ens-event-types
 
 - title: Step 4 - API Endpoints
   docs: 
