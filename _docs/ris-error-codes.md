@@ -12,7 +12,7 @@ tags: [error codes]
 .tg .tg-pax9{font-weight:bold;font-size:15px;background-color:#193d68;color:#ffffff;text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="overflow-x:auto">
   <tr>
     <th class="tg-5197">﻿Response Code</th>
     <th class="tg-5197">Warning/Error Label</th>
