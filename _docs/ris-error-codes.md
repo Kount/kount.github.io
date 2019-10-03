@@ -7,7 +7,7 @@ An important use of the RIS response is the ability to verify if the
 decision-making process was successful and view any warnings or errors
 that were made during the RIS post from the merchant. All warnings will
 be displayed in the response and if errors do occur the RIS response
-will be returned with a ``MODE = E``. `MODE = E`
+will be returned with a `MODE = E`.
 
 Here's a list of all used RIS warning and error codes.
 
@@ -337,3 +337,10 @@ Here's a list of all used RIS warning and error codes.
     <td class="tg-0lax">No header found with merchantId = [XXXXX], session_id = [htot2kk5khpamo45f777q455], trans=[122347] This error occurs when a RIS request goes to the database and there is no data available in the reply. The Update post had an invalid transaction ID#. Check all required fields for update post and confirm they are being passed correctly.</td>
   </tr>
 </table>
+
+-  **Missing**: When this designation appears, the customer has failed
+   to complete a required field.
+-  **Bad**: When this designation appears, some data was sent but failed
+   to meet specifications. This could also be explained as malformed
+   data or bad code that did not meet specifications, such as
+   `AVS = W` instead of `AVS = M`.
