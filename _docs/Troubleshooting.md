@@ -34,7 +34,7 @@ RIS Warning and Error Codes
 <tr class="even">
 <td align="left">202</td>
 <td align="left"><code>MISSING_MODE</code></td>
-<td align="left"><blockquote>
+<td align="left">
 <p>The mode type for post is missing. Refer to the</p>
 </blockquote>
 <a href="Request-types-and-Parameters.html">Request Types</a></td>
