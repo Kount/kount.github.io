@@ -11,8 +11,6 @@ An important use of the RIS response is the ability to verify if the decision-ma
 
 Here's a list of all used RIS warning and error codes.
 
-RIS Warning and Error Codes
-===========================
 
 <table>
 <col width="17%" />
@@ -36,7 +34,6 @@ RIS Warning and Error Codes
 <td align="left"><code>MISSING_MODE</code></td>
 <td align="left">
 <p>The mode type for post is missing. Refer to the</p>
-</blockquote>
 <a href="Request-types-and-Parameters.html">Request Types</a></td>
 </tr>
 <tr class="odd">
