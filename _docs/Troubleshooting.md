@@ -8,7 +8,7 @@ An important use of the RIS response is the ability to verify if the decision-ma
 Here's a list of all used RIS warning and error codes.
 
 <style type="text/css"> .tg {border-collapse:collapse;border-spacing:0;} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg .tg-3e2f{font-weight:bold;font-size:15px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#193d68;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top} .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top} </style>
-<table>
+<table class="tg" style="overflow-x:auto">
 <col width="17%" />
 <col width="25%" />
 <col width="57%" />
