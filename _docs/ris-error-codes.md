@@ -2,7 +2,6 @@
 title: RIS Error Codes
 tags: [error codes] 
 ---
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -12,7 +11,7 @@ tags: [error codes]
 .tg .tg-pax9{font-weight:bold;font-size:15px;background-color:#193d68;color:#ffffff;text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
-<table class="tg" style="overflow-x:auto">
+<table class="tg">
   <tr>
     <th class="tg-5197">﻿Response Code</th>
     <th class="tg-5197">Warning/Error Label</th>
@@ -26,12 +25,7 @@ tags: [error codes]
   <tr>
     <td class="tg-baqh">202</td>
     <td class="tg-baqh">MISSING_MODE</td>
-    <td class="tg-0lax">The mode type for post is missing. Refer to the</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh"></td>
-    <td class="tg-baqh"></td>
-    <td class="tg-0lax">Request Types</td>
+    <td class="tg-0lax">The mode type for post is missing. Refer to the RIS Modes page for more information. </td>
   </tr>
   <tr>
     <td class="tg-baqh">203</td>
