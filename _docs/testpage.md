@@ -294,3 +294,12 @@ tags:
     <td class="tg-baqh">System</td>
   </tr>
 </table>
+
+
+| Response Code | Warning/Error Label | Response Code Description                                                                               |
+| ------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
+| 201           | `MISSING_VERS`      | Missing version of Kount, this is built into SDK but must be supplied by merchant if not using the SDK  |
+| 202           | `MISSING_MODE`      | The mode type for post is missing. Refer to the `Request Types <Request-types-and-Parameters.html>`\_\_ |
+| 203           | `MISSING_MERC`      | The six digit Merchant ID was not sent                                                                  |
+| 204           | `MISSING_SESS`      | The unique session ID was not sent                                                                      |
+| 205           | `MISSING_TRAN`      | Transaction ID number
