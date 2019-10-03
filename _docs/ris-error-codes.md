@@ -19,7 +19,7 @@ tags: [error codes]
   </tr>
   <tr>
     <td class="tg-baqh">201</td>
-    <td class="tg-baqh">MISSING_VERS</td>
+    <td class="tg-baqh"><code>MISSING_VERS</code></td>
     <td class="tg-0lax">Missing version of Kount, this is built into SDK but must be supplied by merchant if not using the SDK</td>
   </tr>
   <tr>
