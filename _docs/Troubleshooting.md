@@ -1,3 +1,8 @@
+---
+title: RIS Warning and Error Codes
+tags: [error codes] 
+
+
 An important use of the RIS response is the ability to verify if the decision-making process was successful and view any warnings or errors that were made during the RIS post from the merchant. All warnings will be displayed in the response and if errors do occur the RIS response will be returned with a `MODE = E`.
 
 Here's a list of all used RIS warning and error codes.
