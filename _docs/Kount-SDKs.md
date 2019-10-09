@@ -23,7 +23,7 @@ tags:
               <img class="uk-align-center" width="100" height="100" src="/uploads/Java logo@4x-50.jpg" alt="">
             <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a></p>
             <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk/wiki">Github Wiki</a></p>
-            <p><a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/releases">Release Notes</a></p>
+            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk/releases">Release Notes</a></p>
         </div>
     </div>
     <div>
