@@ -8,11 +8,11 @@ tags: [RIS, SDK]
 
 <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
     <div>
-        <div class="uk-card uk-card-default uk-card-body"><a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a>
+        <div class="uk-card uk-card-default uk-card-body"><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a>
 
-<a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/wiki">Java SDK Wiki</a>
+<a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk/wiki">Java SDK Wiki</a>
 
-<a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/releases">Java SDK Release Notes</a></div>
+<a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk/releases">Java SDK Release Notes</a></div>
     </div>
     <div>
         <div class="uk-card uk-card-default uk-card-body">Item</div>
