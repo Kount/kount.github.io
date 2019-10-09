@@ -1,6 +1,7 @@
 ---
 title: Kount SDKs
-tags: 
+subtitle: A collection of SDKs for the Kount Device Data Collector and the Kount Risk Inquiry Service. 
+tags: [SDKs]
 ---
 
 ## Device Data Collector SDKs
