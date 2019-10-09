@@ -22,7 +22,6 @@ tags:
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk/releases">Release Notes</a></p>
         </div>
     </div>
-
 <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
