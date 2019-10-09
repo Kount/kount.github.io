@@ -5,7 +5,7 @@ tags:
 
 # Risk Inquiry SKDs
 
-<div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+<div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
               <img class="uk-align-center" width="100" height="100" src="/uploads/Java logo@4x-50.jpg" alt="">
