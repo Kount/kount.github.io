@@ -8,7 +8,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
             <div class="uk-card-media-top">
-                <img class="uk-border-rounded" width="75" height="75" src="/uploads/ioslogocard-01.svg" alt="">
+                <img class="uk-border-rounded" width="125" height="125" src="/uploads/ioslogocard-01.svg" alt="">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">iOS SDK</h3>
