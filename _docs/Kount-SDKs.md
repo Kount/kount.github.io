@@ -24,7 +24,7 @@ tags:
    </div>
 </div>
 
-## Risk Inquiry SKDs
+## Risk Inquiry Service SKDs
 
 <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
     <div>
