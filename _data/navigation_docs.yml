@@ -4,7 +4,7 @@
   - api-integration-overview
   - platform
   
-- title: Step 1 - Data Collector
+- title: Step 1 - Device Data Collector
   docs:
   - data-collector
   - session-id
