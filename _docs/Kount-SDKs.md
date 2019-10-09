@@ -21,6 +21,8 @@ tags:
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk/wiki">Github Wiki</a></p>
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk/releases">Release Notes</a></p>
       </div>
+   </div>
+</div>
 
 # Device Data Collector SDKs
 
