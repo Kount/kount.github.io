@@ -34,7 +34,7 @@ tags:
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
                <img class="uk-align-center" width="100" height="100" src="/uploads/PHP logo@4x-50.jpg" alt="">
-            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk">PHP SDK</a></p>
+            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk">PHP test SDK</a></p>
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk/wiki">Github Wiki</a></p>
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-php-sdk/releases">Release Notes</a></p>
     </div>
