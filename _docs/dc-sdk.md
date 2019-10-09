@@ -22,7 +22,7 @@ tags: [data collector, SDK, android, iOS, mobile]
     <div>
         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
              <div class="uk-card-media-top">
-                <img src="/uploads/androidlogocard-01.svg" alt="">
+                <img class="uk-border-rounded uk-align-center" width="225" height="225" src="/uploads/androidlogocard-01.svg" alt="">
                 </div>
                 <div class="uk-card-body">
                 <h3 class="uk-card-title">Android SDK</h3>
