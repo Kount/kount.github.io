@@ -3,7 +3,7 @@ title: Kount SDKs
 tags: 
 ---
 
-# Device Data Collector SDKs
+## Device Data Collector SDKs
 
 <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
     <div>
@@ -24,7 +24,7 @@ tags:
    </div>
 </div>
 
-# Risk Inquiry SKDs
+## Risk Inquiry SKDs
 
 <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
     <div>
