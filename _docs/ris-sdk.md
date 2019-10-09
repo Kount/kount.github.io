@@ -8,7 +8,8 @@ tags: [RIS, SDK]
 
 <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
     <div>
-        <p><div class="uk-card uk-card-default uk-card-body"><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a></p>
+        <p><div class="uk-card uk-card-default uk-card-body"><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a>
+        </p>
 
 <a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk/wiki">Java SDK Wiki</a>
 
