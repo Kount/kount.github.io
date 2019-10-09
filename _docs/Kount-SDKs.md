@@ -22,8 +22,8 @@ tags:
         <div class="uk-card uk-card-default uk-card-body">
               <img class="uk-align-center" width="100" height="100" src="/uploads/Java logo@4x-50.jpg" alt="">
             <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk">Java SDK</a></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-java-sdk/wiki">Java SDK Wiki</a></p>
+            <p><a class="uk-button uk-badge uk-button-default uk-width-1-2" href="https://github.com/Kount/kount-ris-java-sdk/releases">Java SDK Release Notes</a></p>
         </div>
     </div>
     <div>
