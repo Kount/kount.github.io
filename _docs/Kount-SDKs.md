@@ -53,8 +53,6 @@ tags:
     <div>
         <div class="uk-card uk-card-secondary uk-card-body">
           <div class="uk-card-media-top">
-                <img class="uk-align-center" width="100" height="100" src="/uploads/Java logo@4x-50.jpg" alt="">
-            <h3 class="uk-card-title">Secondary</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
     </div>
