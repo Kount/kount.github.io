@@ -13,11 +13,8 @@ left:
   - title:  Developer
     dropdown:
 
-      - title: Mobile SDKs
-        url: /docs/dc-sdk/
-      
-      - title: RIS SDKs
-        url: /docs/ris-sdk/
+      - title: Kount SDKs
+        url: /docs/Kount-SDKs/
       
       - title: RIS Data Dictionary
         url: /docs/ris-data-submission/
