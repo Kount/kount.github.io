@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Shopiy Integration
+title: Shopify Integration
 subtitle: Overview of the Kount Complete App in the Shopify Marketplace. 
 tags: [shopify]
 ---
