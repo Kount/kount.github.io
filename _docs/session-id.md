@@ -8,13 +8,13 @@ author:
 ## Overview
 By default the unique identifier (Session ID) is created by Kount and returned when the device data collection completes, which is the recommendation of Kount. The session ID is stored by the Merchant and passed to Kount with the event details in the Risk Inquiry Service API call. This method ensures the uniqueness of the session ID. 
  
-```java
+```
 <script type='text/javascript' src='https://DATA_COLLECTOR_URL/collect/sdk?m=123456'> </script>
 ```
 
 If desired the session identifier can also be created by including the session parameter as part of the URL string.
 
-```java
+```
 <script type='text/javascript' src='https://DATA_COLLECTOR_URL/collect/sdk?m=123456&s=abcdefg12345abababab123456789012'> </script>
 ```
 
