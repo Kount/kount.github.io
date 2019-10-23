@@ -50,8 +50,8 @@ Once you have defined the UDF in the Agent Web Console you will be able to pass 
   </tr>
   <tr>
     <td class="tg-buh4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UDF[DATE_LABEL]=value</td>
-    <td class="tg-buh4">43485</td>
-    <td class="tg-buh4">Formatted as YYYY-MM-DD or YYYYMM- DD HH:MI:SS</td>
+    <td class="tg-buh4">1-19</td>
+    <td class="tg-buh4">Formatted as YYYY-MM-DD or YYYY-MM-DD HH:MI:SS</td>
     <td class="tg-buh4">UDF[FIRST_CONTACT]</td>
   </tr>
   <tr>
