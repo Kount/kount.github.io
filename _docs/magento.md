@@ -21,7 +21,7 @@ To get started, review the documents below and download the zip file(s) containi
 
  <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://na82.salesforce.com/sfc/p/#36000000b56U/a/36000000HZiu/oSkTSfwZhL8zEXLv3LKYIR.W8_W_2bQYN18iYTOjmWw">User Guide</a>
  
- <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000Q0vf/g_0KiEXqgnPcdtInGzr3jTsQ_dWj3rifCLohkdTVeSg">Magento 1 Extension</a>
+ <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000Q0vf/g_0KiEXqgnPcdtInGzr3jTsQ_dWj3rifCLohkdTVeSg">Magento 1.0 Extension</a>
  
   <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://kount.my.salesforce.com/sfc/p/#36000000b56U/a/36000000HZfl/_T2g6rN9ARAJ2Q5cFVrw9VSbfjyWhAqYMEyvCMhSUKQ">Upgrade Instructions</a>
 
