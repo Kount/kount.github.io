@@ -50,7 +50,7 @@ tags: [SDKs]
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
               <img class="uk-align-center" width="100" height="100" src="/uploads/DotNET logo@4x-50.jpg" alt="">
-            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-dotnet-sdk">Java SDK</a></p>
+            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-dotnet-sdk">.NET SDK</a></p>
             <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-dotnet-sdk/wiki">Github Wiki</a></p>
             <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-dotnet-sdk/releases">Release Notes</a></p>
         </div>
@@ -58,7 +58,7 @@ tags: [SDKs]
     <div>
         <div class="uk-card uk-card-default uk-card-hover uk-card-body">
                <img class="uk-align-center" width="100" height="100" src="/uploads/Python logo@4x-50.jpg" alt="">
-            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-python-sdk">PHP SDK</a></p>
+            <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-python-sdk">Python SDK</a></p>
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-python-sdk/wiki">Github Wiki</a></p>
           <p><a class="uk-button uk-badge uk-button-default uk-width-1-1" href="https://github.com/Kount/kount-ris-python-sdk/releases">Release Notes</a></p>
       </div>
