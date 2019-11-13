@@ -13,7 +13,7 @@ tags: [shopify]
 
 ## Auto-Capture Functionality
 ![](images/shopify-release-3.3.0-capture.png)
-<p> If the Auto-Capture box is checked in the configuration of the Kount - Shopify app, an Approve response from Kount will trigger a capture of the outstanding authorization(s) for the order.  This functionality applies for the initial response from Kount as well as an ENS update that moves an order from the Review status to Approve.
+If the Auto-Capture box is checked in the configuration of the Kount - Shopify app, an Approve response from Kount will trigger a capture of the outstanding authorization(s) for the order.  This functionality applies for the initial response from Kount as well as an ENS update that moves an order from the Review status to Approve.
 
 > It is important to note that if this functionality is enabled, it is recommended that the merchant updates their payment capture configuration settings to manually capture payments for orders.
 
