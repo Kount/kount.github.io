@@ -24,7 +24,7 @@ If the Auto-Capture box is checked in the configuration of the Kount - Shopify a
 
 ## Auto-Void Functionality
 
-{% include image.html img="shopify-release-3.3.0-void.png" lightbox="true" alt="Alt for image" %}
+{% include image.html img="shopify-release-3.3.0-void.png" lightbox="true" alt="Need to upload shopify-release-3.3.0-void.png " %}
 
 
 If the Auto-Capture box is checked in the configuration of the Kount - Shopify app, a Decline response from Kount will trigger a void of all the outstanding authorization(s) for the order.  This functionality applies for the initial response from Kount as well as an ENS update that moves an order from the Review status to Decline.
