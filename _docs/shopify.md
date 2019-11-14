@@ -22,3 +22,13 @@ Once you have obtained a Kount Merchant ID and AWC login credentials, use the fo
  <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://support.kount.com/s/article/Install-Kount-Complete-for-a-Single-Shopify-Store">First Time Installing</a>
 
  <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://support.kount.com/s/article/Install-Kount-Complete-for-Multiple-Shopify-Stores">Install on Multiple Sites</a>
+ 
+## Release Notes
+
+11/2019, [Release 3.3.0](shopify-release-3.3.0.md)
+* Auto-Capture Functionality Added
+* Auto-Void Functionality Added
+* Application Log
+* Bug Fixes and Internal Improvements
+
+
