@@ -25,7 +25,7 @@ Once you have obtained a Kount Merchant ID and AWC login credentials, use the fo
  
 ## Release Notes
 
-11/2019, [Release 3.3.0](../docs/shopify-release-3.3.0)
+11/2019, [Release 3.3.0](../blob/master/docs/shopify-release-3.3.0)
 * Auto-Capture Functionality Added
 * Auto-Void Functionality Added
 * Application Log
