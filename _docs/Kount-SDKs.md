@@ -25,7 +25,7 @@ tags: [SDKs]
    </div>
 </div>
 
-## Risk Inquiry Service SKDs
+## Risk Inquiry Service SDKs
 
 <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
     <div>
