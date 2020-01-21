@@ -78,7 +78,7 @@ example that will fire an alert when the process reaches the collect-begin and c
 
 {% include alert.html style="success" text="NOTE: It is recommended that the Data Collector code exist at the top of the page load so it has adequate time to run before a user finishes their interaction with the webpage."%}
 
-```javascript
+```HTML
 <html>
    .
 <head>
