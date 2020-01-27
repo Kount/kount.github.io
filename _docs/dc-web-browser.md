@@ -62,7 +62,7 @@ where:
     <br>
     Exclude this parameter from the call to the download of the SDK to have Kount generate a session ID for you.
     
-   See [session ID](session-id.html) discussion in this documentation for more information.</td>
+   See <a href='https://kount.github.io/docs/session-id/'>session ID</a> discussion in this documentation for more information.</td>
   </tr>
   <tr>
     <td class="tg-dzk6">DATA\_COLLECTOR\_URL</td>
