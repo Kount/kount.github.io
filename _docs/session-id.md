@@ -12,7 +12,9 @@ author: Todd Funke
 ## Overview
 The Session ID is a critical component of the Kount integration.  It is the data element that allows the Device Collection transaction to be tied to the Risk Assessment (RIS) being done on the transaction.  The same Session ID used for Device Collection must be sent along with the RIS payload.  
 
-> **_NOTE:_**  It is important to understand that the session ID that is used here is not the same concept as a web session.  You must make sure the Session ID used for the integration to Kount is unique per each Kount Risk Assessment transaction.  See the [Session ID Requirements](#session-id-requirements) section below for more information.
+> **_NOTE:_**  It is important to understand that the session ID that is used here is not the same concept as a web session.  You must make sure the Session ID used for the integration to Kount is unique per each Kount Risk Assessment transaction.  
+> 
+> See the [Session ID Requirements](#session-id-requirements) section below for more information.
 
 ## Implementation Details
 The integration allows for two ways to create a Session ID:

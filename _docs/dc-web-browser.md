@@ -23,7 +23,9 @@ The Device Data Collector runs on a client’s browser and collects a variety of
 </ol>
 
 ## Download the Kount Device Data Collection SDK
-The Kount Device Data Collection SDK is hosted by Kount, and needs to be downloaded dynamically to be used on a web page.  The following code can be used to download the SDK:
+The Kount Device Data Collection SDK is hosted by Kount, and needs to be downloaded dynamically to be used on a web page.  
+
+The following code can be used to download the SDK:
 
 ```html
 <script 
@@ -58,23 +60,27 @@ where:
     <td class="tg-baqh">s</td>
     <td class="tg-0lax">32 character session ID <br>
     <br>
-    Exclude this parameter from the call to the download of the SDK to have Kount generate a session ID for you.  See session ID discussion in this documentation for more information.</td>
+    Exclude this parameter from the call to the download of the SDK to have Kount generate a session ID for you.
+    
+   See [session ID](session-id.md) discussion in this documentation for more information.</td>
   </tr>
   <tr>
     <td class="tg-dzk6">DATA\_COLLECTOR\_URL</td>
-    <td class="tg-buh4">The URLs for the Data Collector are Environment specific. There is a URL for Test and a URL for Production. The URL must be obtained from Client Success.Please contact your Client SuccessManager or support@kount.com</td>
+    <td class="tg-buh4">The URLs for the Data Collector are Environment specific. There is a URL for Test and a URL for Production. The URL must be obtained from Client Success.Please contact your Client Success Manager or support@kount.com</td>
   </tr>
 </table>
 
 ## Content Security Policy
-If your organization has instituted a Content Security Policy on your website that interferes with the execution of the Device Data Collection on your site, you will need to add this to your page.  Please refer to the documentation, or reach out to your Kount technical resource for assistence.
+If your organization has instituted a Content Security Policy on your website that interferes with the execution of the Device Data Collection on your site, you will need to add this to your page.  
+
+Please refer to the documentation, or reach out to your Kount technical resource for assistance.
 
 ## Configure the Trigger
 The Device Data Collector SDK collection process is triggered asynchronously by the 'load' data-event. This gives the collector the most available time to complete its work. The collection is bound to the page load event by adding the kaxsdc class and data-event=‘load’ to an HTML element, such as the HTML body or a div.  It looks something like this:
 
 `<body class='kaxsdc' data-event='load'>`
 
-> **_NOTE:_** To see this in context, refer to the code example below...
+> **_NOTE:_** To see this in context, refer to the [code example](#code-example) below...
 
 ## Configure the Client
 
@@ -120,12 +126,15 @@ client.setupCallback(
             }
     }
 ```
+
+> **_NOTE:_** To see this in context, refer to the [code example](#code-example) below...
+
 <li><b>Auto Load Events</b></li>
 <p>Call the autoLoadEvents method on the client to attach the collection process to be automatically triggered by the page elements load event with the className “kaxsdc" configured in Step 3.</p>
 `client.autoLoadEvents();`
 </ul>
 
-> **_NOTE:_** To see this in context, refer to the code example below...
+> **_NOTE:_** To see this in context, refer to the [code example](#code-example) below...
 
 ## Code Example
 
@@ -139,8 +148,8 @@ This code is an example of where each of the components discussed above appear i
 <head>
 <!-- Following is for Content Security Policy --> 
    .
- < meta http-equiv="Content-Security-Policy" content="img-src https://DATA_COLLECTOR_URL; connect-src 'self' 'unsafe-eval'   
-'unsafe-inline' https://DATA_COLLECTOR_URL; script-src 'unsafe-eval' 'unsafe-inline' https://DATA_COLLECTOR_URL; child-src https://DATA_COLLECTOR_URL"> 
+<meta http-equiv="Content-Security-Policy" content="img-src https://*.DOMAIN.com; 
+script-src 'unsafe-inline' https://*.DOMAIN.com; child-src https://*.DOMAIN.com">
    .
    .
 </head>
