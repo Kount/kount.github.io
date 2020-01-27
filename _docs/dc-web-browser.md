@@ -87,11 +87,12 @@ The Device Data Collector SDK collection process is triggered asynchronously by 
 The Kount collector JavaScript is namespaced under the ka JavaScript object. It is required to have the above /collect/sdk script tag added to your page, which will import the Device Data Collector SDK. 
 
 To start using the Device Data Collector SDK:
-<ul>
-<li><b>Create a new ClientSDK object</b></li> 
+
+* <b>Create a new ClientSDK object</b>
+
 `var client = new ka.ClientSDK();`
 
-<li><b>Optionally Setup Callback Methods</b></li>
+* <b>Optionally Setup Callback Methods</b>
 <p>The SDK provides a client programmable callback system that allows the client to execute custom code at certain points in the data collection process. This method allows a merchant to add a callback function to be called at a specified life-cycle hook. A merchant can pass a JavaScript object containing one or more life cycle hooks with a function pointer or an anonymous function to be executed.</p>
 <p>List of hooks (In order of firing):</p>
 <ul>
@@ -130,10 +131,10 @@ client.setupCallback(
 
 > **_NOTE:_** To see this in context, refer to the [code example](#code-example) below...
 
-<li><b>Auto Load Events</b></li>
+* <b>Auto Load Events</b>
 <p>Call the autoLoadEvents method on the client to attach the collection process to be automatically triggered by the page elements load event with the className “kaxsdc" configured in Step 3.</p>
+
 `client.autoLoadEvents();`
-</ul>
 
 > **_NOTE:_** To see this in context, refer to the [code example](#code-example) below...
 
