@@ -150,7 +150,9 @@ This code is an example of where each of the components discussed above appear i
 <head>
 <!-- Following is for Content Security Policy --> 
    .
-<meta http-equiv="Content-Security-Policy" content="img-src https://DATA_COLLECTOR_URL;connect-src 'self' 'unsafe-eval' 'unsafe-inline' https://DATA_COLLECTOR_URL; script-src 'unsafe-eval' 'unsafe-inline' https://DATA_COLLECTOR_URL; child-src https://DATA_COLLECTOR_URL">
+<meta http-equiv="Content-Security-Policy" content="img-src https://DATA_COLLECTOR_URL;connect-src 'self' 'unsafe
+eval' 'unsafe-inline' https://DATA_COLLECTOR_URL; script-src 'unsafe-eval' 'unsafe-inline' https://DATA_COLLECTOR_URL; child 
+src https://DATA_COLLECTOR_URL">
    .
    .
 </head>
