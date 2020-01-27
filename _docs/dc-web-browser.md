@@ -62,7 +62,7 @@ where:
     <br>
     Exclude this parameter from the call to the download of the SDK to have Kount generate a session ID for you.
     
-   See [session ID](session-id.md) discussion in this documentation for more information.</td>
+   See [session ID](session-id.html) discussion in this documentation for more information.</td>
   </tr>
   <tr>
     <td class="tg-dzk6">DATA\_COLLECTOR\_URL</td>
@@ -89,8 +89,8 @@ The Kount collector JavaScript is namespaced under the ka JavaScript object. It 
 To start using the Device Data Collector SDK:
 <ul>
 <li><b>Create a new ClientSDK object</b></li> 
-`var client = new ka.ClientSDK();`<br>
-<br>
+`var client = new ka.ClientSDK();`
+
 <li><b>Optionally Setup Callback Methods</b></li>
 <p>The SDK provides a client programmable callback system that allows the client to execute custom code at certain points in the data collection process. This method allows a merchant to add a callback function to be called at a specified life-cycle hook. A merchant can pass a JavaScript object containing one or more life cycle hooks with a function pointer or an anonymous function to be executed.</p>
 <p>List of hooks (In order of firing):</p>
@@ -126,6 +126,7 @@ client.setupCallback(
             }
     }
 ```
+
 
 > **_NOTE:_** To see this in context, refer to the [code example](#code-example) below...
 
