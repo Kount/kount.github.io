@@ -2,65 +2,44 @@
 title: Session ID 
 subtitle: The Session ID is the unique identifier for the collection event and is specific to the user’s request. You will use the Session ID for subsequent calls to the Inquiry Service.
 tags: [features]
-author: 
+author: Todd Funke
 ---
 
-## Overview
-By default the unique identifier (Session ID) is created by Kount and returned when the device data collection completes, which is the recommendation of Kount. This method ensures the uniqueness of the session ID. 
+{:.no_toc}
+* TOC
+{:toc}
 
-The session ID is stored by the Merchant and passed to Kount with the event details in the Risk Inquiry Service API call.  
- 
+## Overview
+The Session ID is a critical component of the Kount integration.  It is the data element that allows the Device Collection transaction to be tied to the Risk Assessment (RIS) being done on the transaction.  The same Session ID used for Device Collection must be sent along with the RIS payload.  
+
+> **_NOTE:_**  It is important to understand that the session ID that is used here is not the same concept as a web session.  You must make sure the Session ID used for the integration to Kount is unique per each Kount Risk Assessment transaction.  See the Session ID Requirements section below for more information.
+
+## Implementation Details
+The integration allows for two ways to create a Session ID:
+
+### Let Kount Do it
+This method is recommended by Kount.  The value is created by Kount and will be returned when the device data collection SDK is downloaded.  This method ensures the uniqueness of the session ID, and also ensures that it meets the requirements of a valid session ID.  This is accomplished by excluding the session ID parameter in the call to download the Device Data Collection SDK, like this (web implementation only):
+
 ```html
 <script type='text/javascript' src='https://DATA_COLLECTOR_URL/collect/sdk?m=123456'> </script>
-```
+``` 
+> **_NOTE:_** This option is not available for a native mobile device collection integration.
 
-If desired the session identifier can also be created by including the session parameter as part of the URL string.
+### Generate your Own 
+If you want or need control over the session ID that is passed to Kount, you have the option to generate your own.  This is accomplished by creating the session ID that meets the criteria described below and including that in the call to download the Device Data Collection SDK (web implementation only).  Assuming the session ID used in this example is abcdefg12345abababab123456789012, the call to download the SDK looks like this:
 
 ```html
 <script type='text/javascript' src='https://DATA_COLLECTOR_URL/collect/sdk?m=123456&s=abcdefg12345abababab123456789012'> </script>
 ```
 
+### How do I Access my Session ID
+Whether you let Kount generate your session ID, or you generate your own, it'll be made availble to the script on the page via the ka.sessionId attribute that is included in the downloaded Device Data Collection SDK.  This is discussed in greater detail on the Web Client and Browser Setup documentation page.
 
-## Session ID Details
-* Device Data Collector should be run once for each user’s session within the web browser.
+## Session ID Requirements
 * Session IDs must be unique per request. They must be unique for a minimum of 30 days.
-* Session ID values must be alpha-numeric values (0-9, a-z or A-Z). Dashes (-) and underscores (_)
-are acceptable.
+* Session ID must contain only alphanumeric characters (0-9, a-z or A-Z), dashes (-) or underscores (_).
 * Session ID values should be 32 characters in length. Session ID values of less than 32 characters
-will be accepted, but it is strongly recommended to use a 32 character value. Note: 32
-characters is the maximum number of characters, an error will be thrown if the Session ID
-exceeds 32 characters.
+will be accepted, but it is strongly recommended to use a 32 character value.</br>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-9qtj{background-color:#193d68;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-buh4{background-color:#f9f9f9;text-align:left;vertical-align:top}
-.tg .tg-i5ij{background-color:#193d68;color:#ffffff;text-align:left;vertical-align:top}
-.tg .tg-dzk6{background-color:#f9f9f9;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-9qtj">﻿VAR</th>
-    <th class="tg-i5ij">Description</th>
-    <th class="tg-9qtj">Sample</th>
-  </tr>
-  <tr>
-    <td class="tg-dzk6">m</td>
-    <td class="tg-buh4">Six digit Merchant ID number issued by Kount.</td>
-    <td class="tg-dzk6">m=123456</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">s</td>
-    <td class="tg-0lax">32 character session ID, see session ID discussion for more information.</td>
-    <td class="tg-baqh">s=abcdefg12345abababab123456789012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-dzk6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATA_COLLECTOR_URL</td>
-    <td class="tg-buh4">The URLs for the Data Collector are Environment specific. There is a URL for Test and a URL for Production. The URL must be obtained from Client Success.Please contact your Client SuccessManager or support@kount.com</td>
-    <td class="tg-dzk6"></td>
-  </tr>
-</table>
+> **_NOTE:_** If the Session ID exceeds 32 characters or contains any invalid characters, an error will be thrown when attempting to download the SDK
+
