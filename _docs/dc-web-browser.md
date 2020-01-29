@@ -73,7 +73,7 @@ where:
 ## Content Security Policy
 If your organization has instituted a Content Security Policy on your website that interferes with the execution of the Device Data Collection on your site, you will need to add this to your page.  
 
-Please refer to the documentation, or reach out to your Kount technical resource for assistance.
+Please reach out to your Kount technical resource for assistance.
 
 ## Configure the Trigger
 The Device Data Collector SDK collection process is triggered asynchronously by the 'load' data-event. This gives the collector the most available time to complete its work. The collection is bound to the page load event by adding the kaxsdc class and data-event=‘load’ to an HTML element, such as the HTML body or a div.  It looks something like this:
