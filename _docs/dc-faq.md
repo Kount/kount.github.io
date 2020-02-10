@@ -48,3 +48,12 @@ Determine if the process was successful by using Developer Tools within Chrome o
 
 #### Q: How to configure the Data Collector for Phone orders?
 Please see <a href='https://kount.github.io/docs/phonetoweb/'>Phone to Web Orders Submissions Page</a>
+
+#### Q: My site does not have any Content Security Policy (CSP) meta tags.  Should I still add them?
+No.  If you do not already have CSP meta tags in place, you do not want to use this feature.  This is only for sites who are using CSP tags already, or wish to add more security layers to their site.
+
+#### Q: I added the Content Security Policy (CSP) meta tag and now my site does not work properly.  What do I need to do to fix this?
+This is likely due to your site not using meta tags prior to adding ours.  Try removing the meta tag and re-testing (ensuring the Device Data Collector still works)
+
+#### Q: I added the Content Security Policy (CSP) meta tag, but the Device Data Collector no longer works.  What do I need to do to fix this?
+Check that the domain name in the CSP settings matches the domain name in the javascript src attribute.  The must be the same for things to work. Other common issues are missing quotes (single ) within the content value, or mis-spelled directives (such as 'unsafe-eval' or img-src). Also ensure there is a semi colon in between each directive.  See the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy'>MDN site</a> for more information.
