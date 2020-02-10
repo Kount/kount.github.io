@@ -73,7 +73,7 @@ where:
 ## Content Security Policy
 If your organization has instituted a Content Security Policy on your website that interferes with the execution of the Device Data Collection on your site, you will need to add this to your page.  
 
-Please refer to the documentation, or reach out to your Kount technical resource for assistance.
+Please reach out to your Kount technical resource for assistance.
 
 ## Configure the Trigger
 The Device Data Collector SDK collection process is triggered asynchronously by the 'load' data-event. This gives the collector the most available time to complete its work. The collection is bound to the page load event by adding the kaxsdc class and data-event=‘load’ to an HTML element, such as the HTML body or a div.  It looks something like this:
@@ -146,23 +146,18 @@ This code is an example of where each of the components discussed above appear i
 
 ```html
 <html>
-   .
+	
 <head>
-<!-- Following is for Content Security Policy --> 
-   .
-<meta http-equiv="Content-Security-Policy" content="img-src https://*.DOMAIN.com; 
-script-src 'unsafe-inline' https://*.DOMAIN.com; child-src https://*.DOMAIN.com">
-   .
-   .
+
 </head>
-   .
-   .
+
+
    <!-- Adding the data-event=load to the class kaxsdc will start the Client in the autoload.  
         Note - this may be added to different data elements like a div -->
-      .
+
    <body class='kaxsdc' data-event='load'>
-      .
-      .
+
+
    <!-- Get the Collector SDK.  In the example, `DATA_COLLECTOR_URL`, 'm=123456' and 
         s=abcdefg12345abababab123456789012 are placeholder values.  Both 
         DATA_COLLECTOR_URL and the "m" values will be supplied by your Kount Client 
@@ -173,9 +168,9 @@ script-src 'unsafe-inline' https://*.DOMAIN.com; child-src https://*.DOMAIN.com"
    <script type='text/javascript' src='https://DATA_COLLECTOR_URL/collect/sdk?m=123456&
       s=abcdefg12345abababab123456789012'> </script>
 
-      .
-      .
-      .
+
+
+
       <!-- The following script starts the ClientSDK for the collection.  -->
       <!-- You may optionally setup callbacks for the collect-begin and the
            collect-ends events.  These callbacks can be useful if a business wants to be sure          			 that the collection has completed before asking for a risk evaluation (or to
