@@ -9,13 +9,13 @@ When submitting data to RIS, it is recommended to send as much data as possible.
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-fr0y{background-color:#656565;color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-loqm{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:left;vertical-align:top}
-.tg .tg-lzqt{font-weight:bold;background-color:#656565;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-ulxq{background-color:#183c68;color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0jne{font-weight:bold;background-color:#183c68;color:#ffffff;border-color:#656565;text-align:left;vertical-align:top}
+.tg .tg-g4a4{font-weight:bold;background-color:#183c68;color:#ffffff;border-color:#656565;text-align:center;vertical-align:top}
+.tg .tg-25hb{font-weight:bold;background-color:#183c68;color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-nakj{font-weight:bold;background-color:#656565;color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-62b5{font-weight:bold;background-color:#183c68;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-3ya8{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:center;vertical-align:top}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 702px">
 <colgroup>
@@ -25,10 +25,10 @@ When submitting data to RIS, it is recommended to send as much data as possible.
 <col style="width: 63px">
 </colgroup>
   <tr>
-    <th class="tg-lzqt">﻿Attribute</th>
-    <th class="tg-nakj">Description</th>
-    <th class="tg-nakj">Data Type &amp; Size</th>
-    <th class="tg-nakj">Mode</th>
+    <th class="tg-62b5">﻿Attribute</th>
+    <th class="tg-25hb">Description</th>
+    <th class="tg-25hb">Data Type &amp; Size</th>
+    <th class="tg-25hb">Mode</th>
   </tr>
   <tr>
     <td class="tg-c3ow">VERS</td>
@@ -85,10 +85,10 @@ When submitting data to RIS, it is recommended to send as much data as possible.
     <td class="tg-0pky">P</td>
   </tr>
   <tr>
-    <td class="tg-lzqt">Payment Information</td>
-    <td class="tg-nakj"></td>
-    <td class="tg-nakj"></td>
-    <td class="tg-nakj"></td>
+    <td class="tg-62b5">Payment Information</td>
+    <td class="tg-25hb"></td>
+    <td class="tg-25hb"></td>
+    <td class="tg-25hb"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">PTOK</td>
@@ -122,7 +122,7 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   </tr>
   <tr>
     <td class="tg-c3ow">AUTH</td>
-    <td class="tg-0pky">Authorization Status returned to merchant from processor.A: AuthorizedD: DeclinedIn orders where AUTH=A will aggregate towards order velocity of the persona while orders where AUTH=D will decrement the velocity of the persona.</td>
+    <td class="tg-0pky">Authorization Status returned to merchant from processor.<br><br>A: Authorized<br>D: Declined<br><br>In orders where AUTH=A will aggregate towards order velocity of the persona while orders where AUTH=D will decrement the velocity of the persona.</td>
     <td class="tg-0pky">1 character alpha-numeric</td>
     <td class="tg-0pky">Q,P,U</td>
   </tr>
@@ -134,13 +134,13 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   </tr>
   <tr>
     <td class="tg-c3ow">AVST</td>
-    <td class="tg-0pky">Address Verification System Street verification response returned to merchant from processor.M: MatchN: No MatchX: Unsupported or Unavailable</td>
+    <td class="tg-0pky">Address Verification System Street verification response returned to merchant from processor.<br><br>M: Match<br><br>N: No Match<br><br>X: Unsupported or Unavailable</td>
     <td class="tg-0pky">1 character alpha-numeric</td>
     <td class="tg-0pky">Q,P,U</td>
   </tr>
   <tr>
     <td class="tg-c3ow">AVSZ</td>
-    <td class="tg-0pky">Address Verification System Zip Code verification response returned to merchant from processor.M: MatchN: No MatchX: Unsupported or Unavailable</td>
+    <td class="tg-0pky">Address Verification System Zip Code verification response returned to merchant from processor.<br><br>M: Match<br><br>N: No Match<br><br>X: Unsupported or Unavailable</td>
     <td class="tg-0pky">1 character alpha-numeric</td>
     <td class="tg-0pky">Q,P,U</td>
   </tr>
@@ -151,10 +151,10 @@ When submitting data to RIS, it is recommended to send as much data as possible.
     <td class="tg-0pky">Q,P,U</td>
   </tr>
   <tr>
-    <td class="tg-3ya8">Billing Information</td>
-    <td class="tg-loqm"></td>
-    <td class="tg-loqm"></td>
-    <td class="tg-loqm"></td>
+    <td class="tg-g4a4">Billing Information</td>
+    <td class="tg-0jne"></td>
+    <td class="tg-0jne"></td>
+    <td class="tg-0jne"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">EMAL</td>
@@ -223,10 +223,10 @@ When submitting data to RIS, it is recommended to send as much data as possible.
     <td class="tg-0pky">Q,P</td>
   </tr>
   <tr>
-    <td class="tg-lzqt">Shipping Information</td>
-    <td class="tg-nakj"></td>
-    <td class="tg-nakj"></td>
-    <td class="tg-nakj"></td>
+    <td class="tg-62b5">Shipping Information</td>
+    <td class="tg-25hb"></td>
+    <td class="tg-25hb"></td>
+    <td class="tg-25hb"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">S2A1</td>
@@ -284,7 +284,7 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   </tr>
   <tr>
     <td class="tg-c3ow">SHTP</td>
-    <td class="tg-0pky">Shipping type. The following nomenclature is expectedfor shipping types to be passed to Kount.SHTP:Same Day = SDNext Day = NDSecond Day = 2DStandard = ST</td>
+    <td class="tg-0pky">Shipping type. The following nomenclature is expectedfor shipping types to be passed to Kount.<br>SHTP:<br>Same Day = SD<br>Next Day = ND<br>Second Day = 2D<br>Standard = ST</td>
     <td class="tg-0pky">2 characters alpha</td>
     <td class="tg-0pky">Q,P</td>
   </tr>
@@ -301,10 +301,10 @@ When submitting data to RIS, it is recommended to send as much data as possible.
     <td class="tg-0pky">Q,P</td>
   </tr>
   <tr>
-    <td class="tg-lzqt">Product Details</td>
-    <td class="tg-fr0y"></td>
-    <td class="tg-fr0y"></td>
-    <td class="tg-fr0y"></td>
+    <td class="tg-62b5">Product Details</td>
+    <td class="tg-ulxq"></td>
+    <td class="tg-ulxq"></td>
+    <td class="tg-ulxq"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">PROD_DESC[ ]</td>
@@ -337,10 +337,10 @@ When submitting data to RIS, it is recommended to send as much data as possible.
     <td class="tg-0pky">Q,P</td>
   </tr>
   <tr>
-    <td class="tg-lzqt">Miscellaneous Information</td>
-    <td class="tg-fr0y"></td>
-    <td class="tg-fr0y"></td>
-    <td class="tg-fr0y"></td>
+    <td class="tg-62b5">Miscellaneous Information</td>
+    <td class="tg-ulxq"></td>
+    <td class="tg-ulxq"></td>
+    <td class="tg-ulxq"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">CASH</td>
@@ -386,7 +386,7 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   </tr>
   <tr>
     <td class="tg-c3ow">RFCB</td>
-    <td class="tg-0pky">Refund/Chargeback status.R: RefundC: Chargeback</td>
+    <td class="tg-0pky">Refund/Chargeback status.<br><br>R: Refund<br><br>C: Chargeback</td>
     <td class="tg-0pky">1 character alpha-numeric</td>
     <td class="tg-0pky">U</td>
   </tr>
