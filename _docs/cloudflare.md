@@ -29,7 +29,7 @@ Merchants with **Java** environments must make the following adjustments.
 
 * [Digicert Root Certificates](https://www.digicert.com/digicert-root-certificates.htm "Digicert") - This contains many of the common root CAs. At minimum you will want the Baltimore CyberTrust Root added to your keystore.
 
-[Example Instructions](https://knowledge.digicert.com/solution/SO4085.html "Example") - An example of how you might update your Java Keystore. You must adjust the command to suit your environment.
+* [Example Instructions](https://knowledge.digicert.com/solution/SO4085.html "Example") - An example of how you might update your Java Keystore. You must adjust the command to suit your environment.
 
 * Ensure that your Java environment has the enableSNIExtension option set to True (which is the default).  Disabling this option will cause you to receive a 403 error from Cloudflare as they are unable to determine which of their hosted services you are attempting to communicate with.
 
