@@ -5,7 +5,7 @@ subtitle: Product Update
 
 **Overview**
 
-On November 14 , 2019, Kount integrated use of a new provider for DDOS management in our Sandbox and TEST environments in order to ensure protection against DDOS attacks. In order to complete our journey and prior to the Kount deploy of this new service, merchants will need to ensure their servers can communicate to either the RISK or API endpoints. Any merchant using outbound firewall rules that limit communications to the Kount IP address range, is encouraged to remove these and allow access to all addresses.  As many SaaS services move to Cloud based environments, there is an ever growing and changing list of IP addresses that could be in use.  The benefit of adding these rules vs. the effort to maintain them reliably is debatable. If you still feel the need to maintain a list of IP addresses you will want to add them from following list: https://www.cloudflare.com/ips/.  If you choose to maintain IP rules, it is the merchants responsibility to be aware of and update this list whenever Clouldflare changes them.  Kount will not be able to notify you if Cloudflare makes a change to this list.
+On November 14 , 2019, Kount integrated use of a new provider for DDOS management in our Sandbox and TEST environments in order to ensure protection against DDOS attacks. In order to complete our journey and prior to the Kount deploy of this new service, merchants will need to ensure their servers can communicate to either the RISK or API endpoints. Any merchant using outbound firewall rules that limit communications to the Kount IP address range, is encouraged to remove these and allow access to all addresses.  As many SaaS services move to Cloud based environments, there is an ever growing and changing list of IP addresses that could be in use.  The benefit of adding these rules vs. the effort to maintain them reliably is debatable. If you still feel the need to maintain a list of IP addresses you will want to add them from following list: <https://www.cloudflare.com/ips/>.  If you choose to maintain IP rules, it is the merchants responsibility to be aware of and update this list whenever Clouldflare changes them.  Kount will not be able to notify you if Cloudflare makes a change to this list.
          
 
 If you currently have the Kount IP address ranges configured for outbound traffic to Kount, you will need to leave them in place for now. Some merchants may also have allowed inbound traffic from the Kount IP range for the Event Notification Service (ENS). You must leave these in place as that traffic will still continue to be sourced from our IP ranges.
@@ -54,11 +54,11 @@ We are making the change to Cloudflare because they provide us the following ben
 
 **WHAT TO DO NEXT:**
 
-Ensure you’re submitting test transaction to the Kount TEST/Sandbox environments at https://risk.test.kount.net as this environment is already converted to support CloudFlare and if you’re accessing that end point, you’re successful
+Ensure you’re submitting test transaction to the Kount TEST/Sandbox environments at <https://risk.test.kount.net> as this environment is already converted to support CloudFlare and if you’re accessing that end point, you’re successful
 
 * We will periodically reach out to you if we have noticed you have not successfully posted any test transactions
 
-* Inform Kount support if you need additional assistance (support@kount.com) on upgrading your TEST or PROD environments.
+* Inform Kount support if you need additional assistance (<support@kount.com>) on upgrading your TEST or PROD environments.
 
 
 
