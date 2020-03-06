@@ -24,6 +24,7 @@ Merchants with **Java** environments must make the following adjustments.
 * You most likely already do. Kount currently does not support anything less than TLS 1.2.
 * Ensure you are on the latest version of Java, this should keep your trusted certificate list updated with current root authorities.
 * If you are unable to upgrade Java, you will need to ensure your Java Keystore is up to date with current and modern root authorities.  It is recommended that you keep these updated regularly as root authorities are added and even expire over time. If you do not keep them current you could face security issues or downtime.
+* [Digicert Root Certificates](https://www.digicert.com/digicert-root-certificates.htm "Digicert") - This contains many of the common root CAs. At minimum you will want the Baltimore CyberTrust Root added to your keystore.
 
 
 
