@@ -36,7 +36,6 @@ Merchants with **Java** environments must make the following adjustments.
 * Ensure that your Java environment has the enableSNIExtension option set to True (which is the default).  Disabling this option will cause you to receive a 403 error from Cloudflare as they are unable to determine which of their hosted services you are attempting to communicate with.
 
 * [Oracle Java Security Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/security/jsse/JSSERefGuide.html#InstallationAndCustomization) - This document describes details about Java SSL options, including the enableSNIExtension option.
-If you’re environment is not Java based,
 
 **WHY KOUNT IS MAKING THIS CHANGE:**
 
