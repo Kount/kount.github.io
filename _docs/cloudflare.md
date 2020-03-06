@@ -11,7 +11,8 @@ If you currently have the Kount IP address ranges configured for outbound traffi
 
 **TLS INFORMATION FOR ALL CUSTOMERS:**
 * Please ensure your environment supports at least TLS 1.2 and is capable of modern SSL Cipher suites.
-  * Hint: You most likely already do. Kount currently does not support anything less than TLS 1.2.
+{% include alert.html style="primary" text="You most likely already do. Kount currently does not support anything less than TLS 1.2." %}
+
 * Cloudflare provides a matrix of TLS support information here: Cloudflare SSL cipher, browser, and protocol support
 * Kount currently supports the same basic cipher list and therefore you should not expect issues during the conversion.  However Cloudflare will update this matrix over time as PCI and other security entities move forward with minimum requirements.  Kount will endeavor to notify of these changes in advance where possible.
 
