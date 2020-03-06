@@ -36,7 +36,7 @@ Merchants with **Java** environments must make the following adjustments.
 * [Oracle Java Security Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/security/jsse/JSSERefGuide.html#InstallationAndCustomization) - This document describes details about Java SSL options, including the enableSNIExtension option.
 If you’re environment is not Java based,
 
-**WHY KOUNT IS MAKING THIS CHANGE**
+**WHY KOUNT IS MAKING THIS CHANGE:**
 
 We are making the change to Cloudflare because they provide us the following benefits:
 
@@ -52,7 +52,7 @@ We are making the change to Cloudflare because they provide us the following ben
 
 * Reachability to Kount services over IPv6.
 
-**WHAT TO DO NEXT**
+**WHAT TO DO NEXT:**
 
 Ensure you’re submitting test transaction to the Kount TEST/Sandbox environments at https://risk.test.kount.net as this environment is already converted to support CloudFlare and if you’re accessing that end point, you’re successful
 
