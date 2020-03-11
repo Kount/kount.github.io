@@ -3,6 +3,10 @@ title: DDoS Management
 subtitle: 
 ---
 
+{:.no_toc}
+* TOC
+{:toc}
+
 ### Overview
 
 On November 14 , 2019, Kount integrated use of a new provider for DDOS management in our Sandbox and TEST environments in order to ensure protection against DDOS attacks. In order to complete our journey and prior to the Kount deploy of this new service, merchants will need to ensure their servers can communicate to either the RISK or API endpoints. Any merchant using outbound firewall rules that limit communications to the Kount IP address range, is encouraged to remove these and allow access to all addresses.  As many SaaS services move to Cloud based environments, there is an ever growing and changing list of IP addresses that could be in use.  The benefit of adding these rules vs. the effort to maintain them reliably is debatable. If you still feel the need to maintain a list of IP addresses you will want to add them from following list:  <https://www.cloudflare.com/ips/>. 
