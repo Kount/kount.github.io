@@ -17,7 +17,7 @@ Once you have defined the UDF in the Agent Web Console you will be able to pass 
 ##### Number 
 * This UDF type is not eligible for VIP List options or for Velocity tracking; however, it is available for use in the Kount Rules Engine.
 
-##### Alpa-Numeric
+##### Alpha-Numeric
 * This UDF type is eligible for VIP List Management, as well as for tracking Persona Velocities within the Kount Rules Engine. Separate VIP Lists for the values being passed in these UDFs may be created. Additionally, Persona Velocity for a specific value contained within the UDF may be tracked.
 
 ##### Date 
