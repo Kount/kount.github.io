@@ -24,7 +24,7 @@ For detailed technical specifications, SDK, and API documentation can be found a
 * <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
 * <b><a href='https://api-sandbox.kount.com/login/help/'> Login</a></b>
 * <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>
-* <b><a href='https://api-sandbox.kount.com/trusted-device/'> Trusted Device</a></b>
+* <b><a href='https://api-sandbox.kount.com/trusted-device/help/'> Trusted Device</a></b>
 
 ### Environments
 
@@ -138,4 +138,4 @@ There are several purpose-built endpoints available with the Trusted Device Serv
 * Delete Trusted Device Record: Used to delete the record of a relationship between a user’s ID and a Device. Typically used when there is a limit to the number of devices that may be used for a specific account, and the user wants to replace one device for a new one.
 
 **Trust State Endpoint**
-* <b><a href='https://api-sandbox.kount.com/trusted-device/'> Trusted Device</a></b>
+* <b><a href='https://api-sandbox.kount.com/trusted-device/help/'> Trusted Device</a></b>
