@@ -79,6 +79,7 @@ Suggested placement of the data collection code is in the body of the login page
 **Chrome's Lazy Load**
 
 Chrome’s soon to be released feature “Lazy Load” will defer loading images and iframes that come below the fold of the page. This feature will be active when Chrome’s Data Saver feature is on and when the loading attribute is set to “lazy” or “auto” or unset. More information can be found <a href='https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/jxiJvQc-gVg'>here</a>.
+
 For Client’s using Kount’s legacy data collector that utilizes an iframe, it is recommended to update integration or set the “loading” attribute to “eager” which will bypass lazy loading functionality.
 
 **Content Security Policy**
@@ -92,3 +93,16 @@ For more information on Content Security Policy and settings for the Data Collec
 The basic workflow of digital account protection starts with collecting data from the device. When the user logs in with valid credentials, the Client will make a post to Kount’s Login API to get a response of Accept, Block, or Challenge.
 
 Depending on the response based on your policies from Kount, the Client may either allow access, deny access, or challenge their user using their existing step-up authentication.
+
+**Step 1**
+The digital account protection workflow begins with a Data Collection (below) from the browser application or from the mobile SDK. Kount’s browser data collector is a light-weight JavaScript SDK downloaded at runtime. Our mobile SDK can be integrated into your mobile application. Only one data collection should be made per session.
+
+**Step 2**
+Step 2: After user’s login credentials have been posted to your authentication service, there are two paths:
+
+* Valid Credentials: If the user presented valid credentials, the Client will Post to Kount’s Login Decision API prior to granting access. The response to this API call is Allow, Block, or Challenge.
+
+* Invalid Credentials: If the user fails authentication, the Client will decline access to the user and Post to the failed-attempt API. This API increases velocities and informs Kount’s ML and AI models for future login attempts.
+
+**Step 3**
+If the Login decision results in a “Challenge” it is imperative to send the outcome of the login challenge to Kount to better update our AI models and to update information for use within the portal.
