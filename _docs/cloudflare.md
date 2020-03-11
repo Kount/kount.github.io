@@ -16,14 +16,14 @@ If you choose to maintain IP rules, it is the merchants responsibility to be awa
 
 If you currently have the Kount IP address ranges configured for outbound traffic to Kount, you will need to leave them in place for now. Some merchants may also have allowed inbound traffic from the Kount IP range for the Event Notification Service (ENS). You must leave these in place as that traffic will still continue to be sourced from our IP ranges.
 
-### TLS INFORMATION FOR ALL CUSTOMERS:
+### TLS INFORMATION FOR ALL CUSTOMERS
 * Please ensure your environment supports at least TLS 1.2 and is capable of modern SSL Cipher suites.
 {% include alert.html style="primary" text="You most likely already do. Kount currently does not support anything less than TLS 1.2." %}
 
 * Cloudflare provides a matrix of TLS support information here: Cloudflare SSL cipher, browser, and protocol support
 * Kount currently supports the same basic cipher list and therefore you should not expect issues during the conversion.  However Cloudflare will update this matrix over time as PCI and other security entities move forward with minimum requirements.  Kount will endeavor to notify of these changes in advance where possible.
 
-### JAVA SPECIFIC ENVIRONMENTS:
+### JAVA SPECIFIC ENVIRONMENTS
 
 Merchants with **Java** environments must make the following adjustments.
 
@@ -41,7 +41,7 @@ Merchants with **Java** environments must make the following adjustments.
 
 * [Oracle Java Security Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/security/jsse/JSSERefGuide.html#InstallationAndCustomization) - This document describes details about Java SSL options, including the enableSNIExtension option.
 
-### WHY KOUNT IS MAKING THIS CHANGE:
+### WHY KOUNT IS MAKING THIS CHANGE
 
 We are making the change to Cloudflare because they provide us the following benefits:
 
@@ -57,7 +57,7 @@ We are making the change to Cloudflare because they provide us the following ben
 
 * Reachability to Kount services over IPv6.
 
-### WHAT TO DO NEXT:
+### WHAT TO DO NEXT
 
 Ensure you’re submitting test transaction to the Kount TEST/Sandbox environments at <https://risk.test.kount.net> as this environment is already converted to support CloudFlare and if you’re accessing that end point, you’re successful
 
