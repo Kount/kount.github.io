@@ -95,9 +95,11 @@ The basic workflow of digital account protection starts with collecting data fro
 Depending on the response based on your policies from Kount, the Client may either allow access, deny access, or challenge their user using their existing step-up authentication.
 
 **Step 1**
+
 The digital account protection workflow begins with a Data Collection (below) from the browser application or from the mobile SDK. Kount’s browser data collector is a light-weight JavaScript SDK downloaded at runtime. Our mobile SDK can be integrated into your mobile application. Only one data collection should be made per session.
 
 **Step 2**
+
 Step 2: After user’s login credentials have been posted to your authentication service, there are two paths:
 
 * Valid Credentials: If the user presented valid credentials, the Client will Post to Kount’s Login Decision API prior to granting access. The response to this API call is Allow, Block, or Challenge.
@@ -105,4 +107,13 @@ Step 2: After user’s login credentials have been posted to your authentication
 * Invalid Credentials: If the user fails authentication, the Client will decline access to the user and Post to the failed-attempt API. This API increases velocities and informs Kount’s ML and AI models for future login attempts.
 
 **Step 3**
+
 If the Login decision results in a “Challenge” it is imperative to send the outcome of the login challenge to Kount to better update our AI models and to update information for use within the portal.
+
+**Tehnical Specifications**
+
+The API for the Login Event can be found here:
+* <b><a href='https://api-sandbox.kount.com/login/help/'> Login</a></b>
+
+The API for the Failed Attempt and Login Challenge Outcome can be found here: 
+* <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>
