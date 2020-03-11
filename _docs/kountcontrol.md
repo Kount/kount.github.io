@@ -141,5 +141,7 @@ There are several purpose-built endpoints available with the Trusted Device Serv
 
 ## Device Info Endpoint
 
+The Device Info endpoint provides basic information related to the device including the device browser settings, geolocation, device language, network data and the device ID.
+
 **Info Endpoint**
 * <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
