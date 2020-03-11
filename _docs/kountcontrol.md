@@ -89,13 +89,13 @@ For more information on Content Security Policy and settings for the Data Collec
 
 ## Login Event Workflow
 
-The basic workflow of digital account protection starts with collecting data from the device. When the user logs in with valid credentials, the Client will make a post to Kount’s Login API to get a response of Accept, Block, or Challenge.
+The basic workflow of Kount Control starts with collecting data from the device. When the user logs in with valid credentials, the Client will make a post to Kount’s Login API to get a response of Accept, Block, or Challenge.
 
 Depending on the response based on your policies from Kount, the Client may either allow access, deny access, or challenge their user using their existing step-up authentication.
 
 **Step 1**
 
-The digital account protection workflow begins with a Data Collection (below) from the browser application or from the mobile SDK. Kount’s browser data collector is a light-weight JavaScript SDK downloaded at runtime. Our mobile SDK can be integrated into your mobile application. Only one data collection should be made per session.
+The Kount Control workflow begins with a Data Collection (below) from the browser application or from the mobile SDK. Kount’s browser data collector is a light-weight JavaScript SDK downloaded at runtime. Our mobile SDK can be integrated into your mobile application. Only one data collection should be made per session.
 
 **Step 2**
 
