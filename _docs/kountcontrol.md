@@ -4,6 +4,7 @@ subtitle: Digital Account Protection Integration
 ---
 
 #### Sections in this article
+
 {:.no_toc}
 * TOC
 {:toc}
@@ -20,6 +21,6 @@ For detailed technical specifications, SDK, and API documentation can be found a
 * <b><a href='https://kount.github.io/docs/dc-sdk/Mobile/'> Mobile</a></b>
 #Endpoints
 * <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
-* <b><a href='https://api-sandbox.kount.com/login/help/'> Login</a></b>* <b>Login</b>
-* <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>* <b>Event</b>
-* <b><a href='https://api-sandbox.kount.com/trusted-device/'> Trusted Device</a></b>* <b>Trusted Device</b>
+* <b><a href='https://api-sandbox.kount.com/login/help/'> Login</a></b>
+* <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>
+* <b><a href='https://api-sandbox.kount.com/trusted-device/'> Trusted Device</a></b>
