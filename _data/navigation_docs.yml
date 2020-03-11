@@ -35,11 +35,10 @@
   docs: 
   - api-endpoints
 
-- title: Testing
+- title: Appendix
   docs: 
   - kount-environments
+  - cloudflare
   
- - title: Appendix 
-   docs: 
-   - cloudflare
+ 
  
