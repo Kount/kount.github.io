@@ -9,7 +9,7 @@ subtitle: Digital Account Protection Integration
 {:toc}
 
 ## Overview
-The following guide is intended to help our Clients quickly understand the scope needed to integrate with Kount’s digital account protection APIs and to provide a high-level overview of integration points and flow.
+The following guide is intended to quickly understand the scope needed to integrate with Kount’s digital account protection APIs and to provide a high-level overview of integration points and flow.
 During integration, Kount will provide support for the Client’s development staff including direct access to Kount’s Solution Engineers. This direct communication is to facilitate quick, accurate responses to integration questions your development team might have.
 For detailed technical specifications, SDK, and API documentation can be found at the URLs below.
 
@@ -31,17 +31,17 @@ Kount has two environments for a Control integration depending on the stage of t
 * Sandbox: Full integration with test data
 * Production: Full integration with Production data
 
-A valid Client Identification (clientId) and JWT credentials are required to make a call to any of our API endpoints (JWT credentials are not required for data collection). These credentials will be provided as part of technical integration.
+A valid Client Identification (clientId) and JWT credentials are required to make a call to any of the API endpoints (JWT credentials are not required for data collection). These credentials will be provided as part of technical integration.
 
 **Sandbox Environment**
-The Sandbox Environment is a scaled down replica of the Production Environment and is intended for integration and user testing/setup. The Sandbox Environment will represent all of the functionality of our current Production Environment with the exception of scale. Within the Sandbox environment there is a user interface which the Client’s fraud personnel may login and set Profiles and Policies, research login event history and run reports.
+The Sandbox Environment is a scaled down replica of the Production Environment and is intended for integration and user testing/setup. The Sandbox Environment will represent all of the functionality of the current Production Environment with the exception of scale. Within the Sandbox environment there is a user interface which the Client’s fraud personnel may login and set Profiles and Policies, research login event history and run reports.
 
 **Production Environment**
 The Production Environment is architected to handle full scale production traffic.
 
 ## Parameterizing
 
-We recommend parameterizing the variables below to facilitate testing and to ease the move from one environment to another.
+It is recommended to  parameterize the variables below to facilitate testing and to ease the move from one environment to another.
 
 **jwt**: This token will be supplied by Kount and will is different from Sandbox to Production. As a parameter, this should facilitate testing.
 
@@ -50,7 +50,7 @@ We recommend parameterizing the variables below to facilitate testing and to eas
 * Predictive Response Harness and Sandbox: environmentDomain = “api-sandbox”
 * Production: environmentDomain = “api”
 
-**version:** While every attempt will be made to not create breaking changes to our API endpoints, we recognize that there may be times when to add new functionality we must make breaking changes. In those events, we will version our API endpoint.
+**version:** While every attempt will be made to not create breaking changes to the API endpoints, it is recognized that there may be times when to add new functionality breaking changes may occur. In those events, the version of API endpoint will increment.
 
 **dataCollectionHost:** It is important to use the proper data collection host to ensure that sessions are properly aligned between data collection and login requests.
 
