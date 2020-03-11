@@ -95,11 +95,11 @@ Depending on the response based on your policies from Kount, the Client may eith
 
 **Step 1**
 
-The Kount Control workflow begins with a Data Collection (below) from the browser application or from the mobile SDK. Kount’s browser data collector is a light-weight JavaScript SDK downloaded at runtime. Our mobile SDK can be integrated into your mobile application. Only one data collection should be made per session.
+The Kount Control workflow begins with a Data Collection from the browser application or from the mobile SDK. Kount’s browser data collector is a light-weight JavaScript SDK downloaded at runtime. Our mobile SDK can be integrated into your mobile application. Only one data collection should be made per session.
 
 **Step 2**
 
-Step 2: After user’s login credentials have been posted to your authentication service, there are two paths:
+After user’s login credentials have been posted to your authentication service, there are two paths:
 
 * Valid Credentials: If the user presented valid credentials, the Client will Post to Kount’s Login Decision API prior to granting access. The response to this API call is Allow, Block, or Challenge.
 
