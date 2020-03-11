@@ -110,10 +110,32 @@ Step 2: After user’s login credentials have been posted to your authentication
 
 If the Login decision results in a “Challenge” it is imperative to send the outcome of the login challenge to Kount to better update our AI models and to update information for use within the portal.
 
-**Tehnical Specifications**
+**Login Endpoint**
 
 The API for the Login Event can be found here:
 * <b><a href='https://api-sandbox.kount.com/login/help/'> Login</a></b>
 
+**Events Endpoint**
+
 The API for the Failed Attempt and Login Challenge Outcome can be found here: 
 * <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>
+
+### Trusted Device Workflow
+
+Trusted Device service may store a trust relationship between a device and a specific user.
+
+Users typically employ a small handful of devices to login (a cell phone, a work laptop, and a home computer). By identifying these devices for specific users, the Client may reduce friction at login using policies to only challenge users with a device not already known and trusted.
+
+*Example*
+A policy is created to “Challenge” a login coming from a user with a device not previously trusted for that user. Sandra logs in using her new cell phone. Because this cell phone is not “trusted” for her, the response from Kount’s login event API is “Challenge.”
+
+The Client asks Sandra to perform a step-up authentication step (asking for her to input a code sent to her via text). She succeeds and is able to log in to her account. When Sandra succeeds on the step-up challenge, the Client also sends an update to Kount to trust this device for Sandra. Kount stores this trust relationship so the next time Sandra logs in with this device, she would not be asked for step-up authentication.
+
+There are several purpose-built endpoints available with the Trusted Device Service.
+* Create Trusted Device Record: Used after a user has met a step-up challenge and the Client would like to store the trust state of the device for that user.
+* Update Trusted Device Record: Used to alter the trust state between a device and a user. Options include “trusted” or “banned.” Typically, this is to ensure that a specific user cannot login using a specific device.
+* Read Trust States: Options to review information for all users connected to a device, all devices connected to a user, or the trust state for a specific user/device pair. May be used to identify a user before the user has logged into the site. May also be used to allow Typically used to display a list of devices with trust within a Client’s, empowering users.
+* Delete Trusted Device Record: Used to delete the record of a relationship between a user’s ID and a Device. Typically used when there is a limit to the number of devices that may be used for a specific account, and the user wants to replace one device for a new one.
+
+**Trust State Endpoint**
+* <b><a href='https://api-sandbox.kount.com/trusted-device/'> Trusted Device</a></b>
