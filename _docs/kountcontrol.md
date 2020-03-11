@@ -58,6 +58,37 @@ We recommend parameterizing the variables below to facilitate testing and to eas
 * Sandbox: dataCollectionHost = “https://tst.kaptcha.com”
 * Production: dataCollectionHost = “https://ssl.kaptcha.com”
 
-###Data Collection
+### Data Collection
 
+Kount uses a light-weight data collection to gather information about a device. Data collection is made prior to making a Post to the Login API. The data collection uses the same session identifier as the subsequent login event to tie information together, so special care should be made with sessions to ensure that the data collection and the login event share the same session identification.
 
+For Kount’s browser Data Collector:
+* <b><a href='https://kount.github.io/docs/data-collector/'>Browser</a></b>
+
+For Android and iOS SDKs respectively:
+* <b><a href='https://kount.github.io/docs/dc-sdk/Mobile/'> Mobile</a></b>
+
+**Browser Recommendations**
+
+Proper placement and configuration of the browser Data Collector is crucial in gathering information to identify devices, adhere to business policy, and accurately define login risk. Incorrect placement or misconfiguration may cause limited or no data collection.
+
+**Page and Page Location**
+
+Suggested placement of the data collection code is in the body of the login page. Kount abates collection from the same session ID when a collection comes within 15 minutes. However, it is strongly recommended care is taken to run a single data collection per session. When multiple collections are run for a single session (if the collection was placed in the header, for example), it is possible the collection events will be mistaken as a DDOS attacked and all collections from your site will be throttled.
+
+**Chrome's Lazy Load**
+
+Chrome’s soon to be released feature “Lazy Load” will defer loading images and iframes that come below the fold of the page. This feature will be active when Chrome’s Data Saver feature is on and when the loading attribute is set to “lazy” or “auto” or unset. More information can be found <a href='https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/jxiJvQc-gVg'>here</a>.
+For Client’s using Kount’s legacy data collector that utilizes an iframe, it is recommended to update integration or set the “loading” attribute to “eager” which will bypass lazy loading functionality.
+
+**Content Security Policy**
+
+Kount utilizes both third party and first party cookies as well as device data to identify devices. In order to take full advantage of the device collector features, Clients may need to make modifications to the Content Security Policy on their site.
+
+For more information on Content Security Policy and settings for the Data Collector, please contact your Kount Solutions Engineer.
+
+### Login Event Workflow
+
+The basic workflow of digital account protection starts with collecting data from the device. When the user logs in with valid credentials, the Client will make a post to Kount’s Login API to get a response of Accept, Block, or Challenge.
+
+Depending on the response based on your policies from Kount, the Client may either allow access, deny access, or challenge their user using their existing step-up authentication.
