@@ -9,12 +9,12 @@ subtitle: Digital Account Protection Integration
 * TOC
 {:toc}
 
-## Overview
+### Overview
 The following guide is intended to help our Clients quickly understand the scope needed to integrate with Kount’s digital account protection APIs and to provide a high-level overview of integration points and flow.
 During integration, Kount will provide support for the Client’s development staff including direct access to Kount’s Solution Engineers. This direct communication is to facilitate quick, accurate responses to integration questions your development team might have.
 For detailed technical specifications, SDK, and API documentation can be found at the URLs below.
 
-## Technical Documentation
+### Technical Documentation
 
 **Device Data Collector**
 * <b><a href='https://kount.github.io/docs/data-collector/'>Browser</a></b>
@@ -26,7 +26,7 @@ For detailed technical specifications, SDK, and API documentation can be found a
 * <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>
 * <b><a href='https://api-sandbox.kount.com/trusted-device/'> Trusted Device</a></b>
 
-## Environments
+### Environments
 
 Kount has two environments for a Control integration depending on the stage of the implementation:
 * Sandbox: Full integration with test data
@@ -40,7 +40,7 @@ The Sandbox Environment is a scaled down replica of the Production Environment a
 **Production Environment**
 The Production Environment is architected to handle full scale production traffic.
 
-## Parameterizing
+### Parameterizing
 
 We recommend parameterizing the variables below to facilitate testing and to ease the move from one environment to another.
 
@@ -57,3 +57,7 @@ We recommend parameterizing the variables below to facilitate testing and to eas
 
 * Sandbox: dataCollectionHost = “https://tst.kaptcha.com”
 * Production: dataCollectionHost = “https://ssl.kaptcha.com”
+
+###Data Collection
+
+
