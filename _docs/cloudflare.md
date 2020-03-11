@@ -1,5 +1,5 @@
 ---
-title: DDOS Management  
+title: DDoS Management  
 subtitle: Product Update
 ---
 
