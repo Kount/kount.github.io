@@ -9,7 +9,7 @@ subtitle: Digital Account Protection Integration
 {:toc}
 
 ## Overview
-The following guide is intended to quickly understand the scope needed to integrate with Kount’s digital account protection APIs and to provide a high-level overview of integration points and flow.
+The following guide is intended to quickly understand the scope needed to integrate with Kount Control digital account protection APIs and to provide a high-level overview of integration points and flow.
 During integration, Kount will provide support for the Client’s development staff including direct access to Kount’s Solution Engineers. This direct communication is to facilitate quick, accurate responses to integration questions your development team might have.
 For detailed technical specifications, SDK, and API documentation can be found at the URLs below.
 
