@@ -10,7 +10,7 @@ author:
 * TOC
 {:toc}
 
-## Overview
+# Overview
 The Device Data Collector runs on a client’s browser and collects a variety of information that helps uniquely identify the device. 
 
 ## High Level Integration Steps
