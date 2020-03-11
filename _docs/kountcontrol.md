@@ -138,3 +138,8 @@ There are several purpose-built endpoints available with the Trusted Device Serv
 
 **Trust State Endpoint**
 * <b><a href='https://api-sandbox.kount.com/trusted-device/help/'> Trusted Device</a></b>
+
+## Device Info Endpoint
+
+**Info Endpoint**
+* <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
