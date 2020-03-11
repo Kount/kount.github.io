@@ -16,11 +16,11 @@ For detailed technical specifications, SDK, and API documentation can be found a
 
 ## Technical Documentation
 
-#Device Data Collector
+**Device Data Collector**
 * <b><a href='https://kount.github.io/docs/data-collector/'>Browser</a></b>
 * <b><a href='https://kount.github.io/docs/dc-sdk/Mobile/'> Mobile</a></b>
 
-#Endpoints
+**Endpoints**
 * <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
 * <b><a href='https://api-sandbox.kount.com/login/help/'> Login</a></b>
 * <b><a href='https://api-sandbox.kount.com/events/help/'> Event</a></b>
