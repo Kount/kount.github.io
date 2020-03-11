@@ -87,6 +87,13 @@ Kount utilizes both third party and first party cookies as well as device data t
 
 For more information on Content Security Policy and settings for the Data Collector, please contact your Kount Solutions Engineer.
 
+## Device Info Endpoint
+
+The Device Info endpoint provides basic information related to the device including the device browser settings, geolocation, device language, network data and the device ID.
+
+**Info Endpoint**
+* <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
+
 ## Login Event Workflow
 
 The basic workflow of Kount Control starts with collecting data from the device. When the user logs in with valid credentials, the Client will make a post to Kount’s Login API to get a response of Accept, Block, or Challenge.
@@ -138,10 +145,3 @@ There are several purpose-built endpoints available with the Trusted Device Serv
 
 **Trust State Endpoint**
 * <b><a href='https://api-sandbox.kount.com/trusted-device/help/'> Trusted Device</a></b>
-
-## Device Info Endpoint
-
-The Device Info endpoint provides basic information related to the device including the device browser settings, geolocation, device language, network data and the device ID.
-
-**Info Endpoint**
-* <b><a href='https://api-sandbox.kount.com/info/help/'> Info</a></b>
