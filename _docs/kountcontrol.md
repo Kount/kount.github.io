@@ -1,4 +1,5 @@
 ---
+layout:page
 title: Kount Control
 subtitle: Digital Account Protection Integration
 ---
