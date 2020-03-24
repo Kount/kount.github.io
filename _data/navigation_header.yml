@@ -7,11 +7,11 @@ left:
   - title: Integrations
     dropdown:
     
-    title: Kount Complete
-    url: /docs/introduction/
+      - title: Kount Complete
+        url: /docs/introduction/
     
-    title: Kount Control
-    url: /docs/kountconfirm/
+      - title: Kount Control
+        url: /docs/kountconfirm/
 
   - title: Platform Integrations
     url: /docs/platform
