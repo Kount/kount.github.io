@@ -13,9 +13,9 @@ If you request these services, Kount allows you to communicate with our applicat
 ## Kount Environments and Authentication
 Kount has separate environments for testing and production. We encourage the use of the Kount Test environment to establish and validate the Restful API Connection.
 
-Test: https://api.test.kount.net/rpc/v1
+Test: [https://api.test.kount.net/rpc/v1](https://api.test.kount.net/rpc/v1)
 
-Production: https://api.kount.net/rpc/v1
+Production: [https://api.kount.net/rpc/v1](https://api.kount.net/rpc/v1)
 
 ## RESTful API Documentation
 
