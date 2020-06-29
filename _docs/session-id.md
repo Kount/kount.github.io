@@ -20,7 +20,7 @@ The Session ID is a critical component of the Kount integration.  It is the data
 The integration allows for two ways to create a Session ID:
 
 ### Let Kount Do it
-This method is recommended by Kount.  The value is created by Kount and will be returned when the device data collection SDK is downloaded.  This method ensures the uniqueness of the session ID, and also ensures that it meets the requirements of a valid session ID.  This is accomplished by excluding the session ID parameter in the call to download the Device Data Collection SDK, like this (web implementation only):
+This method is recommended by Kount.  The value (UUIDv4 without the dashes) is created by Kount and is returned when the device data collection SDK is downloaded.  This method ensures the uniqueness of the session ID, and also ensures that it meets the requirements of a valid session ID.  This is accomplished by excluding the session ID parameter in the call to download the Device Data Collection SDK, like this (web implementation only):
 
 ```html
 <script type='text/javascript' 
