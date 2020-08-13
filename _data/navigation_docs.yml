@@ -25,6 +25,7 @@
   - ris-api-keys
   - ris-sdk
   - ris-error-codes
+  - ris-predictive-response
 
 - title: Step 3 - Event Notification Service
   docs: 
