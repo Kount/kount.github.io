@@ -69,7 +69,7 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   <tr>
     <td class="tg-c3ow">ORDR</td>
     <td class="tg-0pky">Merchant’s Order Number</td>
-    <td class="tg-0pky">32 characters alpha-numeric</td>
+    <td class="tg-0pky">64 characters alpha-numeric</td>
     <td class="tg-0pky">Q,P,U</td>
   </tr>
   <tr>

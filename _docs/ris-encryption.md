@@ -32,8 +32,8 @@ hashing algorithm source code can be found in each one of the SDKs or can be req
     <ul>
   <li>PTYP=CARD PENC=MASK</li>
 </ul>
-    <p>Output BIN + 10 capital “X” characters + Last 4 of credit card. 
-       Example - 123456XXXXXXXXXX7890</p>
+    <p>Output BIN + 9 capital “X” characters + Last 4 of credit card. 
+       Example - 123456XXXXXXXXX7890</p>
 </div>
 
 {% include alert.html style="success" text="NOTE: The “X” characters must all be capital “X”." %}

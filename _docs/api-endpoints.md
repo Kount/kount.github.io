@@ -10,6 +10,13 @@ Merchants have the ability to interact with Kount using Restful Application Prog
 
 If you request these services, Kount allows you to communicate with our application servers over the internet through a series of notifications and Restful API calls. APIs allow you to send information to Kount, such as adding a large number of email addresses to a VIP list, and receiving a response stating if your changes were successful.
 
+## Kount Environments and Authentication
+Kount has separate environments for testing and production. We encourage the use of the Kount Test environment to establish and validate the Restful API Connection.
+
+Test: [https://api.test.kount.net/rpc/v1](https://api.test.kount.net/rpc/v1)
+
+Production: [https://api.kount.net/rpc/v1](https://api.kount.net/rpc/v1)
+
 ## RESTful API Documentation
 
 To obtain documentation regarding Kount's Restful API, <a href="https://api.kount.net/rpc/list.html">click here.</a> All of the following items are located within each Endpoint categorically.
