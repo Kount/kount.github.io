@@ -19,9 +19,9 @@ Your Client Success Manager will provide the following information, necessary to
 
 Once you have obtained a Kount Merchant ID and AWC login credentials, use the following instructions to configure Kount Complete:
 
- <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://support.kount.com/s/article/Install-Kount-Complete-for-a-Single-Shopify-Store">First Time Installing</a>
+ <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://support.kount.com/hc/en-us/articles/360045269872">First Time Installing</a>
 
- <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://support.kount.com/s/article/Install-Kount-Complete-for-Multiple-Shopify-Stores">Install on Multiple Sites</a>
+ <a class="uk-button uk-badge uk-button-default uk-width-1-4" href="https://support.kount.com/hc/en-us/articles/360045269852-Install-Kount-Complete-for-Multiple-Shopify-Stores">Install on Multiple Sites</a>
  
 ## Release Notes
 
