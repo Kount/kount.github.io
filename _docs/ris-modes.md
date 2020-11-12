@@ -132,7 +132,7 @@ tags: [RIS modes, RIS, Mode, U, P, X, Q]
   <tr>
     <td class="tg-baqh">ORDR</td>
     <td class="tg-0lax">Merchant’s Order Number</td>
-    <td class="tg-0lax">32</td>
+    <td class="tg-0lax">64</td>
     <td class="tg-0lax">Alphanumeric field</td>
     <td class="tg-baqh">No</td>
   </tr>
