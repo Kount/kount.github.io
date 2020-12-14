@@ -84,6 +84,11 @@ When submitting data to RIS, it is recommended to send as much data as possible.
     <td class="tg-0pky">32 characters alpha-numeric</td>
     <td class="tg-0pky">P</td>
   </tr>
+      <td class="tg-c3ow">TRAF</td>
+    <td class="tg-0pky">Transaction Risk Analysis (TRA) Flag</td>
+    <td class="tg-0pky">Optional 1 Char (Y,N)</td>
+    <td class="tg-0pky">Q</td>
+  </tr>
   <tr>
     <td class="tg-62b5">Payment Information</td>
     <td class="tg-25hb"></td>
