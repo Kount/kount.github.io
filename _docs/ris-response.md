@@ -71,6 +71,7 @@ An important use of the RIS response is the ability to verify if the Data Collec
     "IP_CITY": "Boise",
     "IP_ORG": "UNKNOWN",
     "OMNISCORE": 54,
+    "3D_SECURE_MERCHANT_RESPONSE": "Challenge"
     "WARNING_COUNT": 0
 } 
 ```
