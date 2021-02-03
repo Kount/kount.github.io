@@ -7,7 +7,7 @@ left:
   - title: Integrations
     dropdown:
     
-      - title: Kount Complete
+      - title: Kount Command
         url: /docs/introduction/
     
       - title: Kount Control
