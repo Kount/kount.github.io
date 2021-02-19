@@ -254,7 +254,7 @@ When submitting data to RIS, it is recommended to send as much data as possible.
   <tr>
     <td class="tg-c3ow">S2CC</td>
     <td class="tg-0pky">Shipping address - Country</td>
-    <td class="tg-0pky">256 characters alpha-numeric</td>
+    <td class="tg-0pky">2 characters alpha</td>
     <td class="tg-0pky">Q,P</td>
   </tr>
   <tr>
