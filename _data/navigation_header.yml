@@ -33,12 +33,12 @@ left:
 
 right:
 
-  - title: Knowledge Base
+  - title: Support Knowledge Base
     url: https://support.kount.com/
     button: primary-outline
 
-  - title: Support
-    url: https://support.kount.com/
+  - title: Contact
+    url: https://kount.com/about/contact
     button: success
     
    
