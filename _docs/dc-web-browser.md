@@ -10,6 +10,8 @@ author:
 * TOC
 {:toc}
 
+# This page is references the old web SDK.  For current Web SDK and documentation, go here <....>
+
 # Overview
 The Device Data Collector runs on a client’s browser and collects a variety of information that helps uniquely identify the device. 
 
