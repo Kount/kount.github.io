@@ -46,16 +46,10 @@ Example META tag with only Kount security settings.  Clients can have multiple C
 ```html
 <meta http-equiv="Content-Security-Policy" 
 	content="img-src https://*.kaptcha.com;
-	connect-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.kaptcha.com; 
-	script-src 'unsafe-eval' 'unsafe-inline' https://*.kaptcha.com; 
 	child src https://*.kaptcha.com">
 ```
 
 * `img-src https://*.kaptcha.com`<br>
 Informs the browser that images can be loaded from https://*.kaptcha.com. This is to ensure our logo.gif is loaded.
-* `connect-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.kaptcha.com`<br>
-This informs the browser to allow downloading of our javascript to create 1st party cookies and inject an (unseen) iframe which runs the collector code
-* `script-src 'unsafe-eval' 'unsafe-inline' https://*.kaptcha.com`<br>
-Informs the browser that it is safe to run the JavaScript that creates the SDK client, sets up the callbacks, and initiates the data collection.
 * `child-src https://*.kaptcha.com`<br> 
 Informs the browser that child documents (iframes) can be loaded from https://*.kaptcha.com. This ensures the iframe that does all the work gets loaded.
