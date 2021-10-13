@@ -4,6 +4,9 @@ subtitle: A collection of SDKs for the Kount Device Data Collector and the Kount
 tags: [SDKs]
 ---
 
+### The information on this site has moved to [support.kount.com](support.kount.com). Please update any bookmarks and note that this site will be taken down November 30th. Using the information found on this site might cause unexpected results.
+
+
 ## Device Data Collector SDKs
 
 <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
