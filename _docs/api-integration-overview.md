@@ -4,6 +4,9 @@ subtitle: This page provides high level details around each step of the integrat
 tags: [integration, kick off, Real Time API, Test Environment]
 ---
 
+### The information on this site has moved to [support.kount.com](support.kount.com). Please update any bookmarks and note that this site will be taken down November 30th. Using the information found on this site might cause unexpected results.
+
+
 {% include image.html img="1-Milestone-header.jpg" lightbox="true" alt="Alt for image" %}
 
 
