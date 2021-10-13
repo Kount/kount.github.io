@@ -5,6 +5,9 @@ tags: [integration, content security policy, data collector, setup, code]
 author:
 ---
 
+### The information on this site has moved to [support.kount.com](support.kount.com). Please update any bookmarks and note that this site will be taken down November 30th. Using the information found on this site might cause unexpected results.
+
+
 #### Sections in this article
 {:.no_toc}
 * TOC
